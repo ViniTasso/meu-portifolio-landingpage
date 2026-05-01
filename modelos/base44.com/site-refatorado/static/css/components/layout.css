@@ -147,6 +147,10 @@
   z-index: 1200;
 }
 
+body.menu-open {
+  overflow: hidden;
+}
+
 .comp-kd5px9q0_r_comp-kd5px9hr-container,
 .comp-mok06b5e_r_comp-mok06azq-container {
   width: min(390px, 100vw);

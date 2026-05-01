@@ -1,24 +1,17 @@
-const openTrigger = document.getElementById("mobile-menu-trigger");
-const menuA = document.getElementById("comp-kd5px9q0-pinned-layer");
-const menuB = document.getElementById("comp-mok06b5e-pinned-layer");
-const closeA = document.getElementById("comp-kd5px9q0_r_comp-kkmqi5tc");
-const closeB = document.getElementById("comp-mok06b5e_r_comp-mok06b0c");
+import { initMobileMenu } from "./mobile-menu.js";
+import { initAnchorScroll } from "./scroll.js";
+import { initViewportMotion } from "./motion.js";
 
-function toggleMenus(visible) {
-  if (!menuA || !menuB) return;
-  menuA.hidden = !visible;
-  menuB.hidden = !visible;
+function bootstrap() {
+  const mobileMenu = initMobileMenu();
+  initAnchorScroll({
+    onNavigate: () => mobileMenu.close(),
+  });
+  initViewportMotion();
 }
 
-if (openTrigger) {
-  openTrigger.addEventListener("click", () => toggleMenus(true));
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", bootstrap, { once: true });
+} else {
+  bootstrap();
 }
-
-if (closeA) {
-  closeA.addEventListener("click", () => toggleMenus(false));
-}
-
-if (closeB) {
-  closeB.addEventListener("click", () => toggleMenus(false));
-}
-

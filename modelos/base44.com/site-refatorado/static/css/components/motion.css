@@ -55,14 +55,44 @@
   border-color: rgba(15, 15, 15, 0.7);
 }
 
-#comp-mknu6y0a .sendoff-title,
-#comp-mknu6y0a .DPAltb {
+.js-motion-ready #comp-mknu6y0a .sendoff-title,
+.js-motion-ready #comp-mknu6y0a .DPAltb {
   opacity: 0;
-  animation: fade-in 0.4s ease-out 0.6s forwards;
+}
+
+.js-motion-ready #comp-mknu6y0a .comp-mknu6y0a-container {
+  animation: none;
+  opacity: 0;
+}
+
+.js-motion-ready #comp-mknu6y0a .comp-mknu6y0a-container.is-visible {
+  animation: box-grow 1s cubic-bezier(0.16, 1, 0.3, 1) 0.2s;
+  opacity: 1;
+}
+
+.js-motion-ready #comp-mknu6y0a .comp-mknu6y0a-container.is-visible .sendoff-title,
+.js-motion-ready #comp-mknu6y0a .comp-mknu6y0a-container.is-visible .DPAltb {
+  animation: fade-in 0.4s ease-out 0.5s forwards;
+}
+
+.js-motion-ready .motion-target {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.45s ease-out, transform 0.45s ease-out;
+}
+
+.js-motion-ready .motion-target.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.js-motion-ready #comp-mknu6y0a .motion-target {
+  transform-origin: center;
+  transform: none;
+  transition: opacity 0.45s ease-out;
 }
 
 #comp-mknu6y0a .comp-mknu6y0a-container {
-  animation: box-grow 1s cubic-bezier(0.16, 1, 0.3, 1) 0.5s;
   transform-origin: center;
 }
 
