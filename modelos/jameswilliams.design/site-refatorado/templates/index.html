@@ -1,0 +1,240 @@
+{% extends "base.html" %}
+
+{% block title %}Portfólio Profissional | Designer Web{% endblock %}
+
+{% block content %}
+<div class="page-wrapper">
+  <div class="global-styles w-embed"></div>
+
+  <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" data-w-id="5a5c3428-c239-86a4-05d7-c37ecb1cfa88" fs-scrolldisable-element="smart-nav" role="banner">
+    <div class="navbar_container">
+      <div class="navbar_menu-wrapper" data-w-id="5a5c3428-c239-86a4-05d7-c37ecb1cfa8a">
+        <a aria-current="page" class="w-inline-block w--current" href="#">
+          <img alt="Logo do site" class="navbar_logo" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/logo-mark.svg') }}">
+        </a>
+        <div class="navbar_spacer"></div>
+        <a class="link-block w-inline-block" href="#projects">
+          <div class="menu_text-link">Projetos</div>
+        </a>
+      </div>
+      <a class="navbar_message-wrapper w-inline-block" data-w-id="5a5c3428-c239-86a4-05d7-c37ecb1cfa97" href="mailto:contato@exemplo.com">
+        <div class="icon-embed-medium is-border w-embed">
+          <img alt="Ícone de contato" aria-hidden="true" class="icon-mail" height="100%" role="img" src="{{ url_for('static', filename='assets/placeholders/icon-mail.svg') }}" width="100%">
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="color-filter"></div>
+
+  <main class="main-wrapper">
+    <header class="section_footer">
+      <div class="padding-global overflow-hidden">
+        <div class="container-large">
+          <div class="hero_padding-section">
+            <div class="hero_background-image-wrapper">
+              <img alt="Fundo principal do hero" class="hero_background-image" data-w-id="36fb146c-0c52-2d35-0ad6-e8137e3aad43" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/hero-background.svg') }}">
+              <img alt="Retrato profissional em destaque" class="hero_profile-image" data-w-id="36fb146c-0c52-2d35-0ad6-e8137e3aad44" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/profile.svg') }}">
+              <h1 class="hero_heading" data-w-id="36fb146c-0c52-2d35-0ad6-e8137e3aad45">NOME PROFISSIONAL</h1>
+            </div>
+            <div class="hero_color-filter" data-w-id="36fb146c-0c52-2d35-0ad6-e8137e3aad47"></div>
+            <div class="hero_subtitle-wrapper" data-w-id="bd0ef9be-b301-3c2b-910a-fcffc5373cfd">
+              <h2 class="hero_subtitle">Designer Web / Desenvolvedor Front-End</h2>
+              <a class="cta-button w-button" href="#about">Entrar em contato →</a>
+            </div>
+            <div class="lottie-spacer">
+              <a aria-label="Role para a próxima seção" class="w-inline-block" href="#about">
+                <div class="lottie-animation" data-animation-type="lottie" data-autoplay="1" data-default-duration="1.8333333333333333" data-direction="1" data-duration="0" data-is-ix2-target="0" data-loop="1" data-renderer="svg" data-src="https://cdn.prod.website-files.com/646bb626f5c2104941dd5a26/66165c69fd8788017e5850c3_Scroll%20icon-7.lottie" data-w-id="994c2702-c2c5-e6d9-9d57-3d0c1aa49cc3"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="section_about" data-w-id="730c4d09-d7ae-dc91-1dce-5ef7ec351225" id="about">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="about_padding-section">
+            <div class="about_grid">
+              <div class="about_heading-wrapper">
+                <p class="about_heading" text-fly-in-left="" text-split="">Olá, eu sou [NOME], designer e desenvolvedor front-end.</p>
+              </div>
+              <div class="about_content-wrapper" data-w-id="730c4d09-d7ae-dc91-1dce-5ef7ec35122e">
+                <p class="about_content">Com ampla experiência em diferentes disciplinas, colaboro com empresas para criar experiências digitais intuitivas e envolventes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="section_specialise" data-w-id="45e3f421-2803-ec0c-817b-f85885188428">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="specialise_padding-section">
+            <div class="specialise_grid">
+              <div class="specialise_heading-wrapper">
+                <p class="home-heading" text-fly-in-left="" text-split="">Atendo com frequência:</p>
+              </div>
+              <div class="specialise_list-wrapper" data-w-id="edff74fc-d13d-d549-57b3-df3dc60aa974">
+                <div class="specialise_list-item" data-w-id="b646deb2-51d9-9d4c-6ee6-258703b57008">
+                  <div class="specialise_arrow w-embed">
+                    <img alt="Seta decorativa" class="icon-arrow" height="42" src="{{ url_for('static', filename='assets/placeholders/icon-arrow.svg') }}" width="42">
+                  </div>
+                  <p class="specialise_list-text">Startups</p>
+                </div>
+                <div class="specialise_list-item" data-w-id="a715edfa-397b-655a-fca0-fd1307fe1635">
+                  <div class="specialise_arrow w-embed">
+                    <img alt="Seta decorativa" class="icon-arrow" height="42" src="{{ url_for('static', filename='assets/placeholders/icon-arrow.svg') }}" width="42">
+                  </div>
+                  <p class="specialise_list-text">Times de marketing</p>
+                </div>
+                <div class="specialise_list-item" data-w-id="4fb98e3c-218b-4811-67fa-973cc0f94431">
+                  <div class="specialise_arrow w-embed">
+                    <img alt="Seta decorativa" class="icon-arrow" height="42" src="{{ url_for('static', filename='assets/placeholders/icon-arrow.svg') }}" width="42">
+                  </div>
+                  <p class="specialise_list-text">Agências</p>
+                </div>
+                <div class="specialise_list-item" data-w-id="328efde5-06c0-19ab-35a8-ced2f2f3b228">
+                  <div class="specialise_arrow w-embed">
+                    <img alt="Seta decorativa" class="icon-arrow" height="42" src="{{ url_for('static', filename='assets/placeholders/icon-arrow.svg') }}" width="42">
+                  </div>
+                  <p class="specialise_list-text">B2B SaaS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="section_logos" data-w-id="350eb038-782e-d1d5-8718-cc28b79e01db">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="specialise_padding-section">
+            <div class="specialise_grid">
+              <div class="specialise_heading-wrapper">
+                <p class="home-heading" text-fly-in-left="" text-split="">Já colaborei com marcas como:</p>
+              </div>
+              <div class="logo-component-wrapper" data-w-id="b1043fb3-7c73-9134-8242-0f4a54531b44">
+                <div class="logo1_component is-2">
+                  <img alt="Marca parceira" class="logo1_logo mercedes" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/logo-company.svg') }}">
+                  <img alt="Marca parceira" class="logo1_logo ocado" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/logo-company.svg') }}">
+                  <img alt="Marca parceira" class="logo1_logo" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/logo-company.svg') }}">
+                  <img alt="Marca parceira" class="logo1_logo is-tmf" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/logo-company.svg') }}">
+                  <img alt="Marca parceira" class="logo1_logo" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/logo-company.svg') }}">
+                  <img alt="Marca parceira" class="logo1_logo cornerstone" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/logo-company.svg') }}">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="section_latest" data-w-id="aceeb74b-b023-b566-b671-204a78720848" id="projects">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="padding-section-latest">
+            <div class="latest_grid">
+              <div class="latest_heading-wrapper">
+                <div class="max-width-large align-center-2"></div>
+              </div>
+              <h2 class="latest_title">TRABALHOS RECENTES</h2>
+
+              <div class="latest_case-component" data-w-id="02bd17be-8196-1642-b164-4c1c4b4fade7">
+                <a class="latest_case-wrapper w-inline-block" data-w-id="8072b79e-40db-6c10-2a61-ac42208527c3" href="#">
+                  <div class="latest_case_content-wrapper">
+                    <p class="latest_card-heading is-white" text-fly-in-left="" text-split="">Projeto [A]</p>
+                    <div class="latest_case-icon-wrapper">
+                      <div class="project-card_link-icon w-embed">
+                        <img alt="Seta decorativa" class="icon-arrow" height="42" src="{{ url_for('static', filename='assets/placeholders/icon-arrow.svg') }}" width="42">
+                      </div>
+                    </div>
+                  </div>
+                  <img alt="Preview do projeto A" class="latest_case-image is-home" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/project-cover.svg') }}">
+                </a>
+
+                <a class="latest_case-wrapper w-inline-block" data-w-id="a9c04822-506e-f741-044a-22f3eb4b91db" href="#">
+                  <div class="latest_case_content-wrapper">
+                    <p class="latest_card-heading is-white" text-fly-in-left="" text-split="">Projeto [B]</p>
+                    <div class="latest_case-icon-wrapper">
+                      <div class="project-card_link-icon w-embed">
+                        <img alt="Seta decorativa" class="icon-arrow" height="42" src="{{ url_for('static', filename='assets/placeholders/icon-arrow.svg') }}" width="42">
+                      </div>
+                    </div>
+                  </div>
+                  <img alt="Preview do projeto B" class="latest_case-image is-home" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/project-cover.svg') }}">
+                </a>
+
+                <a class="latest_case-wrapper w-inline-block" data-w-id="3fc33993-b8bc-1567-a430-0c3ca7b2547c" href="#">
+                  <div class="latest_case_content-wrapper">
+                    <p class="latest_card-heading is-white" text-fly-in-left="" text-split="">Projeto [C]</p>
+                    <div class="latest_case-icon-wrapper">
+                      <div class="project-card_link-icon w-embed">
+                        <img alt="Seta decorativa" class="icon-arrow" height="42" src="{{ url_for('static', filename='assets/placeholders/icon-arrow.svg') }}" width="42">
+                      </div>
+                    </div>
+                  </div>
+                  <img alt="Preview do projeto C" class="latest_case-image is-home" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/project-cover.svg') }}">
+                </a>
+
+                <a class="latest_case-wrapper w-inline-block" data-w-id="70b3335e-3ea9-425e-51e7-998610e064ed" href="#">
+                  <div class="latest_case_content-wrapper">
+                    <p class="latest_card-heading is-white" text-fly-in-left="" text-split="">Projeto [D]</p>
+                    <div class="latest_case-icon-wrapper">
+                      <div class="project-card_link-icon w-embed">
+                        <img alt="Seta decorativa" class="icon-arrow" height="42" src="{{ url_for('static', filename='assets/placeholders/icon-arrow.svg') }}" width="42">
+                      </div>
+                    </div>
+                  </div>
+                  <img alt="Preview do projeto D" class="latest_case-image is-home" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/project-cover.svg') }}">
+                </a>
+
+                <a class="latest_case-wrapper w-inline-block" href="#">
+                  <div class="latest_case_content-wrapper">
+                    <p class="latest_card-heading is-white" text-fly-in-left="" text-split="">Projeto [E]</p>
+                    <div class="latest_case-icon-wrapper">
+                      <div class="project-card_link-icon w-embed">
+                        <img alt="Seta decorativa" class="icon-arrow" height="42" src="{{ url_for('static', filename='assets/placeholders/icon-arrow.svg') }}" width="42">
+                      </div>
+                    </div>
+                  </div>
+                  <img alt="Preview do projeto E" class="latest_case-image is-home" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/project-cover.svg') }}">
+                </a>
+                <div class="card-end"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="section_specialise">
+      <div class="padding-global">
+        <div class="container-large"></div>
+      </div>
+    </header>
+
+    <header class="section_footer">
+      <div class="padding-global overflow-hidden">
+        <div class="container-large">
+          <div class="footer_padding-section">
+            <a class="footer_background-image-wrapper w-inline-block" data-w-id="af7a646c-ed38-e2d7-baa8-8da6a8057a17" href="mailto:contato@exemplo.com">
+              <img alt="Fundo da seção de contato" class="hero_background-image is-footer" data-w-id="af7a646c-ed38-e2d7-baa8-8da6a8057a18" loading="lazy" src="{{ url_for('static', filename='assets/placeholders/hero-background.svg') }}">
+              <h1 class="hero_heading is-footer" data-w-id="af7a646c-ed38-e2d7-baa8-8da6a8057a1a">ENTRE EM CONTATO</h1>
+            </a>
+            <div class="footer-hero-2_color-filter" data-w-id="af7a646c-ed38-e2d7-baa8-8da6a8057a1c"></div>
+            <div class="footer-cta-component">
+              <div class="footer-2_subtitle-wrapper-copy">
+                <a class="button is-secondary is-v2 w-button" href="mailto:contato@exemplo.com?subject=Olá">contato@exemplo.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </main>
+</div>
+{% endblock %}

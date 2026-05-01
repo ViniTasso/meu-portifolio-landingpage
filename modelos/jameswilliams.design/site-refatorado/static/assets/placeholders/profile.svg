@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1200" viewBox="0 0 1100 1200" role="img" aria-label="Retrato placeholder">
+  <rect width="1100" height="1200" fill="#202020"/>
+  <circle cx="550" cy="430" r="220" fill="#353535"/>
+  <rect x="320" y="700" width="460" height="320" rx="220" fill="#2b2b2b"/>
+  <text x="550" y="1120" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" fill="#c7c7c7">IMAGEM DE PERFIL</text>
+</svg>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html data-wf-domain="www.jameswilliams.design" data-wf-page="660d9b2931fa00f631bce95d" data-wf-site="646bb626f5c2104941dd5a26" lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Portfólio Profissional | Designer{% endblock %}</title>
+  <meta name="description" content="{% block description %}Portfólio de design e desenvolvimento front-end com foco em experiências digitais.{% endblock %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='assets/placeholders/favicon.svg') }}">
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='assets/placeholders/favicon.svg') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/tokens.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/components/layout.css') }}">
+</head>
+<body class="{% block body_class %}body{% endblock %}">
+  {% block content %}{% endblock %}
+  <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

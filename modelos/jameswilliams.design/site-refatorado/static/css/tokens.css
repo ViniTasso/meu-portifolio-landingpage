@@ -1,0 +1,17 @@
+:root {
+  --color-bg: #111515;
+  --color-surface: #1d1d1d;
+  --color-text: #fffcfc;
+  --color-muted: #c7c7c7;
+  --color-accent: #4d65ff;
+  --color-border: #353535;
+  --font-display: "Inter", "Arial", sans-serif;
+  --font-body: "Larsseit", "Arial", sans-serif;
+  --radius-lg: 1.5rem;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --container: 88rem;
+}
