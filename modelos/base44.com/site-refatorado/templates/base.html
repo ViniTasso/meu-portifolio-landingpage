@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta id="wixDesktopViewport" name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Projeto Refatorado{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/tokens.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/components/layout.css') }}">
+</head>
+<body class="{% block body_class %}responsive{% endblock %}">
+  {% block content %}{% endblock %}
+  <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+</body>
+</html>
+
