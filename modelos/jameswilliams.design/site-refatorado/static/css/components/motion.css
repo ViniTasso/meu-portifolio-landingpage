@@ -1,0 +1,25 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.latest_case-wrapper.dark {
+  filter: brightness(30%) grayscale(100%);
+  transform: scale(1.01);
+}
+
+.latest_case-wrapper.light {
+  filter: brightness(100%) grayscale(0%);
+  transform: scale(1);
+}
+
+*[tabindex]:focus-visible,
+input[type="file"]:focus-visible {
+  outline: 0.125rem solid var(--color-focus);
+  outline-offset: 0.125rem;
+}

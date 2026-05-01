@@ -1,17 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("/static/assets/fonts/Larsseit-Light.otf") format("opentype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("/static/assets/fonts/Larsseit.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("/static/assets/fonts/Larsseit-Medium.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("/static/assets/fonts/Larsseit-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("/static/assets/fonts/Larsseit-ExtraBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
 :root {
-  --color-bg: #111515;
-  --color-surface: #1d1d1d;
+  --misty-rose: #f9dad9;
+  --color-bg: #1a1a1a;
+  --color-bg-soft: #1d1d1d;
+  --color-bg-card: #191919;
   --color-text: #fffcfc;
-  --color-muted: #c7c7c7;
-  --color-accent: #4d65ff;
+  --color-text-muted: #c7c7c7;
+  --color-text-soft: #c2c2c2;
   --color-border: #353535;
+  --color-surface: #2b2b2b;
+  --color-overlay: #fdd6d5;
+  --color-focus: #4d65ff;
+
   --font-display: "Inter", "Arial", sans-serif;
   --font-body: "Larsseit", "Arial", sans-serif;
-  --radius-lg: 1.5rem;
+
+  --radius-xs: 0.3rem;
+  --radius-sm: 0.4rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-pill: 5rem;
+
+  --shadow-nav: 0 0 #0000, 0 0.1px 0.2px #0000001a, 0 0.9px 1.9px #0000001d, 0 5.1px 10.9px #00000020;
+  --shadow-title: 0 9px 20px #ffffff1f;
+
   --space-1: 0.5rem;
   --space-2: 1rem;
   --space-3: 1.5rem;
   --space-4: 2rem;
   --space-5: 3rem;
-  --container: 88rem;
+  --space-6: 4rem;
+  --space-7: 5rem;
+  --space-8: 6rem;
+  --space-9: 7rem;
+  --space-10: 10rem;
+
+  --container-large: 80rem;
+  --navbar-height: 4rem;
+
+  --duration-fast: 0.2s;
+  --duration-mid: 0.3s;
+  --duration-slow: 0.7s;
+  --easing-standard: ease;
+  --easing-smooth: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  --bp-max-991: 991px;
+  --bp-max-767: 767px;
+  --bp-max-479: 479px;
+  --bp-min-1359: 1359px;
 }

@@ -1,0 +1,252 @@
+.section_about,
+.section_specialise,
+.section_logos,
+.section_latest,
+.section_footer {
+  background-color: var(--color-bg-card);
+}
+
+.about_padding-section {
+  background-color: var(--color-bg-soft);
+  flex-flow: column;
+  justify-content: center;
+  padding: 6rem 3rem;
+  display: flex;
+}
+
+.specialise_padding-section {
+  background-color: var(--color-bg-soft);
+  flex-flow: column;
+  justify-content: center;
+  margin-top: 6rem;
+  padding: 6rem 3rem;
+  display: flex;
+}
+
+.about_grid {
+  gap: 1rem 4rem;
+  grid-template-columns: 1fr 1fr;
+  place-items: start;
+  display: grid;
+}
+
+.about_heading {
+  color: var(--color-text);
+  text-wrap: balance;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.about_content {
+  color: var(--color-text);
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.specialise_grid {
+  gap: 1rem 72px;
+  grid-template-columns: 1fr 1.3fr;
+  place-items: center start;
+  display: grid;
+}
+
+.home-heading {
+  color: var(--color-text);
+  letter-spacing: -0.1rem;
+  text-wrap: balance;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.specialise_heading-wrapper {
+  max-width: 26.5rem;
+}
+
+.specialise_list-wrapper {
+  z-index: 4;
+  gap: 1.25rem;
+  flex-flow: column;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.specialise_list-item {
+  gap: 1.5rem;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  border-radius: var(--radius-md);
+  align-items: center;
+  padding: 1rem 2rem 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  display: flex;
+}
+
+.specialise_arrow {
+  aspect-ratio: 1;
+  color: var(--color-text-muted);
+  border: 1.5px solid var(--color-text);
+  border-radius: var(--radius-xs);
+  justify-content: center;
+  align-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-bottom: 0.2rem;
+  display: flex;
+}
+
+.specialise_list-text {
+  cursor: default;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.logo-component-wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+.logo1_component {
+  gap: 6rem;
+  opacity: 0.63;
+  filter: invert(1);
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+}
+
+.logo1_component.is-2 {
+  gap: 3rem;
+  filter: brightness(112%) invert(1);
+  grid-template-columns: 1fr 1fr;
+  justify-content: flex-start;
+  place-items: center end;
+  margin-left: 1rem;
+  display: grid;
+  transform: scale(1.2);
+}
+
+.logo1_logo {
+  max-height: 1.9rem;
+}
+
+.logo1_logo.cornerstone {
+  max-height: 2.1rem;
+}
+
+.logo1_logo.ocado {
+  filter: brightness(19%);
+}
+
+.logo1_logo.mercedes {
+  max-height: 2.4rem;
+}
+
+.logo1_logo.is-tmf {
+  max-height: 4rem;
+}
+
+@media screen and (max-width: 991px) {
+  .specialise_grid,
+  .about_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .specialise_grid {
+    row-gap: 44px;
+  }
+
+  .about_padding-section {
+    margin-top: 7rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .specialise_padding-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about_heading {
+    font-size: 2.7rem;
+  }
+
+  .about_content {
+    font-size: 1.25rem;
+  }
+
+  .home-heading {
+    font-size: 4rem;
+  }
+
+  .specialise_list-text {
+    font-size: 1.25rem;
+  }
+
+  .about_grid {
+    row-gap: 40px;
+  }
+
+  .about_padding-section {
+    padding: 3rem 1rem;
+  }
+
+  .specialise_padding-section {
+    padding: 5rem 1rem 3rem;
+  }
+
+  .logo1_component {
+    gap: 2.5rem;
+  }
+
+  .logo1_component.is-2 {
+    gap: 1.4rem 2rem;
+    margin-left: 0;
+    transform: scale(1);
+    justify-content: start;
+  }
+
+  .logo1_logo {
+    max-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .specialise_grid {
+    row-gap: 30px;
+  }
+
+  .about_heading {
+    font-size: 2.2rem;
+  }
+
+  .home-heading {
+    font-size: 3.3rem;
+  }
+
+  .specialise_list-wrapper {
+    gap: 1rem;
+  }
+
+  .specialise_list-item {
+    padding-left: 2rem;
+  }
+
+  .about_grid {
+    row-gap: 23px;
+  }
+
+  .about_padding-section {
+    margin-top: 5rem;
+  }
+}
