@@ -5,14 +5,14 @@
 {% block content %}
 <header class="D0PDI2 zdVB_L" id="BASE44_HEADER">
   <div class="brcTpl xTISYq">
-    <a class="IZoDZU" href="#" target="_self" title="Base44" aria-label="logo base44, página inicial">
-      <span class="logo-mark">base44</span>
+    <a class="IZoDZU" href="#" target="_self" title="Sohtahtech" aria-label="logo sohtahtech, página inicial">
+      <span class="logo-mark">Vinícius Tasso</span>
     </a>
     <div class="x8rmU8">
       <nav aria-label="Main menu" class="wR33fJ">
         <ul class="LTMtV2">
-          <li class="_lcWin"><a class="V0v94U gUJaeb" href="#comp-m28o2bbb" data-text="Produto">Produto</a></li>
-          <li class="_lcWin"><a class="V0v94U gUJaeb" href="#comp-mkfn6wz6" data-text="Casos de uso">Casos de uso</a></li>
+          <li class="_lcWin"><a class="V0v94U gUJaeb" href="#comp-m28o2bbb" data-text="Sohtahtech">Sohtahtech</a></li>
+          <li class="_lcWin"><a class="V0v94U gUJaeb" href="#comp-mkfn6wz6" data-text="Portifolio">Portifolio</a></li>
           <li class="_lcWin"><a class="V0v94U gUJaeb" href="#comp-mkla53qm" data-text="Preços">Preços</a></li>
           <li class="_lcWin"><a class="V0v94U gUJaeb" href="#comp-mknvgyk7" data-text="Recursos">Recursos</a></li>
         </ul>
@@ -97,61 +97,77 @@
                       </div>
                     </section>
 
-                    <!-- FEATURES — 4 slides verticais -->
-                    <section class="xuzjBY comp-mkfn6wz6-container comp-mkfn6wz6 wixui-section Gzsk0j" data-block-level-container="Section" id="comp-mkfn6wz6" tabindex="-1">
+                    <!-- FEATURES — 4 cards em stacking scroll -->
+                    <section class="xuzjBY comp-mkfn6wz6 wixui-section Gzsk0j" data-block-level-container="Section" id="comp-mkfn6wz6" tabindex="-1">
                       <div class="MW5IWV" data-hook="bgLayers" data-motion-part="BG_LAYER comp-mkfn6wz6" id="bgLayers_comp-mkfn6wz6">
                         <div class="LWbAav Kv1aVt"></div>
                         <div class="VgO9Yg" data-motion-part="BG_MEDIA comp-mkfn6wz6" id="bgMedia_comp-mkfn6wz6"></div>
                       </div>
 
-                      <div class="feature-slide" id="comp-mkjsqa3t">
-                        <div class="max-width-container feature-slide__inner">
-                          <div class="feature-slide__text">
-                            <p class="step">01 / 04</p>
-                            <h3>Criação acelerada por prompts</h3>
-                            <p>Placeholder: descreva o produto e gere fluxos, páginas e integrações iniciais em poucos minutos.</p>
-                            <a class="feature-slide__cta" href="#">Começar construção</a>
-                          </div>
-                          <div class="feature-slide__visual wixui-cards-container-1" role="img" aria-label="Placeholder app 01 — gestão de tarefas"></div>
-                        </div>
-                      </div>
+                      <!-- comp-mkfn6wz6-container: grid 4×100vh — cada linha é o território de scroll de 1 card -->
+                      <div class="comp-mkfn6wz6-container">
 
-                      <div class="feature-slide" id="comp-mkl7gqcg10">
-                        <div class="max-width-container feature-slide__inner">
-                          <div class="feature-slide__text">
-                            <p class="step">02 / 04</p>
-                            <h3>Backend gerado junto com a ideia</h3>
-                            <p>Placeholder: autenticação, permissões e armazenamento aparecem já conectados ao fluxo principal.</p>
-                            <a class="feature-slide__cta" href="#">Começar construção</a>
+                        <!-- Card 01 — sticky z-index:1 (base da pilha) -->
+                        <div class="feature-card-row feature-card-row--1" id="comp-mkjnaf8t">
+                          <div class="feature-slide" id="comp-mkjsqa3t">
+                            <div class="max-width-container feature-slide__inner">
+                              <div class="feature-slide__text">
+                                <p class="step">01 / 04</p>
+                                <h3>Criação acelerada por prompts</h3>
+                                <p>Placeholder: descreva o produto e gere fluxos, páginas e integrações iniciais em poucos minutos.</p>
+                                <a class="feature-slide__cta" href="#">Começar construção</a>
+                              </div>
+                              <div class="feature-slide__visual wixui-cards-container-1" role="img" aria-label="Placeholder app 01 — gestão de tarefas"></div>
+                            </div>
                           </div>
-                          <div class="feature-slide__visual wixui-cards-container-2" role="img" aria-label="Placeholder app 02 — e-commerce"></div>
                         </div>
-                      </div>
 
-                      <div class="feature-slide" id="comp-mkl7gs2p5">
-                        <div class="max-width-container feature-slide__inner">
-                          <div class="feature-slide__text">
-                            <p class="step">03 / 04</p>
-                            <h3>Publicação imediata</h3>
-                            <p>Placeholder: hospedagem e domínio customizado preparados para colocar o app em produção.</p>
-                            <a class="feature-slide__cta" href="#">Começar construção</a>
+                        <!-- Card 02 — sticky z-index:2 (cobre card 01 ao rolar) -->
+                        <div class="feature-card-row feature-card-row--2" id="comp-mkjnbax3">
+                          <div class="feature-slide" id="comp-mkl7gqcg10">
+                            <div class="max-width-container feature-slide__inner">
+                              <div class="feature-slide__text">
+                                <p class="step">02 / 04</p>
+                                <h3>Backend gerado junto com a ideia</h3>
+                                <p>Placeholder: autenticação, permissões e armazenamento aparecem já conectados ao fluxo principal.</p>
+                                <a class="feature-slide__cta" href="#">Começar construção</a>
+                              </div>
+                              <div class="feature-slide__visual wixui-cards-container-2" role="img" aria-label="Placeholder app 02 — e-commerce"></div>
+                            </div>
                           </div>
-                          <div class="feature-slide__visual wixui-cards-container-3" role="img" aria-label="Placeholder app 03 — plataforma de aprendizado"></div>
                         </div>
-                      </div>
 
-                      <div class="feature-slide" id="comp-mkl7gtpe14">
-                        <div class="max-width-container feature-slide__inner">
-                          <div class="feature-slide__text">
-                            <p class="step">04 / 04</p>
-                            <h3>Uma plataforma, vários agentes</h3>
-                            <p>Placeholder: escolha modelos e estilos de construção conforme o tipo de solução.</p>
-                            <a class="feature-slide__cta" href="#">Começar construção</a>
+                        <!-- Card 03 — sticky z-index:3 -->
+                        <div class="feature-card-row feature-card-row--3" id="comp-mkjncchp">
+                          <div class="feature-slide" id="comp-mkl7gs2p5">
+                            <div class="max-width-container feature-slide__inner">
+                              <div class="feature-slide__text">
+                                <p class="step">03 / 04</p>
+                                <h3>Publicação imediata</h3>
+                                <p>Placeholder: hospedagem e domínio customizado preparados para colocar o app em produção.</p>
+                                <a class="feature-slide__cta" href="#">Começar construção</a>
+                              </div>
+                              <div class="feature-slide__visual wixui-cards-container-3" role="img" aria-label="Placeholder app 03 — plataforma de aprendizado"></div>
+                            </div>
                           </div>
-                          <div class="feature-slide__visual wixui-cards-container-4" role="img" aria-label="Placeholder app 04 — seletor de modelos de IA"></div>
                         </div>
-                      </div>
 
+                        <!-- Card 04 — sticky z-index:4 (topo da pilha) -->
+                        <div class="feature-card-row feature-card-row--4" id="comp-mkjncvg7">
+                          <div class="feature-slide" id="comp-mkl7gtpe14">
+                            <div class="max-width-container feature-slide__inner">
+                              <div class="feature-slide__text">
+                                <p class="step">04 / 04</p>
+                                <h3>Uma plataforma, vários agentes</h3>
+                                <p>Placeholder: escolha modelos e estilos de construção conforme o tipo de solução.</p>
+                                <a class="feature-slide__cta" href="#">Começar construção</a>
+                              </div>
+                              <div class="feature-slide__visual wixui-cards-container-4" role="img" aria-label="Placeholder app 04 — seletor de modelos de IA"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
                     </section>
 
                     <!-- PROMPT SHOWCASE -->

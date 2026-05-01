@@ -187,15 +187,11 @@
   padding-block: 0;
 }
 
-.feature-slide {
-  padding-block: clamp(4rem, 8vw, 7rem);
-  border-top: 1px solid var(--color-border);
-}
-
-.feature-slide:first-of-type {
-  border-top: none;
-}
-
+/*
+  .feature-slide: padding e separadores são controlados por scroll-stacking.css
+  (desktop: sem padding/border — o card row cuida do layout)
+  (mobile: padding e border entre card rows, via .feature-card-row + .feature-card-row)
+*/
 .feature-slide__inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
