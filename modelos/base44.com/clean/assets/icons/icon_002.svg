@@ -1,0 +1,14 @@
+<svg aria-hidden="true" aria-label="" data-bbox="0 0 49 26" data-type="ugc" height="26" preserveaspectratio="xMidYMid meet" role="presentation" viewbox="0 0 49 26" width="49" xmlns="http://www.w3.org/2000/svg">
+<g>
+<path d="M49 8v10a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8V8a8 8 0 0 1 8-8h33a8 8 0 0 1 8 8" fill="#ffffff"></path>
+<path d="M49 8v10a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8V8a8 8 0 0 1 8-8h33a8 8 0 0 1 8 8" fill="url(#dab45d12-9cf1-42c2-a273-062b899f9ca9_comp-moh4g2tw)"></path>
+<path d="M9.205 7.96H11.3l5.472 8.736V7.96h1.584V19h-1.92l-5.648-9.008V19H9.205zm14.738 11.232q-1.216 0-2.112-.512a3.53 3.53 0 0 1-1.392-1.456q-.48-.96-.48-2.224t.48-2.208q.495-.945 1.408-1.456.912-.528 2.128-.528 1.12 0 2 .448a3.15 3.15 0 0 1 1.392 1.376q.512.912.48 2.272l-.016.48h-6.288q.08 1.169.704 1.824.624.656 1.712.656.816 0 1.424-.336.624-.353.816-.944h1.632q-.288 1.152-1.36 1.888-1.056.72-2.528.72m2.352-4.816q-.033-1.2-.72-1.76-.672-.576-1.616-.576-1.024 0-1.648.624t-.752 1.712zM28.804 11h1.536l1.776 6.368L33.828 11h1.392l1.712 6.368L38.708 11h1.536l-2.352 8h-1.616l-1.744-6.176L32.772 19h-1.616z" fill="#282829"></path>
+<defs fill="none">
+<lineargradient gradientunits="userSpaceOnUse" id="dab45d12-9cf1-42c2-a273-062b899f9ca9_comp-moh4g2tw" x1="49" x2="0" y1="13" y2="13">
+<stop stop-color="#F4C5D9"></stop>
+<stop offset=".65" stop-color="#FA8C54"></stop>
+<stop offset="1" stop-color="#FC752E"></stop>
+</lineargradient>
+</defs>
+</g>
+</svg>

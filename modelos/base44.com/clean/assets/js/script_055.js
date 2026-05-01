@@ -1,0 +1,144 @@
+! function(e, t) {
+  "object" == typeof exports && "object" == typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define("rb_wixui.corvid[ToggleSwitch]", [], t) : "object" == typeof exports ? exports["rb_wixui.corvid[ToggleSwitch]"] = t() : e["rb_wixui.corvid[ToggleSwitch]"] = t()
+}("undefined" != typeof self ? self : this, function() {
+  return function() {
+    "use strict";
+    var e, t = {
+        mDnp: function(e, t, n) {
+          n.r(t), n.d(t, {
+            components: function() {
+              return h
+            }
+          });
+          var r = n("FfLZ"),
+            o = n("iEnL"),
+            i = n("opwE");
+          var f = n("SSov"),
+            u = n("J/5L"),
+            l = n("NJum"),
+            a = n("fFB0"),
+            c = n("Rrm8"),
+            p = n("FA8X"),
+            s = n("lt8F");
+          const d = (0, r.A)((e, t) => ((0, o.K)(t.metaData.role)(e, {
+              type: ["string", "nil"],
+              warnIfNil: !0
+            }, "value"), i.HD(e) || null === e ? e : t.props.value), {
+              type: ["string", "nil"]
+            }, {
+              onValidate: e => {},
+              validate: e => {}
+            }),
+            v = (0, f.a)({
+              onValidate: e => {},
+              validate: e => {}
+            }),
+            y = (0, u.QI)(),
+            b = (0, l.C)({
+              enableLang: !0
+            }),
+            g = (0, a.K)([y, c.T, p.C, s.N, v, d, e => {
+              let {
+                props: t,
+                metaData: n
+              } = e;
+              return {
+                get type() {
+                  return "$w.Switch"
+                },
+                toJSON() {
+                  const {
+                    checked: e,
+                    value: r
+                  } = t;
+                  return {
+                    ...(0, u.YM)(n),
+                    checked: e,
+                    value: r,
+                    type: "$w.Switch"
+                  }
+                }
+              }
+            }, b]);
+          const h = {
+            ToggleSwitch: {
+              sdk: {
+                factory: g
+              }
+            }
+          }
+        }
+      },
+      n = {};
+
+    function r(e) {
+      var o = n[e];
+      if (void 0 !== o) return o.exports;
+      var i = n[e] = {
+        exports: {}
+      };
+      return t[e](i, i.exports, r), i.exports
+    }
+    r.m = t, e = [], r.O = function(t, n, o, i) {
+        if (!n) {
+          var f = 1 / 0;
+          for (c = 0; c < e.length; c++) {
+            n = e[c][0], o = e[c][1], i = e[c][2];
+            for (var u = !0, l = 0; l < n.length; l++)(!1 & i || f >= i) && Object.keys(r.O).every(function(e) {
+              return r.O[e](n[l])
+            }) ? n.splice(l--, 1) : (u = !1, i < f && (f = i));
+            if (u) {
+              e.splice(c--, 1);
+              var a = o();
+              void 0 !== a && (t = a)
+            }
+          }
+          return t
+        }
+        i = i || 0;
+        for (var c = e.length; c > 0 && e[c - 1][2] > i; c--) e[c] = e[c - 1];
+        e[c] = [n, o, i]
+      }, r.d = function(e, t) {
+        for (var n in t) r.o(t, n) && !r.o(e, n) && Object.defineProperty(e, n, {
+          enumerable: !0,
+          get: t[n]
+        })
+      }, r.o = function(e, t) {
+        return Object.prototype.hasOwnProperty.call(e, t)
+      }, r.r = function(e) {
+        "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+          value: "Module"
+        }), Object.defineProperty(e, "__esModule", {
+          value: !0
+        })
+      }, r.j = 7262,
+      function() {
+        var e = {
+          7262: 0
+        };
+        r.O.j = function(t) {
+          return 0 === e[t]
+        };
+        var t = function(t, n) {
+            var o, i, f = n[0],
+              u = n[1],
+              l = n[2],
+              a = 0;
+            if (f.some(function(t) {
+                return 0 !== e[t]
+              })) {
+              for (o in u) r.o(u, o) && (r.m[o] = u[o]);
+              if (l) var c = l(r)
+            }
+            for (t && t(n); a < f.length; a++) i = f[a], r.o(e, i) && e[i] && e[i][0](), e[i] = 0;
+            return r.O(c)
+          },
+          n = ("undefined" != typeof self ? self : this).webpackJsonp__wix_editor_elements_library = ("undefined" != typeof self ? self : this).webpackJsonp__wix_editor_elements_library || [];
+        n.forEach(t.bind(null, 0)), n.push = t.bind(null, n.push.bind(n))
+      }();
+    var o = r.O(void 0, [8409], function() {
+      return r("mDnp")
+    });
+    return o = r.O(o)
+  }()
+});

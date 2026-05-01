@@ -1,0 +1,2 @@
+:root {
+  --base44-header-height: calc(8px + 44px); // margin + header height @media (min-width:768px){--base44-header-height:calc(13px + 44px);// margin + header height}@media (min-width:1100px){height:calc(20px + 56px);// margin + header height}}

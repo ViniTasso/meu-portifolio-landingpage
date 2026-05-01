@@ -1,0 +1,686 @@
+@supports ((-webkit-appearance:none)) and (stroke-color:transparent) {
+  :root {
+    --safari-sticky-fix: opacity;
+    --experimental-safari-sticky-fix: translateZ(0)
+  }
+}
+
+@supports (container-type:inline-size) {
+  :root {
+    --one-unit: 1cqw
+  }
+}
+
+@supports (overflow:clip) {
+  body.device-mobile-optimized #site-root {
+    overflow: clip
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .dMfstu:focus-visible {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .dMfstu:focus-visible {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .Kdjum6 {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 400
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .Kdjum6 {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 400
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .Kdjum6:focus-visible {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .Kdjum6:focus-visible {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .VY3Prt._8qsdc .s2jhkR {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .VY3Prt._8qsdc .s2jhkR {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .VoeW8i a {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 400
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .VoeW8i a {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 400
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .VoeW8i a:focus-visible {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .VoeW8i a:focus-visible {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .BNb9Cx button:focus-visible {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .BNb9Cx button:focus-visible {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .VoeW8i a:after {
+    font-family: Madefor-Display-Bold, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 700
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .VoeW8i a:after {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 700
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+
+  .VoeW8i a .EWGuyA,
+  .VoeW8i a:where(:hover, :focus-within) {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+
+  .VoeW8i a .EWGuyA,
+  .VoeW8i a:where(:hover, :focus-within) {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+
+  .Bjhfa6,
+  .tFHQTC {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 400
+  }
+}
+
+@supports(font-variation-settings:normal) {
+
+  .Bjhfa6,
+  .tFHQTC {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 400
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+
+  .Bjhfa6:focus-visible,
+  .tFHQTC:focus-visible {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+
+  .Bjhfa6:focus-visible,
+  .tFHQTC:focus-visible {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .tFHQTC:hover {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .tFHQTC:hover {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .Bjhfa6 {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .Bjhfa6 {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .IZoDZU {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 400
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .IZoDZU {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 400
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .IZoDZU:focus-visible {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .IZoDZU:focus-visible {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .lfY32a {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 400
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .lfY32a {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 400
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .lfY32a:focus-visible {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .lfY32a:focus-visible {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .HhRQKl {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .HhRQKl {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .lfY32a {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 400
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .lfY32a {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 400
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .lfY32a:hover {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .lfY32a:hover {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .DpewWM {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .DpewWM {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .xj4Q_8 {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 400
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .xj4Q_8 {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 400
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .xj4Q_8:focus-visible {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .xj4Q_8:focus-visible {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .ImJDPt {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 400
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .ImJDPt {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 400
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .K8Ib8M {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 400
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .K8Ib8M {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 400
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .d11lKn:hover .K8Ib8M {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .d11lKn:hover .K8Ib8M {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .V0v94U {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 400
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .V0v94U {
+    font-family: Madefor-Display, Madefor Display, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 400
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .V0v94U:focus-visible {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .V0v94U:focus-visible {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports not (font-variation-settings:normal) {
+  .V0v94U.hnL3SE {
+    font-family: Madefor-Text-MediumBold, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-weight: 500
+  }
+}
+
+@supports(font-variation-settings:normal) {
+  .V0v94U.hnL3SE {
+    font-family: Madefor-Text, Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro W3, Hiragino Kaku Gothic Pro, sans-serif !important;
+    font-variation-settings: "wght" 500
+  }
+}
+
+@supports (-webkit-appearance:none) and (stroke-color:transparent) {
+
+}
+
+@supports (-webkit-touch-callout:none) {
+  .qvSjx3>*>:first-child {
+    vertical-align: top
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .UNhuLu .fEGEM_>.kGvnrc>.xfxJ27 {
+    text-decoration: underline transparent
+  }
+}
+
+@supports (-webkit-hyphens:none) {
+  .MW5IWV.N3eg0s {
+    clip: auto;
+    clip-path: inset(0px)
+  }
+}
+
+@supports (mix-blend-mode:overlay) {
+  .m4khSP {
+    mix-blend-mode: var(--fill-layer-background-overlay-blend-mode);
+    opacity: var(--fill-layer-background-overlay-blend-opacity, 1)
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .gIn6Wf {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .YRyQqb {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .U_e6Q8 {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .kGFVDf {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .So0yP_ {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .OJFWTw {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .mGx4LE {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .r17LYB {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .fm7Z2W {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .x17Tc8 {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .rNNcaA {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .y73xlN {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .aoylXL {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .J7mHF_ {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .JxHGmw {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .lu0Rcq {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-touch-callout:none) {
+  .w1a2zI {
+    touch-action: manipulation
+  }
+}
+
+@supports (-webkit-hyphens:none) {
+  .MW5IWV.GeNLDt {
+    clip: auto;
+    clip-path: inset(0px)
+  }
+}
+
+@view-transition {
+  navigation: auto;
+  types: OutIn
+}
+
+html,
+body {
+  vertical-align: baseline;
+  background: 0 0;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  --scrollbar-width: 0px;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+
+:root {
+  --one-unit: 1vw;
+  --section-max-width: 9999px;
+  --spx-stopper-max: 9999px;
+  --spx-stopper-min: 0px;
+  --browser-zoom: 1;
+}
+
+:root {
+  --wst-button-color-fill-primary: rgb(var(--color_48));
+  --wst-button-color-border-primary: rgb(var(--color_49));
+  --wst-button-color-text-primary: rgb(var(--color_50));
+  --wst-button-color-fill-primary-hover: rgb(var(--color_51));
+  --wst-button-color-border-primary-hover: rgb(var(--color_52));
+  --wst-button-color-text-primary-hover: rgb(var(--color_53));
+  --wst-button-color-fill-primary-disabled: rgb(var(--color_54));
+  --wst-button-color-border-primary-disabled: rgb(var(--color_55));
+  --wst-button-color-text-primary-disabled: rgb(var(--color_56));
+  --wst-button-color-fill-secondary: rgb(var(--color_57));
+  --wst-button-color-border-secondary: rgb(var(--color_58));
+  --wst-button-color-text-secondary: rgb(var(--color_59));
+  --wst-button-color-fill-secondary-hover: rgb(var(--color_60));
+  --wst-button-color-border-secondary-hover: rgb(var(--color_61));
+  --wst-button-color-text-secondary-hover: rgb(var(--color_62));
+  --wst-button-color-fill-secondary-disabled: rgb(var(--color_63));
+  --wst-button-color-border-secondary-disabled: rgb(var(--color_64));
+  --wst-button-color-text-secondary-disabled: rgb(var(--color_65));
+  --wst-color-fill-base-1: rgb(var(--color_36));
+  --wst-color-fill-base-2: rgb(var(--color_37));
+  --wst-color-fill-base-shade-1: rgb(var(--color_38));
+  --wst-color-fill-base-shade-2: rgb(var(--color_39));
+  --wst-color-fill-base-shade-3: rgb(var(--color_40));
+  --wst-color-fill-accent-1: rgb(var(--color_41));
+  --wst-color-fill-accent-2: rgb(var(--color_42));
+  --wst-color-fill-accent-3: rgb(var(--color_43));
+  --wst-color-fill-accent-4: rgb(var(--color_44));
+  --wst-color-fill-background-primary: rgb(var(--color_11));
+  --wst-color-fill-background-secondary: rgb(var(--color_12));
+  --wst-color-text-primary: rgb(var(--color_15));
+  --wst-color-text-secondary: rgb(var(--color_14));
+  --wst-color-action: rgb(var(--color_18));
+  --wst-color-disabled: rgb(var(--color_39));
+  --wst-color-title: rgb(var(--color_45));
+  --wst-color-subtitle: rgb(var(--color_46));
+  --wst-color-line: rgb(var(--color_47));
+  --wst-font-style-h2: var(--font_2);
+  --wst-font-style-h3: var(--font_3);
+  --wst-font-style-h4: var(--font_4);
+  --wst-font-style-h5: var(--font_5);
+  --wst-font-style-h6: var(--font_6);
+  --wst-font-style-body-large: var(--font_7);
+  --wst-font-style-body-medium: var(--font_8);
+  --wst-font-style-body-small: var(--font_9);
+  --wst-font-style-body-x-small: var(--font_10);
+  --wst-color-custom-1: rgb(var(--color_13));
+  --wst-color-custom-2: rgb(var(--color_16));
+  --wst-color-custom-3: rgb(var(--color_17));
+  --wst-color-custom-4: rgb(var(--color_19));
+  --wst-color-custom-5: rgb(var(--color_20));
+  --wst-color-custom-6: rgb(var(--color_21));
+  --wst-color-custom-7: rgb(var(--color_22));
+  --wst-color-custom-8: rgb(var(--color_23));
+  --wst-color-custom-9: rgb(var(--color_24));
+  --wst-color-custom-10: rgb(var(--color_25));
+  --wst-color-custom-11: rgb(var(--color_26));
+  --wst-color-custom-12: rgb(var(--color_27));
+  --wst-color-custom-13: rgb(var(--color_28));
+  --wst-color-custom-14: rgb(var(--color_29));
+  --wst-color-custom-15: rgb(var(--color_30));
+  --wst-color-custom-16: rgb(var(--color_31));
+  --wst-color-custom-17: rgb(var(--color_32));
+  --wst-color-custom-18: rgb(var(--color_33));
+  --wst-color-custom-19: rgb(var(--color_34));
+  --wst-color-custom-20: rgb(var(--color_35));
+}

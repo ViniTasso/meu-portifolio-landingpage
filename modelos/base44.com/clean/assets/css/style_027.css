@@ -1,0 +1,2292 @@
+#c1dmp {
+  --shc-mutated-brightness: 125, 125, 124;
+  justify-self: unset
+}
+
+#comp-kd5px9q0_r_comp-kd5px9hr {
+  --screen-width: 100vw
+}
+
+#comp-kd5px9q0_r_comp-kd5px9kk {
+  height: auto;
+  --direction: rtl;
+  --item-height: 56px;
+  --text-align: center;
+  --template-columns: calc(40px + 1em) 1fr calc(40px + 1em);
+  --template-areas: ". label arrow";
+  --padding-start: 0px;
+  --sub-padding-start: 0px;
+  --padding-end: 0px;
+  --sub-padding-end: 0px;
+  --item-depth0-direction: inherit;
+  --item-depth1-direction: inherit;
+  --item-depth2-direction: inherit;
+  --item-depth0-align: inherit;
+  --item-depth1-align: inherit;
+  --item-depth2-align: inherit
+}
+
+#comp-kd5px9q0_r_comp-kkmqi5tc {
+  --undefined: [object Object];
+  --fill-opacity: 1;
+  --stroke-width: 0;
+  --stroke: #ED1566;
+  --stroke-opacity: 1;
+  --fill: #000000
+}
+
+#comp-m28o2bbb {
+  --bg-overlay-color: transparent;
+  --bg-gradient: none;
+  --inherit-transition: var(--transition, none)
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-m28o2bbb {
+    --bg-gradient: radial-gradient(circle at 6.503906249999999% 88.037109375%, rgba(255, 255, 255, 0) 0%, 25%, rgba(255, 255, 255, 0) 50%), radial-gradient(circle at 6.165364583333333% 12.617187499999998%, rgba(206, 221, 228, 0) 0%, 24%, rgba(206, 221, 228, 0) 40%), radial-gradient(circle at 93.6865234375% 11.42578125%, rgba(160, 165, 194, 0) 0%, 93%, rgba(160, 165, 194, 0) 100%), radial-gradient(circle at 48.9013671875% 49.521484375%, rgba(255, 255, 255, 0) 0%, 100%, rgba(255, 255, 255, 0) 100%)
+  }
+}
+
+#comp-mcetq3au {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mebfgy2k {
+  --custom-element-width: 100%;
+  --custom-element-height: 100%;
+  display: var(--display);
+  --display: flex
+}
+
+#comp-mn1olrgo {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-moh5bdll {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-moh4nx54 {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-moh4tkzb {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-moh4j5jb {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-moh4j5jb :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-moh4j5jb :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: 16px !important
+  }
+}
+
+#comp-moh4v3po {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-moh4gh8x {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mn1olrhw {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mn1olrhw :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mn1olrhw :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: 16px !important
+  }
+}
+
+#comp-moh4g2tw {
+  --opacity: 1
+}
+
+#comp-mkfg9dki {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mcets29t {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mcets29t :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center
+}
+
+#comp-mcets29t [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #000000)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mcets29t :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mcets29t :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0729167 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mcets29t :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.1 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mcettcd3 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mcettcd3 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wix-madefor-text-v2, sans-serif;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0104167 * (var(--scaling-factor) - var(--scrollbar-width))));
+  text-align: center
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mcettcd3 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0125 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mcettcd3 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0260417 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mcettcd3 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.05 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mceuv0dk {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mm39psib {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mm3lkuoh_r_comp-lbf1lwox {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mm3lkuoh_r_comp-mm0e8nyd {
+  --custom-element-width: 100%;
+  --custom-element-height: 100%;
+  display: var(--display);
+  --display: flex
+}
+
+#comp-mm3lkuoh_r_comp-mm0eg68d {
+  --custom-element-width: 100%;
+  --custom-element-height: 100%;
+  display: var(--display);
+  --display: flex
+}
+
+#comp-mm3lkuoh_r_comp-mm0ehrbe {
+  --custom-element-width: 100%;
+  --custom-element-height: 100%;
+  display: var(--display);
+  --display: flex
+}
+
+#comp-mm3lkuoh_r_comp-mlz268c1 {
+  --shc-mutated-brightness: 126, 126, 125
+}
+
+#comp-mm3lkuoh_r_comp-mm1vlh8i {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlz2pcv4__"] {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlz2rqxl__"] {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzaxc64__"] {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzaezqf__"] {
+  --opacity: 1
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzb16bw__"] {
+  --shc-mutated-brightness: 123, 122, 120
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzb16cc4__"] {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzcgaoc__"] {
+  --fill-opacity: 1;
+  --stroke-width: 0;
+  --stroke: #5E97FF;
+  --stroke-opacity: 1;
+  --fill: #242323
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzcdwd3__"] {
+  --shc-mutated-brightness: 123, 122, 120
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzb16ch10__"] {
+  --opacity: 1
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzc5kpi__"] {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzc5kpi__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #696F7B;
+  background-color: transparent;
+  font-family: wix-madefor-text-v2, sans-serif;
+  font-weight: 400;
+  font-size: 14px
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzc5kpi__"] [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #696F7B)
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzcjjc7__"] {
+  --shc-mutated-brightness: 123, 122, 120
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzcjjcm3__"] {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzcjjd310__"] {
+  --fill-opacity: 1;
+  --stroke-width: 0;
+  --stroke: #5E97FF;
+  --stroke-opacity: 1;
+  --fill: #BD2B22
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzcjjco3__"] {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzcjjco3__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #BD2B22;
+  background-color: transparent;
+  font-family: wix-madefor-text-v2, sans-serif;
+  font-weight: 500;
+  font-size: 14px
+}
+
+[id^="comp-mm3lkuoh_r_comp-mlzcjjco3__"] [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #BD2B22)
+}
+
+#comp-mm3lkuoh_r_comp-mlzcshd5 {
+  --fntlbl: normal normal 400 14px/1.4em wix-madefor-text-v2, sans-serif;
+  --fnt: normal normal 400 max(0.5px, 0.0104167 * (var(--scaling-factor) - var(--scrollbar-width)))/1.4em wix-madefor-text-v2, sans-serif;
+  --direction: var(--wix-opt-in-direction, ltr);
+  --labelDirection: inherit;
+  --inputDirection: inherit;
+  --errorDirection: inherit;
+  --align: start;
+  --textPaddingTop: 0.75em;
+  --textPaddingStart: 24px;
+  --textPaddingEnd: 10px;
+  --labelMarginBottom: 8px;
+  --requiredIndicationDisplay: inline;
+  --labelPadding_start: 0px;
+  --labelPadding_end: 20px
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mm3lkuoh_r_comp-mlzcshd5 {
+    --fnt: normal normal 400 max(0.5px, 0.0097222 * (var(--scaling-factor) - var(--scrollbar-width)))/1.4em wix-madefor-text-v2, sans-serif
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mm3lkuoh_r_comp-mlzcshd5 {
+    --fnt: normal normal 400 max(0.5px, 0.0208333 * (var(--scaling-factor) - var(--scrollbar-width)))/1.4em wix-madefor-text-v2, sans-serif
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mm3lkuoh_r_comp-mlzcshd5 {
+    --fnt: normal normal 400 max(0.5px, 0.0444444 * (var(--scaling-factor) - var(--scrollbar-width)))/1.4em wix-madefor-text-v2, sans-serif
+  }
+}
+
+#comp-mm3lkuoh_r_comp-mlzd2gcp {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mm3lkuoh_r_comp-mlzddw5m {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mm3lkuoh_r_comp-mlzdip72 {
+  --toggleIconDisplay: none;
+  --innerLabelHeight: 80%;
+  --innerLabelWidth: 40%;
+  --outerLabelHeight: 100%;
+  --labelMovementRangeChecked: 55%;
+  --labelMovementRangeUnchecked: 5%;
+  --align: start;
+  direction: var(--wix-opt-in-direction, ltr);
+  --switchHeight: 90px;
+  --switchWidth: 180px;
+  --labelMarginBottom: 14px;
+  --labelPadding_start: 0px;
+  --labelPadding_end: 20px
+}
+
+#comp-mm3lkuoh_r_comp-mlzdx2y4 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mm3lkuoh_r_comp-mlzdkbd0 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mm3lkuoh_r_comp-mlzdkbd0 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #000000;
+  background-color: transparent;
+  font-family: wix-madefor-text-v2, sans-serif;
+  font-weight: 500;
+  font-size: 14px
+}
+
+#comp-mm3lkuoh_r_comp-mlzdkbd0 [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #000000)
+}
+
+#comp-mm3lkuoh_r_comp-mlze0a4d {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mm3lkuoh_r_comp-mm1usvok {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mcev53np {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mcev5urg {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mcev5urg :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #696F7B;
+  background-color: transparent;
+  font-family: wix-madefor-text-v2, sans-serif;
+  font-weight: 500;
+  font-size: max(12px, max(0.5px, 0.0072917 * (var(--scaling-factor) - var(--scrollbar-width))))
+}
+
+#comp-mcev5urg [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #696F7B)
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mcev5urg :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0072917 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mcev5urg :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0361111 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    text-align: center
+  }
+}
+
+#comp-mm3ab1u6 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkfhb28q {
+  --boxShadow: none;
+  --backgroundColor: rgba(255, 255, 255, 1);
+  --borderColor: 50, 65, 88;
+  --borderWidth: 0px;
+  --borderRadius: 0px;
+  --alpha-borderColor: 0
+}
+
+[id^="comp-mkfhb28y__"] {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mkfir3qr__"] {
+  --btn-direction: var(--wix-opt-in-direction, ltr);
+  --direction: inherit;
+  --overflow: visible;
+  --label-text-overflow: initial;
+  --label-white-space: pre-line;
+  --btn-min-width: min-content;
+  --container-justify-content: center;
+  --container-align-items: center;
+  --icon-rotation: 0deg;
+  --disabled-icon-rotation: 0deg;
+  --hover-icon-rotation: 0deg
+}
+
+#comp-mneng8bp {
+  --shc-mutated-brightness: 118, 128, 89
+}
+
+#comp-mneng8co {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mneng8cq {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mneng8cq :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mneng8cq :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: 17px !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mneng8cq :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: 14px !important
+  }
+}
+
+#comp-mneng8cw {
+  --shc-mutated-brightness: 8, 8, 8
+}
+
+#comp-mneng8cy {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mneng8cy :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal
+}
+
+#comp-mneng8cy12 {
+  --shc-mutated-brightness: 0, 0, 0;
+  --margin-start: 0px;
+  --margin-end: 0px;
+  --fnt: normal normal normal max(0.5px, 0.0109375 * (var(--scaling-factor) - var(--scrollbar-width)))/1.4em madefor-text, helveticaneuew01-45ligh, helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif;
+  direction: var(--wix-opt-in-direction, ltr);
+  --label-align: center;
+  --label-text-align: center
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mneng8cy12 {
+    --fnt: normal normal normal max(0.5px, 0.010919 * (var(--scaling-factor) - var(--scrollbar-width)))/1.4em madefor-text, helveticaneuew01-45ligh, helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif
+  }
+}
+
+#comp-ml97tjnz {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkttzl9x {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mktu3f71 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mktu3f71 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: 13px;
+  text-align: center
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mktu3f71 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: 13px !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mktu3f71 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(11px, max(0.5px, 0.0305556 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mktu7lwn {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mktu7lwn :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: 16px;
+  text-align: center
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mktu7lwn :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: 16px !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mktu7lwn :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0361111 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-ml97v2n6 {
+  --btn-direction: var(--wix-opt-in-direction, ltr);
+  --direction: inherit;
+  --overflow: visible;
+  --label-text-overflow: initial;
+  --label-white-space: pre-line;
+  --btn-min-width: min-content;
+  --container-justify-content: center;
+  --container-align-items: center;
+  --icon-rotation: 0deg;
+  --disabled-icon-rotation: 0deg;
+  --hover-icon-rotation: 0deg
+}
+
+#comp-mkfg5rtb {
+  --bg-overlay-color: rgb(var(--color_12));
+  --bg-gradient: none;
+  --inherit-transition: var(--transition, none)
+}
+
+#comp-mkfl1gt6 {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mkfmbp8m {
+  --bg-overlay-color: rgb(var(--color_12));
+  --bg-gradient: none;
+  --inherit-transition: var(--transition, none)
+}
+
+#comp-mkl50y1q {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkfmbp8s10 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkfmbp8s10 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.4
+}
+
+#comp-mkfmbp8s10 [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #000000)
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkfmbp8s10 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0625 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkfmbp8s10 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0722224 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mkl54dv9 {
+  --shc-mutated-brightness: 0, 0, 0
+}
+
+#comp-mkfn6wz6 {
+  --bg-overlay-color: rgb(var(--color_12));
+  --bg-gradient: none;
+  --inherit-transition: var(--transition, none)
+}
+
+#comp-mkjlvbdx {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkjizkz6 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkjjdoez {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkjlx85n {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkjlxgok {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkjnaf8t {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkjm5rtm {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkjrfysy {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkjspb1a {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkjskcqe {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkjslqmf {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkjslqmf :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkjslqmf :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkjslqmf :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkjslqmf :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkjsmrkc {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkjsmrkc :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #696F7B;
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+#comp-mkjsmrkc [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #696F7B)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkjsmrkc :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkjsmrkc :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkjsmrkc :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkjsmuj4 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkjsmuj4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #696F7B;
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  text-align: left;
+  line-height: normal
+}
+
+#comp-mkjsmuj4 [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #696F7B)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkjsmuj4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138891 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkjsmuj4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkjsmuj4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388891 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkjsqa3t {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkjsqa3t :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkjsqa3t :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkjsqa3t :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkjsqa3t :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkjsrhj8 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkjsrhj8 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.0177083 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: 1.2
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkjsrhj8 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0208333 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.2 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkjsrhj8 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.03125 * (var(--scaling-factor) - var(--scrollbar-width))))) !important;
+    line-height: 1.3 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkjsrhj8 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.05 * (var(--scaling-factor) - var(--scrollbar-width))))) !important;
+    line-height: 1.3 !important
+  }
+}
+
+#comp-mkjsxdgk {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkjsxdgm {
+  --btn-direction: var(--wix-opt-in-direction, ltr);
+  --direction: inherit;
+  --overflow: visible;
+  --label-text-overflow: initial;
+  --label-white-space: pre-line;
+  --btn-min-width: min-content;
+  --container-justify-content: center;
+  --container-align-items: center;
+  --icon-rotation: 0deg;
+  --disabled-icon-rotation: 0deg;
+  --hover-icon-rotation: 0deg
+}
+
+#comp-mkjmhxwi {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mkjnbax3 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gqc9 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gqcd3 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gqcd17 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gqce9 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gqce17 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gqce17 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gqce17 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gqce17 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gqce17 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gqcf13 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gqcf13 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #696F7B;
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+#comp-mkl7gqcf13 [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #696F7B)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gqcf13 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gqcf13 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gqcf13 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gqcf27 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gqcf27 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #696F7B;
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+#comp-mkl7gqcf27 [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #696F7B)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gqcf27 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gqcf27 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gqcf27 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gqcg10 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gqcg10 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gqcg10 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gqcg10 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gqcg10 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gqcg24 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gqcg24 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.0177083 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: 1.2
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gqcg24 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0208333 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.2 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gqcg24 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.03125 * (var(--scaling-factor) - var(--scrollbar-width))))) !important;
+    line-height: 1.3 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gqcg24 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.05 * (var(--scaling-factor) - var(--scrollbar-width))))) !important;
+    line-height: 1.4 !important
+  }
+}
+
+#comp-mkl7gqch3 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gqch11 {
+  --btn-direction: var(--wix-opt-in-direction, ltr);
+  --direction: inherit;
+  --overflow: visible;
+  --label-text-overflow: initial;
+  --label-white-space: pre-line;
+  --btn-min-width: min-content;
+  --container-justify-content: center;
+  --container-align-items: center;
+  --icon-rotation: 0deg;
+  --disabled-icon-rotation: 0deg;
+  --hover-icon-rotation: 0deg
+}
+
+#comp-mkjminez {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mkjncchp {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gs2g {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gs2j13 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gs2k8 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gs2k18 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gs2l7 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gs2l7 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gs2l7 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gs2l7 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gs2l7 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gs2l21 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gs2l21 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #696F7B;
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+#comp-mkl7gs2l21 [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #696F7B)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gs2l21 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gs2l21 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gs2l21 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gs2o4 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gs2o4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #696F7B;
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+#comp-mkl7gs2o4 [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #696F7B)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gs2o4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gs2o4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gs2o4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gs2p5 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gs2p5 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gs2p5 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gs2p5 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gs2p5 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gs2p19 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gs2p19 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.0177083 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: 1.2
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gs2p19 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0208333 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.2 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gs2p19 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.03125 * (var(--scaling-factor) - var(--scrollbar-width))))) !important;
+    line-height: 1.3 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gs2p19 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.05 * (var(--scaling-factor) - var(--scrollbar-width))))) !important;
+    line-height: 1.3 !important
+  }
+}
+
+#comp-mkl7gs2q8 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gs2q16 {
+  --btn-direction: var(--wix-opt-in-direction, ltr);
+  --direction: inherit;
+  --overflow: visible;
+  --label-text-overflow: initial;
+  --label-white-space: pre-line;
+  --btn-min-width: min-content;
+  --container-justify-content: center;
+  --container-align-items: center;
+  --icon-rotation: 0deg;
+  --disabled-icon-rotation: 0deg;
+  --hover-icon-rotation: 0deg
+}
+
+#comp-mkjmirf4 {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mkjncvg7 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gtp8 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gtpb9 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gtpc3 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gtpc13 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gtpd {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gtpd :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gtpd :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gtpd :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gtpd :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gtpd14 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gtpd14 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #696F7B;
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+#comp-mkl7gtpd14 [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #696F7B)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gtpd14 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gtpd14 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gtpd14 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gtpe {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gtpe :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #696F7B;
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+#comp-mkl7gtpe [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #696F7B)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gtpe :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gtpe :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gtpe :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gtpe14 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gtpe14 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-family: wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  font-weight: 400;
+  font-size: max(12px, max(0.5px, 0.0114583 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gtpe14 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0138889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gtpe14 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gtpe14 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width))))) !important
+  }
+}
+
+#comp-mkl7gtpe28 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkl7gtpe28 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.0177083 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: 1.2
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkl7gtpe28 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0208333 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.2 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkl7gtpe28 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.03125 * (var(--scaling-factor) - var(--scrollbar-width))))) !important;
+    line-height: 1.3 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkl7gtpe28 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.05 * (var(--scaling-factor) - var(--scrollbar-width))))) !important;
+    line-height: 1.3 !important
+  }
+}
+
+#comp-mkl7gtpf13 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkl7gtpi1 {
+  --btn-direction: var(--wix-opt-in-direction, ltr);
+  --direction: inherit;
+  --overflow: visible;
+  --label-text-overflow: initial;
+  --label-white-space: pre-line;
+  --btn-min-width: min-content;
+  --container-justify-content: center;
+  --container-align-items: center;
+  --icon-rotation: 0deg;
+  --disabled-icon-rotation: 0deg;
+  --hover-icon-rotation: 0deg
+}
+
+#comp-mkkxum1d {
+  --bg-overlay-color: transparent;
+  --bg-gradient: none;
+  --inherit-transition: var(--transition, none)
+}
+
+#comp-mkl28q1n {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkkxvuhz {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkkyitkz {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkpnqvxl {
+  --shc-mutated-brightness: 119, 117, 114
+}
+
+#comp-mktiyqbl {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkkym51u {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkkym51u :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.0125 * (var(--scaling-factor) - var(--scrollbar-width))))
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkkym51u :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0166667 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkkym51u :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.03125 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkkym51u :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mkkykgkd {
+  --shc-mutated-brightness: 119, 117, 114
+}
+
+#comp-mkpnnegk {
+  --shc-mutated-brightness: 119, 117, 114
+}
+
+#comp-mktinwc6 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkkynbac4 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkkynbac4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.0125 * (var(--scaling-factor) - var(--scrollbar-width))))
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkkynbac4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0166667 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkkynbac4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.03125 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkkynbac4 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mkkzj89e {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkky3ksb {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkla53qm {
+  --bg-overlay-color: rgb(var(--color_11));
+  --bg-gradient: none;
+  --inherit-transition: var(--transition, none)
+}
+
+#comp-mkmce6uk {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkmcfe8l {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mkmck55g {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkmck55g :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkmck55g :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0236111 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkmck55g :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0390625 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.1 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkmck55g :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0833333 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.1 !important
+  }
+}
+
+#comp-mkmcm20j {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkmcm20j :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkmcm20j :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0125 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkmcm20j :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkmcm20j :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.05 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mkmfuyar {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkmctjwe {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mkmdwfvd {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkmdwfvd :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkmdwfvd :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0236111 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkmdwfvd :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0390625 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkmdwfvd :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0833333 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mkmdxayt {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkmdxt8g {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkmdxt8g :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.009375 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkmdxt8g :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0125 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkmdxt8g :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkmdxt8g :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.05 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mkmdyjqf {
+  --boxShadow: none;
+  --backgroundColor: rgba(255, 255, 255, 1);
+  --borderColor: 50, 65, 88;
+  --borderWidth: 0px;
+  --borderRadius: 0px;
+  --alpha-borderColor: 0
+}
+
+[id^="comp-mkmdyjqk2__"] {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mkme0xlg__"] {
+  --opacity: 1
+}
+
+[id^="comp-mkme2jmc__"] {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+[id^="comp-mkme2jmc__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.009375 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  [id^="comp-mkme2jmc__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0111111 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  [id^="comp-mkme2jmc__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0208333 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  [id^="comp-mkme2jmc__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0444444 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mkme4lbw {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkme4lc01 {
+  --btn-direction: var(--wix-opt-in-direction, ltr);
+  --direction: inherit;
+  --overflow: visible;
+  --label-text-overflow: initial;
+  --label-white-space: pre-line;
+  --btn-min-width: min-content;
+  --container-justify-content: center;
+  --container-align-items: center;
+  --icon-rotation: 0deg;
+  --disabled-icon-rotation: 0deg;
+  --hover-icon-rotation: 0deg
+}
+
+#comp-mkme55m9 {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mkme55mh {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkme55mh :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkme55mh :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0236111 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkme55mh :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0390625 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkme55mh :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0833333 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mkme55mh8 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkme8mn1 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkme979a {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkme979a :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.025 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: 1
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkme979a :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0291667 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkme979a :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0546875 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.2 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkme979a :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.1166667 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.2 !important
+  }
+}
+
+#comp-mkmeana8 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkmeana8 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.0145833 * (var(--scaling-factor) - var(--scrollbar-width))))
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkmeana8 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0194444 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkmeana8 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0364583 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkmeana8 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0777778 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mkme55mi7 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkme55mi7 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.009375 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: normal
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkme55mi7 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0111111 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkme55mi7 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0208333 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkme55mi7 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0444444 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mkme55ml {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkme55mm5 {
+  --btn-direction: var(--wix-opt-in-direction, ltr);
+  --direction: inherit;
+  --overflow: visible;
+  --label-text-overflow: initial;
+  --label-white-space: pre-line;
+  --btn-min-width: min-content;
+  --container-justify-content: center;
+  --container-align-items: center;
+  --icon-rotation: 0deg;
+  --disabled-icon-rotation: 0deg;
+  --hover-icon-rotation: 0deg
+}
+
+#comp-mkmcuryh {
+  --shc-mutated-brightness: 110, 116, 116
+}
+
+#comp-mkmejikd {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkmek944 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkmek944 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.0104167 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: 1.3
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkmek944 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0125 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkmek944 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0234375 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkmek944 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0444444 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    text-align: center
+  }
+}
+
+#comp-mkmenefd {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mkmenefu {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mkmenefu :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #0F0F0F;
+  background-color: transparent;
+  font-family: wix-madefor-text-v2, sans-serif;
+  font-weight: 500;
+  font-size: max(12px, max(0.5px, 0.009375 * (var(--scaling-factor) - var(--scrollbar-width))));
+  line-height: 1.5
+}
+
+#comp-mkmenefu [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #0F0F0F)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mkmenefu :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0111111 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.4 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mkmenefu :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0208333 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.2 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mkmenefu :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0388893 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.2 !important
+  }
+}
+
+#comp-mkmenefw7 {
+  --opacity: 1
+}
+
+#comp-mknvgyk7 {
+  --bg-overlay-color: rgb(var(--color_11));
+  --bg-gradient: none;
+  --inherit-transition: var(--transition, none)
+}
+
+#comp-mcfzrcoe1 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mcfzrcoj3 {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mcfzrcoj3 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  background-color: transparent;
+  text-decoration: none;
+  line-height: 1
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mcfzrcoj3 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(0.5px, 0.0625 * (var(--scaling-factor) - var(--scrollbar-width))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mcfzrcoj3 :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0777778 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mcfzswlv_r_comp-lbf1lwox {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mcfzswlv_r_comp-mcfy7ine__"] {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mcfzswlv_r_comp-mcfy7ink__"] {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mcfzswlv_r_comp-mcfy7inl10__"] {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+[id^="comp-mcfzswlv_r_comp-mcfy7inl10__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #000000;
+  background-color: transparent;
+  font-family: wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  font-weight: 400;
+  font-size: max(12px, min(500px, max(0.5px, 0.0125 * (var(--scaling-factor) - var(--scrollbar-width)))));
+  text-decoration: none;
+  text-align: left;
+  letter-spacing: 0em;
+  line-height: 1.07
+}
+
+[id^="comp-mcfzswlv_r_comp-mcfy7inl10__"] [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #000000)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  [id^="comp-mcfzswlv_r_comp-mcfy7inl10__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0152778 * (var(--scaling-factor) - var(--scrollbar-width))))) !important;
+    line-height: 1.07 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  [id^="comp-mcfzswlv_r_comp-mcfy7inl10__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0286458 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.2 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  [id^="comp-mcfzswlv_r_comp-mcfy7inl10__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.05 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.4 !important
+  }
+}
+
+[id^="comp-mcfzswlv_r_comp-mcfy7int3__"] {
+  --opacity: 1
+}
+
+[id^="comp-mcfzswlv_r_comp-mcfy7iob__"] {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+[id^="comp-mcfzswlv_r_comp-mcfy7iod2__"] {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+[id^="comp-mcfzswlv_r_comp-mcfy7iod2__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #000000;
+  background-color: transparent;
+  font-family: wix-madefor-text-v2, sans-serif;
+  font-weight: 400;
+  font-size: max(12px, min(500px, max(0.5px, 0.009375 * (var(--scaling-factor) - var(--scrollbar-width)))));
+  text-align: left;
+  letter-spacing: 0em;
+  line-height: 1.3
+}
+
+[id^="comp-mcfzswlv_r_comp-mcfy7iod2__"] [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #000000)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  [id^="comp-mcfzswlv_r_comp-mcfy7iod2__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, min(500px, max(0.5px, 0.0125 * (var(--scaling-factor) - var(--scrollbar-width))))) !important;
+    line-height: 1.3 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  [id^="comp-mcfzswlv_r_comp-mcfy7iod2__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0208333 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.4 !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  [id^="comp-mcfzswlv_r_comp-mcfy7iod2__"] :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0388889 * (var(--scaling-factor) - var(--scrollbar-width)))) !important;
+    line-height: 1.4 !important
+  }
+}
+
+[id^="comp-mcfzswlv_r_comp-mcfy7ioe5__"] {
+  transform-origin: center 0.5px;
+  height: 0 !important;
+  box-sizing: content-box
+}
+
+#comp-mcfzswlv_r_comp-mcfy89y0 {
+  transform-origin: center 0.5px;
+  height: 0 !important;
+  box-sizing: content-box
+}
+
+#comp-mknu6y0a {
+  --bg-overlay-color: transparent;
+  --bg-gradient: none;
+  --inherit-transition: var(--transition, none)
+}
+
+#comp-mknu6y0h {
+  transform-origin: center 0.5px;
+  height: 0 !important;
+  box-sizing: content-box
+}
+
+#comp-mknu6y0j7 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mknu6y0n2 {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mknu6y0o11 {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mknu6y0p11 {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mknu6y0q {
+  --shc-mutated-brightness: 125, 125, 124
+}
+
+#comp-mknu6y0q12 {
+  --shc-mutated-brightness: 128, 125, 118
+}
+
+#comp-mknu6y0w3 {
+  --shc-mutated-brightness: 128, 125, 118
+}
+
+#comp-mknu6y0x {
+  --text-direction: var(--wix-opt-in-direction)
+}
+
+#comp-mknu6y0x :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: #0F0F0F;
+  background-color: transparent;
+  font-size: max(12px, max(0.5px, 0.0333333 * (var(--scaling-factor) - var(--scrollbar-width))));
+  text-decoration: none;
+  text-align: center
+}
+
+#comp-mknu6y0x [class$=rich-text__text]:is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+  color: var(--corvid-color, #0F0F0F)
+}
+
+@media screen and (min-width:320px) and (max-width:1440px) {
+  #comp-mknu6y0x :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0444443 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px) {
+  #comp-mknu6y0x :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0755208 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #comp-mknu6y0x :is(p, h1, h2, h3, h4, h5, h6, ul, ol, span[data-attr-richtext-marker], blockquote, div) {
+    font-size: max(12px, max(0.5px, 0.0944443 * (var(--scaling-factor) - var(--scrollbar-width)))) !important
+  }
+}
+
+#comp-mknu6y0x17 {
+  --shc-mutated-brightness: 128, 128, 128
+}
+
+#comp-mknu6y0y9 {
+  --btn-direction: var(--wix-opt-in-direction, ltr);
+  --direction: inherit;
+  --overflow: visible;
+  --label-text-overflow: initial;
+  --label-white-space: pre-line;
+  --btn-min-width: min-content;
+  --container-justify-content: center;
+  --container-align-items: center;
+  --icon-rotation: 0deg;
+  --disabled-icon-rotation: 0deg;
+  --hover-icon-rotation: 0deg
+}
+
+#comp-mok06b5e_r_comp-mok06azq {
+  --screen-width: 100vw
+}
+
+#comp-mok06b5e_r_comp-mok06b01 {
+  height: auto;
+  --direction: rtl;
+  --item-height: 56px;
+  --text-align: center;
+  --template-columns: calc(40px + 1em) 1fr calc(40px + 1em);
+  --template-areas: ". label arrow";
+  --padding-start: 0px;
+  --sub-padding-start: 0px;
+  --padding-end: 0px;
+  --sub-padding-end: 0px;
+  --item-depth0-direction: inherit;
+  --item-depth1-direction: inherit;
+  --item-depth2-direction: inherit;
+  --item-depth0-align: inherit;
+  --item-depth1-align: inherit;
+  --item-depth2-align: inherit
+}
+
+#comp-mok06b5e_r_comp-mok06b0c {
+  --undefined: [object Object];
+  --fill-opacity: 1;
+  --stroke-width: 0;
+  --stroke: #ED1566;
+  --stroke-opacity: 1;
+  --fill: #000000
+}
+
+#comp-mok06rba_r_comp-mok06arf {
+  --bg-overlay-color: rgb(var(--color_11));
+  --bg-gradient: none
+}

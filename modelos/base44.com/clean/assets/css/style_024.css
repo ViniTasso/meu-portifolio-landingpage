@@ -1,0 +1,1428 @@
+@font-face {
+  font-display: swap;
+  font-family: wf_5b4cd32fc19d46e1b8c1b142a;
+  src: url("/assets/fonts/file_2.woff2") format("woff2"), url("/assets/fonts/file_2.woff") format("woff"), url("https://static.wixstatic.com/ufonts/343a2a_5b4cd32fc19d46e1b8c1b142abb27d39/ttf/file.ttf") format("ttf")
+}
+
+@font-face {
+  font-family: 'din-next-w01-light';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/din-next-w10-light.woff2') format('woff2');
+  unicode-range: U+0401-040C, U+040E-044F, U+0451-045C, U+045E-045F, U+0490-0491, U+2116;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'din-next-w01-light';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/din-next-w02-light.woff2') format('woff2');
+  unicode-range: U+000D, U+0100-010F, U+0111-0130, U+0132-0151, U+0154-015F, U+0162-0177, U+0179-017C, U+01FA-01FF, U+0218-021B, U+0237, U+02C9, U+02D8-02D9, U+02DB, U+02DD, U+0394, U+03A9, U+03C0, U+1E80-1E85, U+1EF2-1EF3, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2126, U+212E, U+2153-2154, U+215B-215E, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+F8FF, U+FB00-FB04;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'din-next-w01-light';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/din-next-w01-light.woff2') format('woff2');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+0110, U+0131, U+0152-0153, U+0160-0161, U+0178, U+017D-017E, U+0192, U+02C6-02C7, U+02DA, U+02DC, U+03BC, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+20AC, U+2122;
+  font-display: swap
+}
+
+@font-face {
+  font-display: swap;
+  font-family: wf_4e484da66ffc4465a05a1c9ea;
+  src: url("/assets/fonts/file.woff2") format("woff2"), url("/assets/fonts/file.woff") format("woff"), url("https://static.wixstatic.com/ufonts/343a2a_4e484da66ffc4465a05a1c9ea5caf495/ttf/file.ttf") format("ttf")
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZioR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 700;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6iQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 800;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZioR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 800;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6iQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZioR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 400;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6iQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 600;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZioR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 600;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6iQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 500;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZioR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 500;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6iQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZigR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 700;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6CQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 800;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZigR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 800;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6CQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZigR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 400;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6CQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 600;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZigR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 600;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6CQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 500;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZigR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 500;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6CQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZiER5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 700;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh4SQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 800;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZiER5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 800;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh4SQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZiER5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 400;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh4SQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 600;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZiER5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 600;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh4SQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 500;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZiER5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 500;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh4SQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZisR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 700;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6yQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 800;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZisR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 800;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6yQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZisR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 400;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6yQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 600;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZisR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 600;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6yQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 500;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_lXI_oSymQ8Qj-Apx3HGN_Hu1RZisR5y4coj8y0A.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 500;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh6yQbgD0C0fp2.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/font_034.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 700;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh5SQbgD0C0Q.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/assets/fonts/font_034.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 800;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh5SQbgD0C0Q.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/font_034.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 400;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh5SQbgD0C0Q.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/fonts/font_034.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 600;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh5SQbgD0C0Q.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/font_034.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wix-madefor-text-v2';
+  font-style: italic;
+  font-weight: 500;
+  src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/wixmadefortext/v13/-W_jXI_oSymQ8Qj-Apx3HGN_Hu1RZiAh5SQbgD0C0Q.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'madefor-text';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/madefor-text.var.original_2.woff2') format('woff2-variations'), url('/assets/fonts/madefor-text_2.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'madefor-text';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/assets/fonts/madefor-text.var.original.woff2') format('woff2-variations'), url('/assets/fonts/madefor-text.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EF2-1EF3, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AC, U+20B9-20BA, U+20BD, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wixmadefortextapp-extrabolditalic';
+  font-style: italic;
+  font-weight: 800;
+  src: url('/assets/fonts/madefor-text.var.original.woff2') format('woff2-variations'), url('/assets/fonts/font_024.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EF2-1EF3, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AC, U+20B9-20BA, U+20BD, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wixmadefortextapp-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/madefor-text.var.original_2.woff2') format('woff2-variations'), url('/assets/fonts/wixmadefortextapp-regular.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'madefor-display-bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/font_001.woff2') format('woff2-variations'), url('/assets/fonts/madefor-display-bold.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wixmadefordisplayapp-extrabold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/font_001.woff2') format('woff2-variations'), url('/assets/fonts/font_023.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'madefor-text-mediumbold';
+  font-style: normal;
+  font-weight: 530;
+  src: url('/assets/fonts/madefor-text.var.original_2.woff2') format('woff2-variations'), url('/assets/fonts/madefor-text-mediumbold_2.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'madefor-text-mediumbold';
+  font-style: italic;
+  font-weight: 530;
+  src: url('/assets/fonts/madefor-text.var.original.woff2') format('woff2-variations'), url('/assets/fonts/madefor-text-mediumbold.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EF2-1EF3, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AC, U+20B9-20BA, U+20BD, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wixmadefordisplayapp-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/font_001.woff2') format('woff2-variations'), url('/assets/fonts/font_025.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'madefor-display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/font_001.woff2') format('woff2-variations'), url('/assets/fonts/madefor-display.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wixmadefortextapp-italic';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/assets/fonts/madefor-text.var.original.woff2') format('woff2-variations'), url('/assets/fonts/wixmadefortextapp-italic.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EF2-1EF3, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AC, U+20B9-20BA, U+20BD, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wixmadefortextapp-mediumitalic';
+  font-style: italic;
+  font-weight: 530;
+  src: url('/assets/fonts/madefor-text.var.original.woff2') format('woff2-variations'), url('/assets/fonts/font_030.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EF2-1EF3, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AC, U+20B9-20BA, U+20BD, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'madefor-text-bold';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/assets/fonts/madefor-text.var.original.woff2') format('woff2-variations'), url('/assets/fonts/madefor-text-bold.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EF2-1EF3, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AC, U+20B9-20BA, U+20BD, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'madefor-text-bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/madefor-text.var.original_2.woff2') format('woff2-variations'), url('/assets/fonts/madefor-text-bold_2.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wixmadefortextapp-medium';
+  font-style: normal;
+  font-weight: 530;
+  src: url('/assets/fonts/madefor-text.var.original_2.woff2') format('woff2-variations'), url('/assets/fonts/wixmadefortextapp-medium.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wixmadefordisplayapp-bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/font_001.woff2') format('woff2-variations'), url('/assets/fonts/wixmadefordisplayapp-bold.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wixmadefortextapp-extrabold';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/assets/fonts/madefor-text.var.original_2.woff2') format('woff2-variations'), url('/assets/fonts/font_022.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'madefor-display-extrabold';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/assets/fonts/font_001.woff2') format('woff2-variations'), url('/assets/fonts/madefor-display-extrabold.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'madefor-text-extrabold';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/assets/fonts/madefor-text.var.original_2.woff2') format('woff2-variations'), url('/assets/fonts/madefor-text-extrabold.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+01A0-01A1, U+01AF-01B0, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+0400-045F, U+0462-0463, U+0472-0475, U+0490-0491, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EA0-1EF9, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AB-20AC, U+20B4, U+20B9-20BA, U+20BD, U+2116, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'madefor-text-extrabold';
+  font-style: italic;
+  font-weight: 800;
+  src: url('/assets/fonts/madefor-text.var.original.woff2') format('woff2-variations'), url('/assets/fonts/madefor-text-extrabold_2.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EF2-1EF3, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AC, U+20B9-20BA, U+20BD, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'wixmadefortextapp-bolditalic';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/assets/fonts/madefor-text.var.original.woff2') format('woff2-variations'), url('/assets/fonts/font_021.woff2') format('woff2');
+  unicode-range: U+0000, U+000D, U+0020-007E, U+00A0-00A5, U+00A7-00B4, U+00B6-0107, U+010A-0113, U+0116-011B, U+011E-0123, U+0126-012B, U+012E-0133, U+0136-013E, U+0141-0148, U+014A-014B, U+0150-0155, U+0158-015B, U+015E-016B, U+016E-017E, U+0218-021B, U+0237, U+02C6-02C7, U+02D8-02DD, U+1E24-1E25, U+1E36-1E37, U+1E80-1E85, U+1E9E, U+1EF2-1EF3, U+2000-200B, U+2010-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-2079, U+2080-2089, U+20AC, U+20B9-20BA, U+20BD, U+2122, U+2190-2193, U+2212, U+25B2, U+25B6, U+25BC, U+25C0, U+FEFF;
+  font-display: swap
+}
+
+#SITE_CONTAINER.focus-ring-active :not(.has-custom-focus):not(.ignore-focus):not([tabindex="-1"]):focus,
+#SITE_CONTAINER.focus-ring-active :not(.has-custom-focus):not(.ignore-focus):not([tabindex="-1"]):focus~.wixSdkShowFocusOnSibling {
+  --focus-ring-box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #116dff;
+  box-shadow: var(--focus-ring-box-shadow) !important;
+  z-index: 1
+}
+
+.has-inner-focus-ring {
+  --focus-ring-box-shadow: inset 0 0 0 1px #ffffff, inset 0 0 0 3px #116dff !important
+}
+
+:root,
+:host,
+.spxThemeOverride {
+  --full-viewport: 100 * var(--one-unit) * var(--browser-zoom);
+  --scaling-factor: clamp(var(--spx-stopper-min), var(--full-viewport), min(var(--spx-stopper-max), var(--section-max-width)));
+  --theme-spx-ratio: var(--scaling-factor) / 1920;
+  --color_0: 255, 255, 255;
+  --color_1: 255, 255, 255;
+  --color_2: 0, 0, 0;
+  --color_3: 237, 28, 36;
+  --color_4: 0, 136, 203;
+  --color_5: 255, 203, 5;
+  --color_6: 114, 114, 114;
+  --color_7: 176, 176, 176;
+  --color_8: 255, 255, 255;
+  --color_9: 114, 114, 114;
+  --color_10: 176, 176, 176;
+  --color_11: 255, 255, 255;
+  --color_12: 250, 249, 247;
+  --color_13: 35, 37, 41;
+  --color_14: 235, 255, 177;
+  --color_15: 0, 0, 0;
+  --color_16: 220, 232, 255;
+  --color_17: 149, 185, 255;
+  --color_18: 255, 152, 59;
+  --color_19: 9, 75, 204;
+  --color_20: 8, 47, 123;
+  --color_21: 243, 248, 240;
+  --color_22: 210, 228, 199;
+  --color_23: 146, 176, 121;
+  --color_24: 97, 135, 65;
+  --color_25: 57, 100, 29;
+  --color_26: 242, 234, 231;
+  --color_27: 229, 206, 192;
+  --color_28: 169, 128, 111;
+  --color_29: 139, 97, 79;
+  --color_30: 99, 60, 43;
+  --color_31: 255, 233, 223;
+  --color_32: 255, 191, 161;
+  --color_33: 250, 133, 79;
+  --color_34: 255, 99, 31;
+  --color_35: 201, 64, 1;
+  --color_36: 255, 255, 255;
+  --color_37: 0, 0, 0;
+  --color_38: 250, 249, 247;
+  --color_39: 35, 37, 41;
+  --color_40: 235, 255, 177;
+  --color_41: 255, 152, 59;
+  --color_42: 255, 152, 59;
+  --color_43: 255, 152, 59;
+  --color_44: 255, 152, 59;
+  --color_45: 0, 0, 0;
+  --color_46: 235, 255, 177;
+  --color_47: 0, 0, 0;
+  --color_48: 255, 152, 59;
+  --color_49: 255, 152, 59;
+  --color_50: 255, 255, 255;
+  --color_51: 255, 152, 59;
+  --color_52: 255, 152, 59;
+  --color_53: 255, 255, 255;
+  --color_54: 35, 37, 41;
+  --color_55: 35, 37, 41;
+  --color_56: 255, 255, 255;
+  --color_57: 255, 255, 255;
+  --color_58: 255, 152, 59;
+  --color_59: 255, 152, 59;
+  --color_60: 255, 255, 255;
+  --color_61: 255, 152, 59;
+  --color_62: 255, 152, 59;
+  --color_63: 255, 255, 255;
+  --color_64: 35, 37, 41;
+  --color_65: 35, 37, 41;
+  --wix-ads-height: 0px;
+  --sticky-offset: 0px;
+  --wix-ads-top-height: 0px;
+  --site-width: 980px;
+  --above-all-z-index: 100000;
+  --portals-z-index: 100001;
+  --wix-opt-in-direction: ltr;
+  --wix-opt-in-direction-multiplier: 1;
+  --font_0: normal normal normal calc(74 * var(--theme-spx-ratio))/1em wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --font_1: normal normal normal 16px/1.4em din-next-w01-light, sans-serif;
+  --font_2: normal normal normal calc(68 * var(--theme-spx-ratio))/1.2em wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --font_3: normal normal normal calc(40 * var(--theme-spx-ratio))/1.1em wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --font_4: normal normal 400 calc(24 * var(--theme-spx-ratio))/1.3em wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  --font_5: normal normal normal calc(20 * var(--theme-spx-ratio))/1.3em wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --font_6: normal normal normal calc(16 * var(--theme-spx-ratio))/1.4em wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --font_7: normal normal normal calc(24 * var(--theme-spx-ratio))/1.4em wix-madefor-text-v2, sans-serif;
+  --font_8: normal normal 400 calc(20 * var(--theme-spx-ratio))/1.4em wix-madefor-text-v2, sans-serif;
+  --font_9: normal normal normal calc(16 * var(--theme-spx-ratio))/1.4em wix-madefor-text-v2, sans-serif;
+  --font_10: normal normal normal 12px/1.4em din-next-w01-light, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --minViewportSize: 320;
+  --maxViewportSize: 1920;
+  --customScaleViewportLimit: clamp(var(--minViewportSize) * 1px, var(--full-viewport), min(var(--section-max-width), var(--maxViewportSize) * 1px))
+}
+
+.theme-vars,
+.max-width-container {
+  --full-viewport: 100 * var(--one-unit) * var(--browser-zoom);
+  --scaling-factor: clamp(var(--spx-stopper-min), var(--full-viewport), min(var(--spx-stopper-max), var(--section-max-width)));
+  --theme-spx-ratio: var(--scaling-factor) / 1920
+}
+
+.max-width-container {
+  --font_0: normal normal normal calc(74 * var(--theme-spx-ratio))/1em wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --font_1: normal normal normal 16px/1.4em din-next-w01-light, sans-serif;
+  --font_2: normal normal normal calc(68 * var(--theme-spx-ratio))/1.2em wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --font_3: normal normal normal calc(40 * var(--theme-spx-ratio))/1.1em wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --font_4: normal normal 400 calc(24 * var(--theme-spx-ratio))/1.3em wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495, wf_4e484da66ffc4465a05a1c9ea, orig_stk_miso_light;
+  --font_5: normal normal normal calc(20 * var(--theme-spx-ratio))/1.3em wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --font_6: normal normal normal calc(16 * var(--theme-spx-ratio))/1.4em wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --font_7: normal normal normal calc(24 * var(--theme-spx-ratio))/1.4em wix-madefor-text-v2, sans-serif;
+  --font_8: normal normal 400 calc(20 * var(--theme-spx-ratio))/1.4em wix-madefor-text-v2, sans-serif;
+  --font_9: normal normal normal calc(16 * var(--theme-spx-ratio))/1.4em wix-madefor-text-v2, sans-serif;
+  --font_10: normal normal normal 12px/1.4em din-next-w01-light, sans-serif
+}
+
+.font_0 {
+  font: var(--font_0);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+  font-size: max(12px, calc(74 * var(--theme-spx-ratio)))
+}
+
+.font_1 {
+  font: var(--font_1);
+  color: rgb(var(--color_14));
+  letter-spacing: 0em
+}
+
+.font_2 {
+  font: var(--font_2);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+  font-size: max(12px, calc(68 * var(--theme-spx-ratio)))
+}
+
+.font_3 {
+  font: var(--font_3);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+  font-size: max(12px, calc(40 * var(--theme-spx-ratio)))
+}
+
+.font_4 {
+  font: var(--font_4);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+  font-size: max(12px, calc(24 * var(--theme-spx-ratio)))
+}
+
+.font_5 {
+  font: var(--font_5);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+  font-size: max(12px, calc(20 * var(--theme-spx-ratio)))
+}
+
+.font_6 {
+  font: var(--font_6);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+  font-size: max(12px, calc(16 * var(--theme-spx-ratio)))
+}
+
+.font_7 {
+  font: var(--font_7);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+  font-size: max(12px, calc(24 * var(--theme-spx-ratio)))
+}
+
+.font_8 {
+  font: var(--font_8);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+  font-size: max(12px, calc(20 * var(--theme-spx-ratio)))
+}
+
+.font_9 {
+  font: var(--font_9);
+  color: rgb(var(--color_15));
+  letter-spacing: 0em;
+  font-size: max(12px, calc(16 * var(--theme-spx-ratio)))
+}
+
+.font_10 {
+  font: var(--font_10);
+  color: rgb(var(--color_14));
+  letter-spacing: 0em
+}
+
+.color_0 {
+  color: rgb(var(--color_0))
+}
+
+.color_1 {
+  color: rgb(var(--color_1))
+}
+
+.color_2 {
+  color: rgb(var(--color_2))
+}
+
+.color_3 {
+  color: rgb(var(--color_3))
+}
+
+.color_4 {
+  color: rgb(var(--color_4))
+}
+
+.color_5 {
+  color: rgb(var(--color_5))
+}
+
+.color_6 {
+  color: rgb(var(--color_6))
+}
+
+.color_7 {
+  color: rgb(var(--color_7))
+}
+
+.color_8 {
+  color: rgb(var(--color_8))
+}
+
+.color_9 {
+  color: rgb(var(--color_9))
+}
+
+.color_10 {
+  color: rgb(var(--color_10))
+}
+
+.color_11 {
+  color: rgb(var(--color_11))
+}
+
+.color_12 {
+  color: rgb(var(--color_12))
+}
+
+.color_13 {
+  color: rgb(var(--color_13))
+}
+
+.color_14 {
+  color: rgb(var(--color_14))
+}
+
+.color_15 {
+  color: rgb(var(--color_15))
+}
+
+.color_16 {
+  color: rgb(var(--color_16))
+}
+
+.color_17 {
+  color: rgb(var(--color_17))
+}
+
+.color_18 {
+  color: rgb(var(--color_18))
+}
+
+.color_19 {
+  color: rgb(var(--color_19))
+}
+
+.color_20 {
+  color: rgb(var(--color_20))
+}
+
+.color_21 {
+  color: rgb(var(--color_21))
+}
+
+.color_22 {
+  color: rgb(var(--color_22))
+}
+
+.color_23 {
+  color: rgb(var(--color_23))
+}
+
+.color_24 {
+  color: rgb(var(--color_24))
+}
+
+.color_25 {
+  color: rgb(var(--color_25))
+}
+
+.color_26 {
+  color: rgb(var(--color_26))
+}
+
+.color_27 {
+  color: rgb(var(--color_27))
+}
+
+.color_28 {
+  color: rgb(var(--color_28))
+}
+
+.color_29 {
+  color: rgb(var(--color_29))
+}
+
+.color_30 {
+  color: rgb(var(--color_30))
+}
+
+.color_31 {
+  color: rgb(var(--color_31))
+}
+
+.color_32 {
+  color: rgb(var(--color_32))
+}
+
+.color_33 {
+  color: rgb(var(--color_33))
+}
+
+.color_34 {
+  color: rgb(var(--color_34))
+}
+
+.color_35 {
+  color: rgb(var(--color_35))
+}
+
+.color_36 {
+  color: rgb(var(--color_36))
+}
+
+.color_37 {
+  color: rgb(var(--color_37))
+}
+
+.color_38 {
+  color: rgb(var(--color_38))
+}
+
+.color_39 {
+  color: rgb(var(--color_39))
+}
+
+.color_40 {
+  color: rgb(var(--color_40))
+}
+
+.color_41 {
+  color: rgb(var(--color_41))
+}
+
+.color_42 {
+  color: rgb(var(--color_42))
+}
+
+.color_43 {
+  color: rgb(var(--color_43))
+}
+
+.color_44 {
+  color: rgb(var(--color_44))
+}
+
+.color_45 {
+  color: rgb(var(--color_45))
+}
+
+.color_46 {
+  color: rgb(var(--color_46))
+}
+
+.color_47 {
+  color: rgb(var(--color_47))
+}
+
+.color_48 {
+  color: rgb(var(--color_48))
+}
+
+.color_49 {
+  color: rgb(var(--color_49))
+}
+
+.color_50 {
+  color: rgb(var(--color_50))
+}
+
+.color_51 {
+  color: rgb(var(--color_51))
+}
+
+.color_52 {
+  color: rgb(var(--color_52))
+}
+
+.color_53 {
+  color: rgb(var(--color_53))
+}
+
+.color_54 {
+  color: rgb(var(--color_54))
+}
+
+.color_55 {
+  color: rgb(var(--color_55))
+}
+
+.color_56 {
+  color: rgb(var(--color_56))
+}
+
+.color_57 {
+  color: rgb(var(--color_57))
+}
+
+.color_58 {
+  color: rgb(var(--color_58))
+}
+
+.color_59 {
+  color: rgb(var(--color_59))
+}
+
+.color_60 {
+  color: rgb(var(--color_60))
+}
+
+.color_61 {
+  color: rgb(var(--color_61))
+}
+
+.color_62 {
+  color: rgb(var(--color_62))
+}
+
+.color_63 {
+  color: rgb(var(--color_63))
+}
+
+.color_64 {
+  color: rgb(var(--color_64))
+}
+
+.color_65 {
+  color: rgb(var(--color_65))
+}
+
+.backcolor_0 {
+  background-color: rgb(var(--color_0))
+}
+
+.backcolor_1 {
+  background-color: rgb(var(--color_1))
+}
+
+.backcolor_2 {
+  background-color: rgb(var(--color_2))
+}
+
+.backcolor_3 {
+  background-color: rgb(var(--color_3))
+}
+
+.backcolor_4 {
+  background-color: rgb(var(--color_4))
+}
+
+.backcolor_5 {
+  background-color: rgb(var(--color_5))
+}
+
+.backcolor_6 {
+  background-color: rgb(var(--color_6))
+}
+
+.backcolor_7 {
+  background-color: rgb(var(--color_7))
+}
+
+.backcolor_8 {
+  background-color: rgb(var(--color_8))
+}
+
+.backcolor_9 {
+  background-color: rgb(var(--color_9))
+}
+
+.backcolor_10 {
+  background-color: rgb(var(--color_10))
+}
+
+.backcolor_11 {
+  background-color: rgb(var(--color_11))
+}
+
+.backcolor_12 {
+  background-color: rgb(var(--color_12))
+}
+
+.backcolor_13 {
+  background-color: rgb(var(--color_13))
+}
+
+.backcolor_14 {
+  background-color: rgb(var(--color_14))
+}
+
+.backcolor_15 {
+  background-color: rgb(var(--color_15))
+}
+
+.backcolor_16 {
+  background-color: rgb(var(--color_16))
+}
+
+.backcolor_17 {
+  background-color: rgb(var(--color_17))
+}
+
+.backcolor_18 {
+  background-color: rgb(var(--color_18))
+}
+
+.backcolor_19 {
+  background-color: rgb(var(--color_19))
+}
+
+.backcolor_20 {
+  background-color: rgb(var(--color_20))
+}
+
+.backcolor_21 {
+  background-color: rgb(var(--color_21))
+}
+
+.backcolor_22 {
+  background-color: rgb(var(--color_22))
+}
+
+.backcolor_23 {
+  background-color: rgb(var(--color_23))
+}
+
+.backcolor_24 {
+  background-color: rgb(var(--color_24))
+}
+
+.backcolor_25 {
+  background-color: rgb(var(--color_25))
+}
+
+.backcolor_26 {
+  background-color: rgb(var(--color_26))
+}
+
+.backcolor_27 {
+  background-color: rgb(var(--color_27))
+}
+
+.backcolor_28 {
+  background-color: rgb(var(--color_28))
+}
+
+.backcolor_29 {
+  background-color: rgb(var(--color_29))
+}
+
+.backcolor_30 {
+  background-color: rgb(var(--color_30))
+}
+
+.backcolor_31 {
+  background-color: rgb(var(--color_31))
+}
+
+.backcolor_32 {
+  background-color: rgb(var(--color_32))
+}
+
+.backcolor_33 {
+  background-color: rgb(var(--color_33))
+}
+
+.backcolor_34 {
+  background-color: rgb(var(--color_34))
+}
+
+.backcolor_35 {
+  background-color: rgb(var(--color_35))
+}
+
+.backcolor_36 {
+  background-color: rgb(var(--color_36))
+}
+
+.backcolor_37 {
+  background-color: rgb(var(--color_37))
+}
+
+.backcolor_38 {
+  background-color: rgb(var(--color_38))
+}
+
+.backcolor_39 {
+  background-color: rgb(var(--color_39))
+}
+
+.backcolor_40 {
+  background-color: rgb(var(--color_40))
+}
+
+.backcolor_41 {
+  background-color: rgb(var(--color_41))
+}
+
+.backcolor_42 {
+  background-color: rgb(var(--color_42))
+}
+
+.backcolor_43 {
+  background-color: rgb(var(--color_43))
+}
+
+.backcolor_44 {
+  background-color: rgb(var(--color_44))
+}
+
+.backcolor_45 {
+  background-color: rgb(var(--color_45))
+}
+
+.backcolor_46 {
+  background-color: rgb(var(--color_46))
+}
+
+.backcolor_47 {
+  background-color: rgb(var(--color_47))
+}
+
+.backcolor_48 {
+  background-color: rgb(var(--color_48))
+}
+
+.backcolor_49 {
+  background-color: rgb(var(--color_49))
+}
+
+.backcolor_50 {
+  background-color: rgb(var(--color_50))
+}
+
+.backcolor_51 {
+  background-color: rgb(var(--color_51))
+}
+
+.backcolor_52 {
+  background-color: rgb(var(--color_52))
+}
+
+.backcolor_53 {
+  background-color: rgb(var(--color_53))
+}
+
+.backcolor_54 {
+  background-color: rgb(var(--color_54))
+}
+
+.backcolor_55 {
+  background-color: rgb(var(--color_55))
+}
+
+.backcolor_56 {
+  background-color: rgb(var(--color_56))
+}
+
+.backcolor_57 {
+  background-color: rgb(var(--color_57))
+}
+
+.backcolor_58 {
+  background-color: rgb(var(--color_58))
+}
+
+.backcolor_59 {
+  background-color: rgb(var(--color_59))
+}
+
+.backcolor_60 {
+  background-color: rgb(var(--color_60))
+}
+
+.backcolor_61 {
+  background-color: rgb(var(--color_61))
+}
+
+.backcolor_62 {
+  background-color: rgb(var(--color_62))
+}
+
+.backcolor_63 {
+  background-color: rgb(var(--color_63))
+}
+
+.backcolor_64 {
+  background-color: rgb(var(--color_64))
+}
+
+.backcolor_65 {
+  background-color: rgb(var(--color_65))
+}
+
+.theme-vars {
+  --variables-m28o2bcx: 99999999999px
+}
+
+#SITE_HEADER {
+  --bg-overlay-color: transparent;
+  --bg-gradient: none
+}
+
+#SITE_PAGES {
+  --transition-duration: 700ms
+}
+
+#SITE_FOOTER {
+  --bg-overlay-color: transparent;
+  --bg-gradient: none
+}

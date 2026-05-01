@@ -1,0 +1,20 @@
+[project]
+name = "aidesign-kit-site-tools"
+version = "0.1.0"
+description = "Focused CLI tools for site refactoring agents."
+requires-python = ">=3.12"
+dependencies = [
+  "beautifulsoup4>=4.12.3",
+  "cssselect2>=0.8.0",
+  "lxml>=5.3.0",
+  "pillow>=11.0.0",
+  "playwright>=1.54.0",
+  "tinycss2>=1.4.0",
+]
+
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false

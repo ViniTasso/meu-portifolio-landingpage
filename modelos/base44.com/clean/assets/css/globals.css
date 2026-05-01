@@ -1,0 +1,89 @@
+:root:active-view-transition {
+  view-transition-name: none;
+}
+
+:root:active-view-transition::view-transition-group(*),
+:root:active-view-transition::view-transition-old(*),
+:root:active-view-transition::view-transition-new(*) {
+  animation: none;
+}
+
+::view-transition {
+  pointer-events: none;
+}
+
+:root:active-view-transition::view-transition-group(page-group),
+:root:active-view-transition::view-transition-old(page-group),
+:root:active-view-transition::view-transition-new(page-group) {
+  pointer-events: all;
+  cursor: wait;
+  animation: revert;
+  animation-duration: .6s;
+}
+
+:root:active-view-transition-type(SlideHorizontal)::view-transition-old(page-group) {
+  mix-blend-mode: normal;
+  animation: .6s cubic-bezier(.83, 0, .17, 1) forwards slide-horizontal-old;
+}
+
+:root:active-view-transition-type(SlideHorizontal)::view-transition-new(page-group) {
+  mix-blend-mode: normal;
+  animation: .6s cubic-bezier(.83, 0, .17, 1) backwards slide-horizontal-new;
+}
+
+:root:active-view-transition-type(SlideVertical)::view-transition-old(page-group) {
+  mix-blend-mode: normal;
+  animation: .6s cubic-bezier(.83, 0, .17, 1) forwards slide-vertical-old;
+}
+
+:root:active-view-transition-type(SlideVertical)::view-transition-new(page-group) {
+  mix-blend-mode: normal;
+  animation: .6s cubic-bezier(.83, 0, .17, 1) backwards slide-vertical-new;
+}
+
+:root:active-view-transition-type(OutIn)::view-transition-old(page-group) {
+  animation: .35s cubic-bezier(.22, 1, .36, 1) forwards out-in-old;
+}
+
+:root:active-view-transition-type(OutIn)::view-transition-new(page-group) {
+  animation: .35s cubic-bezier(.64, 0, .78, 0) .35s backwards out-in-new;
+}
+
+textarea,
+input,
+select {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+:focus {
+  outline: none;
+}

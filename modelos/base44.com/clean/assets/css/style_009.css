@@ -1,0 +1,240 @@
+:vars {
+  wixFocusRingOutline: 2px solid #116dff;
+  wixFocusRingOffset: 1px;
+  wixFocusRingShadow: 0 0 1px 2px #fff
+}
+
+.GJNNot:focus-within,
+.zeoTsS {
+  box-shadow: value(wixFocusRingShadow);
+  outline: value(wixFocusRingOutline);
+  outline-offset: value(wixFocusRingOffset)
+}
+
+.VgdqzQ {
+  -st-mixin: focus-ring-active;
+  z-index: 1
+}
+
+.GJNNot .glviap,
+.s4EPuk {
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  border: 0 !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 1px !important
+}
+
+.bu4uV4:active,
+.bu4uV4:focus {
+  clip: auto !important;
+  clip-path: none !important;
+  height: auto !important;
+  margin: auto !important;
+  overflow: visible !important;
+  white-space: normal !important;
+  width: auto !important
+}
+
+.V0iFrQ {
+  --force-state-metadata: focus
+}
+
+.ipW9RQ {
+  direction: var(--direction)
+}
+
+.GJNNot {
+  --display: inline-flex;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  align-items: center;
+  align-self: var(--align);
+  display: var(--display);
+  height: 100%;
+  outline: none;
+  position: relative;
+  width: 100%
+}
+
+.GJNNot .LA2Bfs {
+  background-color: rgba(var(--backgroundColor, var(--color_5, color_5)), var(--alpha-backgroundColor, 1));
+  border-color: rgba(var(--outerLabelBorderColor, var(--color_18, color_18)), var(--alpha-outerLabelBorderColor, 1));
+  border-radius: var(--borderRadius, 12px);
+  border-style: solid;
+  border-width: var(--outerLabelBorderSize, 0);
+  box-shadow: var(--outerLabelBoxShadow, 1.5px 1.5px 1px rgba(0, 0, 0, .2));
+  display: inline-block;
+  height: var(--outerLabelHeight, 24px);
+  width: var(--outerLabelWidth, 100%)
+}
+
+.GJNNot .A7PBVX,
+.GJNNot .LA2Bfs {
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all .3s ease, visibility 0s
+}
+
+.GJNNot .A7PBVX {
+  align-items: center;
+  background-color: rgba(var(--innerLabelBackgroundColor, var(--color_13, color_13)), var(--alpha-innerLabelBackgroundColor, 1));
+  border-color: rgba(var(--innerLabelBorderColor, var(--color_23, color_23)), var(--alpha-innerLabelBorderColor, 1));
+  border-radius: var(--borderRadius, 12px);
+  border-style: solid;
+  border-width: var(--innerLabelBorderSize, 0);
+  box-shadow: var(--innerLabelBoxShadow, 1.5px 1.5px 1px rgba(0, 0, 0, .2));
+  display: flex;
+  height: var(--innerLabelHeight, 22px);
+  inset-inline-start: var(--labelMovementRangeUnchecked, 1px);
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: var(--innerLabelWidth, 21px)
+}
+
+.GJNNot .CBZure {
+  display: var(--toggleIconDisplay, none);
+  height: 50%;
+  transition: all .3s cubic-bezier(1, 0, 1, 0), visibility 0s;
+  width: 50%
+}
+
+.GJNNot .CBZure path {
+  fill: rgba(var(--color, var(--color_6, color_6)), var(--alpha-color, 1))
+}
+
+.GJNNot.lK3CDB .LA2Bfs {
+  background-color: rgba(var(--backgroundColorChecked, var(--color_4, color_4)), var(--alpha-backgroundColorChecked, 1));
+  border-color: rgba(var(--outerLabelBorderColorChecked, var(--color_19, color_19)), var(--alpha-outerLabelBorderColorChecked, 1));
+  border-width: var(--outerLabelBorderSizeChecked, 0)
+}
+
+.GJNNot.lK3CDB .A7PBVX {
+  background-color: rgba(var(--innerLabelBackgroundColorChecked, var(--color_14, color_14)), var(--alpha-innerLabelBackgroundColorChecked, 1));
+  border-color: rgba(var(--innerLabelBorderColorChecked, var(--color_24, color_24)), var(--alpha-innerLabelBorderColorChecked, 1));
+  border-width: var(--innerLabelBorderSizeChecked, 0);
+  inset-inline-start: var(--labelMovementRangeChecked, 50%)
+}
+
+.GJNNot.lK3CDB .CBZure {
+  transition: all .3s cubic-bezier(0, 1, 0, 1), visibility 0s
+}
+
+.GJNNot.lK3CDB .CBZure path {
+  fill: rgba(var(--colorChecked, var(--color_7, color_7)), var(--alpha-colorChecked, 1))
+}
+
+.GJNNot.HQwdOR .LA2Bfs {
+  background-color: rgba(var(--backgroundColorDisabled, var(--color_3, color_3)), var(--alpha-backgroundColorDisabled, 1));
+  border-color: rgba(var(--outerLabelBorderColorDisabled, var(--color_20, color_20)), var(--alpha-outerLabelBorderColorDisabled, 1));
+  border-width: var(--outerLabelBorderSizeDisabled, 0);
+  cursor: default
+}
+
+.GJNNot.HQwdOR .A7PBVX {
+  background-color: rgba(var(--innerLabelBackgroundColorDisabled, var(--color_15, color_15)), var(--alpha-innerLabelBackgroundColorDisabled, 1));
+  border-color: rgba(var(--innerLabelBorderColorDisabled, var(--color_25, color_25)), var(--alpha-innerLabelBorderColorDisabled, 1));
+  border-width: var(--outerLabelBorderSizeDisabled, 0);
+  cursor: default
+}
+
+.GJNNot.HQwdOR .CBZure path {
+  fill: rgba(var(--colorDisabled, var(--color_8, color_8)), var(--alpha-colorDisabled, 1))
+}
+
+.GJNNot.V0iFrQ {
+  outline: var(--focusOutline, none)
+}
+
+.GJNNot.V0iFrQ .LA2Bfs,
+.GJNNot.V0iFrQ.HQwdOR .LA2Bfs {
+  background-color: rgba(var(--backgroundColorFocus, var(--color_6, color_6)), var(--alpha-backgroundColorFocus, 1));
+  border-color: rgba(var(--outerLabelBorderColorFocus, var(--color_23, color_23)), var(--alpha-outerLabelBorderColorFocus, 1));
+  border-width: var(--outerLabelBorderSizeFocus, 0)
+}
+
+.GJNNot:hover .LA2Bfs {
+  background-color: rgba(var(--backgroundColorHover, var(--color_2, color_2)), var(--alpha-backgroundColorHover, 1));
+  border-color: rgba(var(--outerLabelBorderColorHover, var(--color_21, color_21)), var(--alpha-outerLabelBorderColorHover, 1));
+  border-width: var(--outerLabelBorderSizeHover, 0)
+}
+
+.GJNNot:hover .A7PBVX {
+  background-color: rgba(var(--innerLabelBackgroundColorHover, var(--color_16, color_16)), var(--alpha-innerLabelBackgroundColorHover, 1));
+  border-color: rgba(var(--innerLabelBorderColorHover, var(--color_26, color_26)), var(--alpha-innerLabelBorderColorHover, 1));
+  border-width: var(--innerLabelBorderSizeHover, 0)
+}
+
+.GJNNot:hover .CBZure path {
+  fill: rgba(var(--colorHover, var(--color_10, color_10)), var(--alpha-colorHover, 1))
+}
+
+.GJNNot:hover.lK3CDB .LA2Bfs {
+  background-color: rgba(var(--backgroundColorHoverChecked, var(--color_1, color_1)), var(--alpha-backgroundColorHoverChecked, 1));
+  border-color: rgba(var(--outerLabelBorderColorHoverChecked, var(--color_22, color_22)), var(--alpha-outerLabelBorderColorHoverChecked, 1));
+  border-width: var(--outerLabelBorderSizeHoverChecked, 0)
+}
+
+.GJNNot:hover.lK3CDB .A7PBVX {
+  background-color: rgba(var(--innerLabelBackgroundColorHoverChecked, var(--color_17, color_17)), var(--alpha-innerLabelBackgroundColorHoverChecked, 1));
+  border-color: rgba(var(--innerLabelBorderColorHoverChecked, var(--color_27, color_27)), var(--alpha-innerLabelBorderColorHoverChecked, 1));
+  border-width: var(--innerLabelBorderSizeHoverChecked, 0)
+}
+
+.GJNNot:hover.lK3CDB .CBZure path {
+  fill: rgba(var(--colorHoverChecked, var(--color_11, color_11)), var(--alpha-colorHoverChecked, 1))
+}
+
+.GJNNot:hover.HQwdOR .LA2Bfs {
+  background-color: rgba(var(--backgroundColorDisabled, var(--color_3, color_3)), var(--alpha-backgroundColorDisabled, 1));
+  border-color: rgba(var(--outerLabelBorderColorDisabled, var(--color_20, color_20)), var(--alpha-outerLabelBorderColorDisabled, 1));
+  border-width: var(--outerLabelBorderSizeDisabled, 0)
+}
+
+.GJNNot:hover.HQwdOR .A7PBVX {
+  background-color: rgba(var(--innerLabelBackgroundColorDisabled, var(--color_15, color_15)), var(--alpha-innerLabelBackgroundColorDisabled, 1));
+  border-color: rgba(var(--innerLabelBorderColorDisabled, var(--color_25, color_25)), var(--alpha-innerLabelBorderColorDisabled, 1));
+  border-width: var(--outerLabelBorderSizeDisabled, 0)
+}
+
+.GJNNot:hover.HQwdOR .CBZure path {
+  fill: rgba(var(--colorDisabled, var(--color_8, color_8)), var(--alpha-colorDisabled, 1))
+}
+
+.oBDOaT {
+  display: flex;
+  flex-direction: column
+}
+
+.oBDOaT.K9RHEX {
+  min-width: var(--switchWidth, 48px)
+}
+
+.oBDOaT.K9RHEX .GJNNot {
+  height: var(--switchHeight);
+  min-height: 24px;
+  min-width: 48px;
+  width: var(--switchWidth)
+}
+
+.Z70Y7w {
+  text-wrap: var(--titleWrap);
+  box-sizing: border-box;
+  color: rgb(var(--txtlbl, var(--color_15, color_15)));
+  display: inline-block;
+  font: var(--fntlbl, var(--font_8));
+  line-height: 1;
+  margin-bottom: var(--labelMarginBottom);
+  padding-inline-end: var(--labelPadding_end);
+  padding-inline-start: var(--labelPadding_start);
+  text-align: var(--align);
+  width: 100%;
+  word-break: break-word
+}

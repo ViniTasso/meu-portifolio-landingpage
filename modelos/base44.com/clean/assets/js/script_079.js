@@ -1,0 +1,286 @@
+! function(e, t) {
+  "object" == typeof exports && "object" == typeof module ? module.exports = t(require("react")) : "function" == typeof define && define.amd ? define("rb_wixui.thunderbolt[ToggleSwitch]", ["react"], t) : "object" == typeof exports ? exports["rb_wixui.thunderbolt[ToggleSwitch]"] = t(require("react")) : e["rb_wixui.thunderbolt[ToggleSwitch]"] = t(e.React)
+}("undefined" != typeof self ? self : this, function(e) {
+  return function() {
+    var t = {
+        "Xdf/": function(t) {
+          "use strict";
+          t.exports = e
+        },
+        Fe5V: function(e) {
+          function t() {
+            return e.exports = t = Object.assign ? Object.assign.bind() : function(e) {
+              for (var t = 1; t < arguments.length; t++) {
+                var r = arguments[t];
+                for (var n in r)({}).hasOwnProperty.call(r, n) && (e[n] = r[n])
+              }
+              return e
+            }, e.exports.__esModule = !0, e.exports.default = e.exports, t.apply(null, arguments)
+          }
+          e.exports = t, e.exports.__esModule = !0, e.exports.default = e.exports
+        }
+      },
+      r = {};
+
+    function n(e) {
+      var o = r[e];
+      if (void 0 !== o) return o.exports;
+      var a = r[e] = {
+        exports: {}
+      };
+      return t[e](a, a.exports, n), a.exports
+    }
+    n.n = function(e) {
+      var t = e && e.__esModule ? function() {
+        return e.default
+      } : function() {
+        return e
+      };
+      return n.d(t, {
+        a: t
+      }), t
+    }, n.d = function(e, t) {
+      for (var r in t) n.o(t, r) && !n.o(e, r) && Object.defineProperty(e, r, {
+        enumerable: !0,
+        get: t[r]
+      })
+    }, n.o = function(e, t) {
+      return Object.prototype.hasOwnProperty.call(e, t)
+    }, n.r = function(e) {
+      "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+        value: "Module"
+      }), Object.defineProperty(e, "__esModule", {
+        value: !0
+      })
+    };
+    var o = {};
+    return function() {
+      "use strict";
+      n.r(o), n.d(o, {
+        components: function() {
+          return F
+        }
+      });
+      var e = n("Fe5V"),
+        t = n.n(e),
+        r = n("Xdf/");
+
+      function a(e) {
+        var t, r, n = "";
+        if ("string" == typeof e || "number" == typeof e) n += e;
+        else if ("object" == typeof e)
+          if (Array.isArray(e))
+            for (t = 0; t < e.length; t++) e[t] && (r = a(e[t])) && (n && (n += " "), n += r);
+          else
+            for (t in e) e[t] && (n && (n += " "), n += t);
+        return n
+      }
+      var c = function() {
+        for (var e, t, r = 0, n = ""; r < arguments.length;)(e = arguments[r++]) && (t = a(e)) && (n && (n += " "), n += t);
+        return n
+      };
+      const l = "wixui-",
+        s = (e, ...t) => {
+          const r = [];
+          return e && r.push(`${l}${e}`), t.forEach(e => {
+            e && (r.push(`${l}${e}`), r.push(e))
+          }), r.join(" ")
+        },
+        i = "ToggleSwitch_label",
+        u = "ToggleSwitch_checked_icon",
+        d = "ToggleSwitch_unchecked_icon",
+        p = "ToggleSwitch_outer_label",
+        f = "ToggleSwitch_switch_wrapper";
+      var h, g = {
+        root: "switch",
+        label: "switch__label",
+        track: "switch__track",
+        handle: "switch__handle"
+      };
+
+      function v() {
+        return v = Object.assign ? Object.assign.bind() : function(e) {
+          for (var t = 1; t < arguments.length; t++) {
+            var r = arguments[t];
+            for (var n in r)({}).hasOwnProperty.call(r, n) && (e[n] = r[n])
+          }
+          return e
+        }, v.apply(null, arguments)
+      }
+      var b, m = function(e) {
+        return r.createElement("svg", v({
+          xmlns: "http://www.w3.org/2000/svg",
+          viewBox: "0 0 41 32"
+        }, e), h || (h = r.createElement("path", {
+          d: "M.169 17.815c.169 1.098.76 2.111 1.689 2.871l14.269 10.385a4.394 4.394 0 0 0 6.079-.844L40.275 6.924c1.435-1.858 1.098-4.559-.844-5.995s-4.644-1.098-6.164.844L17.9 21.615 7.177 13.763c-1.942-1.435-4.644-1.013-6.164.844-.76.929-1.013 2.111-.844 3.208z"
+        })))
+      };
+
+      function w() {
+        return w = Object.assign ? Object.assign.bind() : function(e) {
+          for (var t = 1; t < arguments.length; t++) {
+            var r = arguments[t];
+            for (var n in r)({}).hasOwnProperty.call(r, n) && (e[n] = r[n])
+          }
+          return e
+        }, w.apply(null, arguments)
+      }
+      var y = function(e) {
+          return r.createElement("svg", w({
+            xmlns: "http://www.w3.org/2000/svg",
+            viewBox: "0 0 143 32"
+          }, e), b || (b = r.createElement("path", {
+            d: "M0 0h142.545v32H0V0z"
+          })))
+        },
+        _ = "GJNNot",
+        x = "glviap",
+        O = "V0iFrQ",
+        j = "ipW9RQ",
+        S = "LA2Bfs",
+        E = "A7PBVX",
+        k = "CBZure",
+        C = "lK3CDB",
+        N = "HQwdOR",
+        P = "oBDOaT",
+        T = "K9RHEX",
+        M = "Z70Y7w";
+      const B = (e, n) => {
+        const {
+          id: o,
+          className: a,
+          customClassNames: l = [],
+          label: h,
+          isDisabled: v,
+          checked: b,
+          onBlur: w = () => {},
+          onFocus: B = () => {},
+          onChange: L = () => {},
+          onClick: R = () => {},
+          onDblClick: F = () => {},
+          onMouseEnter: V = () => {},
+          onMouseLeave: A = () => {},
+          hasResponsiveLayout: D,
+          lang: $
+        } = e, H = r.useRef(null), [X, Q] = r.useState(!1), Z = "string" == typeof h && "" !== h;
+        r.useImperativeHandle(n, () => ({
+          focus: () => {
+            var e;
+            null == (e = H.current) || e.focus()
+          },
+          blur: () => {
+            var e;
+            null == (e = H.current) || e.blur()
+          }
+        }));
+        const q = c(_, {
+            [N]: v,
+            [C]: b,
+            [O]: X
+          }),
+          z = {
+            onClick: e => {
+              var t;
+              v || (R(e), null == (t = H.current) || t.click())
+            },
+            onDoubleClick: e => {
+              v || F(e)
+            },
+            onMouseEnter: e => {
+              v || V(e)
+            },
+            onMouseLeave: e => {
+              v || A(e)
+            }
+          };
+        return r.createElement("div", t()({
+          id: o
+        }, (e => Object.entries(e).reduce((e, [t, r]) => (t.includes("data-") && (e[t] = r), e), {}))(e), {
+          className: c(a, s(g.root, ...l), j, {
+            [P]: Z,
+            [T]: !D
+          })
+        }, Z ? {} : z, {
+          lang: $
+        }), Z && r.createElement("label", {
+          htmlFor: "input_" + o,
+          className: c(M, s(g.label)),
+          "data-testid": i
+        }, h), r.createElement("div", t()({
+          className: q,
+          "data-testid": f
+        }, Z ? z : {}), r.createElement("input", {
+          id: "input_" + o,
+          ref: H,
+          type: "checkbox",
+          role: "switch",
+          className: x,
+          checked: b,
+          disabled: v,
+          onChange: e => {
+            L(e)
+          },
+          onFocus: e => {
+            B(e), Q(!0)
+          },
+          onBlur: e => {
+            w(e), Q(!1)
+          }
+        }), r.createElement("div", {
+          "data-testid": p,
+          className: c(S, s(g.track))
+        }), r.createElement("div", {
+          className: c(E, s(g.handle))
+        }, b ? r.createElement(m, {
+          "data-testid": u,
+          className: k
+        }) : r.createElement(y, {
+          "data-testid": d,
+          className: k
+        }))))
+      };
+      const L = e => e.replace(/([A-Z])/g, e => `-${e.toLowerCase()}`);
+      var R;
+      const F = {
+        ToggleSwitch: {
+          component: r.forwardRef(B),
+          controller: (R = e => {
+            let {
+              mapperProps: t,
+              controllerUtils: r
+            } = e;
+            return {
+              ...t,
+              onChange: e => {
+                r.updateProps({
+                  checked: e.target.checked
+                })
+              }
+            }
+          }, {
+            useComponentProps: (e, t, r) => {
+              const n = (e => ({
+                ...e,
+                updateStyles: t => {
+                  const r = Object.entries(t).reduce((e, [t, r]) => {
+                    return {
+                      ...e,
+                      [(n = t, n.startsWith("--") ? t : L(t))]: void 0 === r ? null : r
+                    };
+                    var n
+                  }, {});
+                  e.updateStyles(r)
+                }
+              }))(r);
+              return R({
+                mapperProps: e,
+                stateValues: t,
+                controllerUtils: n
+              })
+            }
+          })
+        }
+      }
+    }(), o
+  }()
+});

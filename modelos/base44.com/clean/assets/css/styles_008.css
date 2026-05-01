@@ -1,0 +1,999 @@
+#comp-mkfhb28q .comp-mkfhb28q-container {
+  box-sizing: border-box;
+  position: relative;
+  pointer-events: none;
+  gap: 8px;
+  display: var(--l_display, var(--container-display));
+  flex-flow: wrap;
+  justify-content: center;
+  --container-layout-type: flex-container-layout;
+  --container-display: flex;
+}
+
+#comp-mkfhb28q,
+#comp-mkmdyjqf {
+  --brw: 0px;
+  --brd: 50, 65, 88;
+  --bg: 255, 255, 255;
+  --rd: 0px;
+  --shd: none;
+  --gradient: none;
+  --alpha-brd: 0;
+  --alpha-bg: 0;
+  --boxShadowToggleOn-shd: none;
+  --static-spx: 0.1 * var(--one-unit);
+  --bg-gradient: none;
+}
+
+[id^="comp-mkfhb28y__"] {
+  min-height: 0px;
+  --l_display: unset;
+  height: auto;
+  min-width: 0px;
+  width: max-content;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  box-sizing: border-box;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+  pointer-events: auto;
+  margin: 0px;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+[id^="comp-mkfhb28y__"] {
+  --brw: 0px;
+  --brd: var(--color_11);
+  --bg: var(--color_11);
+  --rd: 0px 0px 0px 0px;
+  --shd: none;
+  --gradient: none;
+  --alpha-brd: 0;
+  --alpha-bg: 0;
+  --boxShadowToggleOn-shd: none;
+  --static-spx: 0.1 * var(--one-unit);
+  --bg-gradient: none;
+}
+
+[id^="comp-mkfir3qr__"] {
+  min-height: 37px;
+  --l_display: unset;
+  height: auto;
+  min-width: 0px;
+  width: max-content;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  display: var(--l_display, var(--display, block));
+  place-self: start;
+  pointer-events: auto;
+  margin: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+[id^="comp-mkfir3qr__"] {
+  --font: normal normal 500 16px/1.4em wix-madefor-text-v2, sans-serif;
+  --color: rgba(var(--color_13), 1);
+  --label-display: initial;
+  --letter-spacing: 0em;
+  --line-height: unset;
+  --text-decoration: none;
+  --direction: rtl;
+  --text-align: center;
+  --text-highlight: none;
+  --text-transform: none;
+  --text-outline: 1px 0px transparent, -1px 0px transparent, 0px 1px transparent, 0px -1px transparent;
+  --text-shadow: 0px 0px 0px transparent;
+  --background: rgba(var(--color_11), 0);
+  --border-left: 1px solid rgba(var(--color_15), 1);
+  --border-right: 1px solid rgba(var(--color_15), 1);
+  --border-top: 1px solid rgba(var(--color_15), 1);
+  --border-bottom: 1px solid rgba(var(--color_15), 1);
+  --padding-bottom: 0px;
+  --padding-top: 0px;
+  --padding-left: 16px;
+  --padding-right: 16px;
+  --border-top-left-radius: 999px;
+  --border-top-right-radius: 999px;
+  --border-bottom-left-radius: 999px;
+  --border-bottom-right-radius: 999px;
+  --icon-display: none;
+  --icon-size: 16px;
+  --icon-color: rgba(255, 255, 255, 1);
+  --icon-rotation: 0;
+  --container-flex-direction: row-reverse;
+  --container-justify-content: center;
+  --container-align-items: center;
+  --content-horizontal-alignment: center;
+  --content-gap: 6px;
+  --label-overflow: wrap;
+  --hover-icon-display: initial;
+  --disabled-icon-rotation: 0;
+  --hover-border-right: 1px solid rgba(0, 0, 0, 1);
+  --disabled-border-bottom: 1px solid rgba(199, 199, 199, 1);
+  --disabled-border-top: 1px solid rgba(199, 199, 199, 1);
+  --hover-icon-rotation: 0;
+  --hover-icon-color: rgba(0, 0, 0, 1);
+  --disabled-icon-color: rgba(0, 0, 0, 1);
+  --hover-border-left: 1px solid rgba(0, 0, 0, 1);
+  --hover-background: rgba(var(--color_11), 0);
+  --disabled-background: rgba(199, 199, 199, 1);
+  --disabled-border-right: 1px solid rgba(199, 199, 199, 1);
+  --disabled-color: #000000;
+  --hover-border-top: 1px solid rgba(0, 0, 0, 1);
+  --hover-border-bottom: 1px solid rgba(0, 0, 0, 1);
+  --hover-icon-size: 16px;
+  --disabled-border-left: 1px solid rgba(199, 199, 199, 1);
+  --hover-color: rgba(0, 0, 0, 1);
+  --static-spx: 0.1 * var(--one-unit);
+}
+
+#comp-mneng8bp {
+  min-height: 0px;
+  --l_display: none;
+  height: auto;
+  min-width: 0px;
+  width: max-content;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  place-self: start center;
+  pointer-events: auto;
+  margin-left: 0px;
+  margin-right: max(0.5px, 0.0000083 * (var(--scaling-factor) - var(--scrollbar-width)));
+  margin-top: 0px;
+  margin-bottom: max(0.5px, 0.0208333 * (var(--scaling-factor) - var(--scrollbar-width)));
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+.comp-mneng8bp-container {
+  box-sizing: border-box;
+  padding: 12px 16px;
+  column-gap: max(0.5px, 0.0078125 * (var(--scaling-factor) - var(--scrollbar-width)));
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: minmax(max(0.5px, 0.0145917 * (var(--scaling-factor) - var(--scrollbar-width))), auto);
+  grid-template-columns: minmax(0px, 1fr);
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+}
+
+#comp-mneng8bp {
+  --brw: 0px;
+  --brd: var(--color_13);
+  --bg: 235, 255, 177;
+  --rd: max(0.5px, 0.046875 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.046875 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.046875 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.046875 * (var(--scaling-factor) - var(--scrollbar-width)));
+  --shd: none;
+  --gradient: none;
+  --alpha-brd: 1;
+  --alpha-bg: 1;
+  --boxShadowToggleOn-shd: none;
+  --static-spx: 0.1 * var(--one-unit);
+  --bg-gradient: none;
+}
+
+#comp-mneng8co {
+  width: max-content;
+  height: auto;
+  min-height: 0px;
+  --comp-display: unset;
+  place-self: center start;
+  pointer-events: auto;
+  margin: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+#comp-mneng8cq {
+  --backgroundColor: 0, 0, 0;
+  --alpha-backgroundColor: 0;
+  --blendMode: normal;
+  --textShadow: 0px 0px transparent;
+  --textOutline: 0px 0px transparent;
+  --minFontSize: 12px;
+  --fontFamily: wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --lineHeight: normal;
+  --fontSize: 17px;
+  --fontWeight: 400;
+  --static-spx: 0.1 * var(--one-unit);
+}
+
+#comp-mneng8cw {
+  min-height: 0px;
+  --l_display: unset;
+  height: 35px;
+  min-width: 30.8897%;
+  width: max-content;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  pointer-events: auto;
+  margin: 0px;
+  align-self: center;
+  order: 2;
+  position: relative;
+}
+
+.comp-mneng8cw-container {
+  box-sizing: border-box;
+  padding: 0px 14px;
+  gap: 0px;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: minmax(max(0.5px, 0.0182292 * (var(--scaling-factor) - var(--scrollbar-width))), auto);
+  grid-template-columns: minmax(0px, 134.359fr);
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+}
+
+#comp-mneng8cw {
+  --brw: 0px;
+  --brd: 0, 0, 0;
+  --bg: 15, 15, 15;
+  --rd: max(0.5px, 0.0416667 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.0416667 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.0416667 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.0416667 * (var(--scaling-factor) - var(--scrollbar-width)));
+  --shd: none;
+  --gradient: none;
+  --alpha-brd: 0;
+  --alpha-bg: 0.07;
+  --boxShadowToggleOn-shd: none;
+  --static-spx: 0.1 * var(--one-unit);
+  --bg-gradient: none;
+}
+
+#comp-mneng8cy {
+  --l_display: unset;
+  height: auto;
+  min-width: 0px;
+  width: max-content;
+  max-width: 99999px;
+  --comp-display: unset;
+  display: var(--l_display, var(--display, block));
+  place-self: center;
+  pointer-events: auto;
+  margin: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+#comp-mneng8cy {
+  --backgroundColor: 0, 0, 0;
+  --alpha-backgroundColor: 0;
+  --blendMode: normal;
+  --textShadow: 0px 0px transparent;
+  --textOutline: 0px 0px transparent;
+  --minFontSize: 12px;
+  --fontFamily: wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39, wf_5b4cd32fc19d46e1b8c1b142a, orig_stk_miso_regular;
+  --lineHeight: normal;
+  --fontSize: 14px;
+  --fontWeight: 400;
+  --static-spx: 0.1 * var(--one-unit);
+}
+
+#comp-mneng8cy12 {
+  min-height: 100%;
+  --l_display: unset;
+  height: auto;
+  min-width: 0px;
+  width: auto;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  display: var(--l_display, var(--display, block));
+  place-self: stretch;
+  pointer-events: auto;
+  margin: -12px -16px;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+#comp-mneng8cy12 {
+  --rd: max(0.5px, 0.0039063 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.0039063 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.0039063 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.0039063 * (var(--scaling-factor) - var(--scrollbar-width)));
+  --trans1: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+  --shd: none;
+  --horizontalPadding: max(0.5px, 0.0117188 * (var(--scaling-factor) - var(--scrollbar-width)));
+  --verticalPadding: max(0.5px, 0.00625 * (var(--scaling-factor) - var(--scrollbar-width)));
+  --fnt: normal normal normal max(0.5px, 0.0109375 * (var(--scaling-factor) - var(--scrollbar-width)))/1.4em madefor-text, helveticaneuew01-45ligh, helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif;
+  --trans2: color 0.4s ease 0s;
+  --txt: 255, 255, 255;
+  --bg: 0, 0, 0;
+  --brd: 0, 0, 0;
+  --brw: 0px;
+  --bgh: 26, 106, 255;
+  --brdh: 26, 106, 255;
+  --txth: 255, 255, 255;
+  --bgd: 238, 238, 238;
+  --txtd: 141, 141, 141;
+  --alpha-txtd: 1;
+  --alpha-txth: 1;
+  --margin: 0spx;
+  --alpha-bgd: 0;
+  --alpha-brdh: 1;
+  --align: center;
+  --alpha-brd: 1;
+  --alpha-bg: 0;
+  --alpha-bgh: 0;
+  --boxShadowToggleOn-shd: none;
+  --alpha-txt: 1;
+  --static-spx: 0.1 * var(--one-unit);
+}
+
+#comp-ml97tjnz {
+  min-height: 0px;
+  --l_display: none;
+  height: auto;
+  min-width: 0px;
+  width: max-content;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  place-self: start center;
+  pointer-events: auto;
+  margin-top: min(-0.5px, -0.0000083 * (var(--scaling-factor) - var(--scrollbar-width)));
+  margin-left: 0px;
+  margin-bottom: max(0.5px, 0.0208333 * (var(--scaling-factor) - var(--scrollbar-width)));
+  margin-right: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+.comp-ml97tjnz-container,
+.comp-mkjsxdgk-container,
+.comp-mkl7gqch3-container,
+.comp-mkl7gs2q8-container,
+.comp-mkl7gtpf13-container,
+.comp-mkme4lbw-container,
+.comp-mkme55ml-container {
+  box-sizing: border-box;
+  padding: 0px;
+  gap: 0px;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+}
+
+#comp-mkttzl9x {
+  min-height: 0px;
+  --l_display: unset;
+  height: auto;
+  min-width: 0px;
+  width: max-content;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  place-self: start center;
+  pointer-events: auto;
+  margin-left: max(0.5px, 0.0002523 * (var(--scaling-factor) - var(--scrollbar-width)));
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+.comp-mkttzl9x-container {
+  box-sizing: border-box;
+  padding: 12px 24px;
+  gap: 0px 7px;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 1fr;
+  grid-template-columns: max-content max-content;
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+}
+
+#comp-mkttzl9x {
+  --brw: 0px;
+  --brd: var(--color_11);
+  --bg: var(--color_11);
+  --rd: max(0.5px, 0.5203125 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.5203125 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.5203125 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.5203125 * (var(--scaling-factor) - var(--scrollbar-width)));
+  --shd: none;
+  --gradient: none;
+  --alpha-brd: 0;
+  --alpha-bg: 0;
+  --boxShadowToggleOn-shd: none;
+  --static-spx: 0.1 * var(--one-unit);
+  --bg-gradient: none;
+}
+
+#comp-mktu3f71 {
+  --l_display: unset;
+  height: auto;
+  min-width: 0px;
+  width: max-content;
+  max-width: 99999px;
+  --comp-display: unset;
+  display: var(--l_display, var(--display, block));
+  place-self: center;
+  pointer-events: auto;
+  margin-left: 0px;
+  margin-right: max(0.5px, 1e-7 * (var(--scaling-factor) - var(--scrollbar-width)));
+  margin-top: 0px;
+  margin-bottom: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+#comp-mktu3f71 {
+  --backgroundColor: 0, 0, 0;
+  --alpha-backgroundColor: 0;
+  --blendMode: normal;
+  --textShadow: 0px 0px transparent;
+  --textOutline: 0px 0px transparent;
+  --textAlign: center;
+  --fontSize: 13px;
+  --minFontSize: 12px;
+  --static-spx: 0.1 * var(--one-unit);
+}
+
+#comp-mktu7lwn {
+  --l_display: unset;
+  height: auto;
+  min-width: 0px;
+  width: max-content;
+  max-width: 99999px;
+  --comp-display: unset;
+  display: var(--l_display, var(--display, block));
+  place-self: center;
+  pointer-events: auto;
+  margin: 0px;
+  grid-area: 1 / 2 / 2 / 3;
+  position: relative;
+}
+
+#comp-mktu7lwn {
+  --backgroundColor: 0, 0, 0;
+  --alpha-backgroundColor: 0;
+  --blendMode: normal;
+  --textShadow: 0px 0px transparent;
+  --textOutline: 0px 0px transparent;
+  --textAlign: center;
+  --fontSize: 16px;
+  --minFontSize: 12px;
+  --static-spx: 0.1 * var(--one-unit);
+}
+
+#comp-ml97v2n6 {
+  min-height: 0px;
+  --l_display: unset;
+  height: 100%;
+  min-width: 0px;
+  width: 100%;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  display: var(--l_display, var(--display, block));
+  place-self: center;
+  pointer-events: auto;
+  margin: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+#comp-ml97v2n6 {
+  --font: normal normal normal 14px/1.4em madefor-text, helveticaneuew01-45ligh, helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif;
+  --color: rgba(255, 255, 255, 1);
+  --label-display: none;
+  --letter-spacing: 0em;
+  --line-height: unset;
+  --text-decoration: none;
+  --direction: rtl;
+  --text-align: center;
+  --text-highlight: none;
+  --text-transform: none;
+  --text-outline: 1px 0px transparent, -1px 0px transparent, 0px 1px transparent, 0px -1px transparent;
+  --text-shadow: 0px 0px 0px transparent;
+  --background: rgba(var(--color_11), 0);
+  --border-left: 0px solid rgba(0, 0, 0, 1);
+  --border-right: 0px solid rgba(0, 0, 0, 1);
+  --border-top: 0px solid rgba(0, 0, 0, 1);
+  --border-bottom: 0px solid rgba(0, 0, 0, 1);
+  --padding-bottom: 8px;
+  --padding-top: 8px;
+  --padding-left: 8px;
+  --padding-right: 8px;
+  --border-top-left-radius: 0px;
+  --border-top-right-radius: 0px;
+  --border-bottom-left-radius: 0px;
+  --border-bottom-right-radius: 0px;
+  --icon-display: none;
+  --icon-size: 16px;
+  --icon-color: rgba(255, 255, 255, 1);
+  --icon-rotation: 0;
+  --container-flex-direction: row-reverse;
+  --container-justify-content: center;
+  --container-align-items: center;
+  --content-horizontal-alignment: center;
+  --content-gap: 6px;
+  --label-overflow: wrap;
+  --static-spx: 0.1 * var(--one-unit);
+}
+
+#comp-mkfg5rtb {
+  min-height: 0px;
+  --comp-display: flex;
+  height: auto;
+  min-width: 0px;
+  max-width: 99999px;
+  max-height: 99999px;
+  --section-max-width: 99999999999px;
+  display: var(--l_display, var(--comp-display, flex));
+  flex-direction: column;
+  place-self: stretch;
+  pointer-events: auto;
+  margin: 0px;
+  grid-area: 5 / 1 / 6 / 2;
+  position: relative;
+}
+
+#comp-mkfg5rtb .comp-mkfg5rtb-container {
+  box-sizing: border-box;
+  position: relative;
+  pointer-events: none;
+  padding: 0px;
+  gap: 0px;
+  max-width: 1e+11px;
+  margin-left: clamp(0px, (100% - 99999999999px) / 2, 100 * var(--one-unit));
+  --section-max-width: 99999999999px;
+  flex-grow: 1;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+}
+
+#comp-mkfg5rtb,
+#comp-mkfmbp8m,
+#comp-mkfn6wz6,
+#comp-mknu6y0a,
+#comp-mok06rba_r_comp-mok06arf {
+  --bg: var(--color_11);
+  --alpha-bg: 0;
+  --static-spx: 0.1 * var(--one-unit);
+}
+
+#comp-mkfl1gt6 {
+  min-height: 0px;
+  --l_display: unset;
+  height: 30vw;
+  min-width: 0px;
+  width: 100%;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  place-self: start center;
+  pointer-events: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: min(-0.5px, -0.09375 * (var(--scaling-factor) - var(--scrollbar-width)));
+  margin-bottom: min(-0.5px, -0.078125 * (var(--scaling-factor) - var(--scrollbar-width)));
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+#comp-mkfl1gt6 {
+  --brw: 0px;
+  --brd: var(--color_13);
+  --bg: var(--color_12);
+  --rd: 0px;
+  --shd: none;
+  --gradient: none;
+  --alpha-brd: 1;
+  --alpha-bg: 1;
+  --boxShadowToggleOn-shd: none;
+  --static-spx: 0.1 * var(--one-unit);
+  --bg-gradient: none;
+}
+
+#comp-mkfmbp8m {
+  min-height: 0px;
+  --comp-display: flex;
+  height: auto;
+  min-width: 0px;
+  max-width: 99999px;
+  max-height: 99999px;
+  --section-max-width: 99999999999px;
+  display: var(--l_display, var(--comp-display, flex));
+  flex-direction: column;
+  place-self: stretch;
+  position: sticky;
+  --force-auto: initial;
+  top: var(--force-auto, calc(0% + var(--sticky-offset, 0px)));
+  bottom: var(--force-auto, auto);
+  left: var(--force-auto, );
+  right: var(--force-auto, );
+  pointer-events: auto;
+  margin: 0px;
+  grid-area: 6 / 1 / 7 / 2;
+  --is-sticky: 1;
+}
+
+#comp-mkfmbp8m .comp-mkfmbp8m-container {
+  box-sizing: border-box;
+  position: relative;
+  pointer-events: none;
+  padding-top: max(0.5px, 0.15625 * (var(--scaling-factor) - var(--scrollbar-width)));
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: max(0.5px, 0.15625 * (var(--scaling-factor) - var(--scrollbar-width)));
+  gap: 0px;
+  max-width: 1e+11px;
+  margin-left: clamp(0px, (100% - 99999999999px) / 2, 100 * var(--one-unit));
+  --section-max-width: 99999999999px;
+  flex-grow: 1;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+}
+
+#comp-mkl50y1q {
+  min-height: 0px;
+  --comp-display: flex;
+  height: auto;
+  min-width: 0px;
+  width: max-content;
+  max-width: 99999px;
+  max-height: 99999px;
+  display: var(--l_display, var(--comp-display, flex));
+  flex-direction: column;
+  place-self: center;
+  pointer-events: auto;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: max(0.5px, 0.0002688 * (var(--scaling-factor) - var(--scrollbar-width)));
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+#comp-mkl50y1q .comp-mkl50y1q-overflow-wrapper,
+#comp-mkjm5rtm .comp-mkjm5rtm-overflow-wrapper,
+#comp-mkl7gqc9 .comp-mkl7gqc9-overflow-wrapper,
+#comp-mkl7gs2g .comp-mkl7gs2g-overflow-wrapper,
+#comp-mkl7gtp8 .comp-mkl7gtp8-overflow-wrapper,
+#comp-mkkyitkz .comp-mkkyitkz-overflow-wrapper,
+#comp-mknu6y0a .comp-mknu6y0a-overflow-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: clip;
+}
+
+#comp-mkl50y1q .comp-mkl50y1q-container {
+  box-sizing: border-box;
+  position: relative;
+  pointer-events: none;
+  gap: 0px;
+  flex-grow: 1;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+}
+
+#comp-mkfmbp8s10 {
+  --l_display: unset;
+  height: auto;
+  min-width: 0px;
+  width: max-content;
+  max-width: 99999px;
+  --comp-display: unset;
+  display: var(--l_display, var(--display, block));
+  place-self: center end;
+  pointer-events: auto;
+  margin: 0%;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+#comp-mkfmbp8s10 {
+  --backgroundColor: 0, 0, 0;
+  --alpha-backgroundColor: 0;
+  --blendMode: normal;
+  --textShadow: 0px 0px transparent;
+  --textOutline: 0px 0px transparent;
+  --textDecoration: none;
+  --color: var(--color_15);
+  --alpha-color: 1;
+  --textAlign: center;
+  --lineHeight: 1.4em;
+  --static-spx: 0.1 * var(--one-unit);
+}
+
+#comp-mkl54dv9 {
+  min-height: 0px;
+  --l_display: unset;
+  height: 100%;
+  min-width: 0px;
+  width: 100%;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  place-self: start;
+  pointer-events: auto;
+  margin: 0% 0% 0% -100%;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+#comp-mkl54dv9 {
+  --brw: 0px;
+  --brd: var(--color_13);
+  --bg: var(--color_15);
+  --rd: 0px;
+  --shd: none;
+  --gradient: none;
+  --alpha-brd: 1;
+  --alpha-bg: 1;
+  --boxShadowToggleOn-shd: none;
+  --static-spx: 0.1 * var(--one-unit);
+  --bg-gradient: none;
+}
+
+#comp-mkfn6wz6 {
+  min-height: 0px;
+  height: auto;
+  min-width: 0px;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  place-self: stretch;
+  pointer-events: auto;
+  margin: 0px;
+  grid-area: 7 / 1 / 8 / 2;
+  position: relative;
+}
+
+.comp-mkfn6wz6-container {
+  box-sizing: border-box;
+  padding: 0px;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 100vh 100vh 100vh 100vh 50vh;
+  grid-template-columns: 1fr;
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+}
+
+#comp-mkjlvbdx {
+  min-height: 0px;
+  height: 100vh;
+  min-width: 0px;
+  width: 100%;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  place-self: start;
+  position: sticky;
+  --force-auto: initial;
+  top: var(--force-auto, calc(0% + var(--sticky-offset, 0px)));
+  bottom: var(--force-auto, auto);
+  left: var(--force-auto, );
+  right: var(--force-auto, );
+  pointer-events: auto;
+  margin: 0px;
+  z-index: unset;
+  grid-area: 1 / 1 / 2 / 2;
+  --is-sticky: 1;
+}
+
+#comp-mkjizkz6,
+#comp-mkjrfysy,
+#comp-mkl7gqcd3,
+#comp-mkl7gs2j13,
+#comp-mkl7gtpb9 {
+  min-height: 0px;
+  --l_display: unset;
+  height: 100%;
+  min-width: 0px;
+  width: 100%;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  place-self: start;
+  pointer-events: auto;
+  margin: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+#comp-mkjizkz6,
+#comp-mkjjdoez,
+#comp-mkjlx85n,
+#comp-mkjlxgok {
+  --brw: 0px;
+  --brd: var(--color_13);
+  --bg: var(--color_11);
+  --rd: 0px;
+  --shd: none;
+  --gradient: none;
+  --alpha-brd: 1;
+  --alpha-bg: 1;
+  --boxShadowToggleOn-shd: none;
+  --static-spx: 0.1 * var(--one-unit);
+  --bg-gradient: none;
+}
+
+#comp-mkjnaf8t {
+  min-height: 100vh;
+  height: auto;
+  min-width: 0px;
+  width: 100%;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  place-self: center;
+  position: sticky;
+  --force-auto: initial;
+  top: var(--force-auto, calc(0% + var(--sticky-offset, 0px)));
+  bottom: var(--force-auto, auto);
+  left: var(--force-auto, );
+  right: var(--force-auto, );
+  pointer-events: auto;
+  margin: 0px;
+  z-index: unset;
+  grid-area: 1 / 1 / 2 / 2;
+  --is-sticky: 1;
+}
+
+.comp-mkjnaf8t-container,
+.comp-mkjnbax3-container,
+.comp-mkjncchp-container,
+.comp-mkjncvg7-container {
+  box-sizing: border-box;
+  padding: 76px 0px 0px;
+  gap: 0px;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+}
+
+#comp-mkjm5rtm,
+#comp-mkl7gqc9,
+#comp-mkl7gs2g,
+#comp-mkl7gtp8 {
+  min-height: 34.4vw;
+  --comp-display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: minmax(0px, 1fr);
+  --l_display: unset;
+  height: auto;
+  min-width: 0px;
+  width: 64.5833vw;
+  max-width: 99999px;
+  max-height: 99999px;
+  display: var(--l_display, var(--comp-display, flex));
+  flex-direction: column;
+  place-self: center;
+  pointer-events: auto;
+  margin: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+
+#comp-mkjm5rtm .comp-mkjm5rtm-container,
+#comp-mkl7gqc9 .comp-mkl7gqc9-container,
+#comp-mkl7gs2g .comp-mkl7gs2g-container,
+#comp-mkl7gtp8 .comp-mkl7gtp8-container {
+  box-sizing: border-box;
+  position: relative;
+  pointer-events: none;
+  flex-grow: 1;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 26.5625vw;
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+}
+
+#comp-mkjm5rtm,
+#comp-mkl7gqc9,
+#comp-mkl7gs2g,
+#comp-mkl7gtp8 {
+  --brw: 0px;
+  --brd: var(--color_13);
+  --bg: var(--color_11);
+  --rd: max(0.5px, 0.0052083 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.0052083 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.0052083 * (var(--scaling-factor) - var(--scrollbar-width))) max(0.5px, 0.0052083 * (var(--scaling-factor) - var(--scrollbar-width)));
+  --shd: none;
+  --gradient: none;
+  --alpha-brd: 1;
+  --alpha-bg: 1;
+  --boxShadowToggleOn-shd: none;
+  --static-spx: 0.1 * var(--one-unit);
+  --bg-gradient: none;
+}
+
+#comp-mkjrf3fd,
+#comp-mkl7gqcb15,
+#comp-mkl7gs2i2,
+#comp-mkl7gtpa {
+  min-height: 0px;
+  --l_display: unset;
+  height: auto;
+  min-width: 0px;
+  width: auto;
+  max-width: 99999px;
+  max-height: 99999px;
+  --comp-display: unset;
+  display: var(--l_display, var(--display, block));
+  place-self: stretch;
+  pointer-events: auto;
+  margin: 0px;
+  grid-area: 1 / 2 / 2 / 3;
+  position: relative;
+}
+
+#comp-mkjrf3fd,
+#comp-mkl7fn09,
+#comp-mkl7gqcb15,
+#comp-mkl7gqcc12,
+#comp-mkl7gs2i2,
+#comp-mkl7gs2i16,
+#comp-mkl7gtpa,
+#comp-mkl7gtpa14 {
+  --backgroundColor: 0, 0, 0;
+  --borderColor: 255, 255, 255;
+  --borderWidth: 0px;
+  --cornerRadius: 0px;
+  --boxShadow: none;
+  --mediaOpacity: 1;
+  --blendMode: normal;
+  --alpha-backgroundColor: 0;
+  --alpha-borderColor: 0;
+  --boxShadowToggleOn-boxShadow: none;
+  --static-spx: 0.1 * var(--one-unit);
+}
+
+.comp-mkjrfysy-container {
+  box-sizing: border-box;
+  padding-top: max(0.5px, 0.0260417 * (var(--scaling-factor) - var(--scrollbar-width)));
+  padding-right: max(0.5px, 0.0416667 * (var(--scaling-factor) - var(--scrollbar-width)));
+  padding-left: max(0.5px, 0.0260417 * (var(--scaling-factor) - var(--scrollbar-width)));
+  padding-bottom: max(0.5px, 0.0260417 * (var(--scaling-factor) - var(--scrollbar-width)));
+  row-gap: max(0.5px, 0.0260417 * (var(--scaling-factor) - var(--scrollbar-width)));
+  column-gap: 0px;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 1fr max-content max-content;
+  grid-template-columns: 1fr;
+  --container-layout-type: grid-container-layout;
+  --container-display: grid;
+}
+
+#comp-mkjrfysy,
+#comp-mkjskcqe,
+#comp-mkl7gqcd3,
+#comp-mkl7gqce9,
+#comp-mkl7gs2j13,
+#comp-mkl7gs2k18,
+#comp-mkl7gtpb9,
+#comp-mkl7gtpc13,
+#comp-mkl28q1n,
+#comp-mkmce6uk,
+#comp-mkmdxayt,
+#comp-mkme55mh8,
+#comp-mkme8mn1,
+#comp-mkmejikd {
+  --brw: 0px;
+  --brd: var(--color_13);
+  --bg: var(--color_11);
+  --rd: 0px;
+  --shd: none;
+  --gradient: none;
+  --alpha-brd: 1;
+  --alpha-bg: 0;
+  --boxShadowToggleOn-shd: none;
+  --static-spx: 0.1 * var(--one-unit);
+  --bg-gradient: none;
+}

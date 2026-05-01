@@ -1,0 +1,107 @@
+@keyframes slide-horizontal-new {
+  0% {
+    transform: translate(100%)
+  }
+}
+
+@keyframes slide-horizontal-old {
+
+  to {
+    opacity: 0;
+    transform: translate(-100%)
+  }
+}
+
+@keyframes slide-vertical-new {
+  0% {
+    transform: translateY(-100%)
+  }
+}
+
+@keyframes slide-vertical-old {
+  80% {
+    opacity: 1
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(100%)
+  }
+}
+
+@keyframes out-in-new {
+  0% {
+    opacity: 0
+  }
+}
+
+@keyframes out-in-old {
+  to {
+    opacity: 0
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes loop-hover {
+  from {
+    transform: translateY(2px)
+  }
+
+  to {
+    transform: translateY(-2px)
+  }
+}
+
+@keyframes scale-loop {
+  from {
+    transform: scale(1.1)
+  }
+
+  50% {
+    transform: scale(1.3)
+  }
+
+  to {
+    transform: scale(1.1)
+  }
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes circle-grow-in {
+  from {
+    transform: scale(var(--start))
+  }
+
+  to {
+    transform: scale(var(--end))
+  }
+}
+
+@keyframes box-grow {
+  0% {
+    opacity: 0;
+    transform: scaleY(0.4)
+  }
+
+  2% {
+    opacity: 1
+  }
+
+  100% {
+    transform: scaleY(1)
+  }
+}

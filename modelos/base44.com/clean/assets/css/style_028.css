@@ -1,0 +1,4 @@
+#BASE44_HEADER {
+  visibility: hidden;
+  overflow: hidden;
+  height: calc(8px + 44px); // margin + header height}@media (min-width:768px){#BASE44_HEADER{height:calc(13px + 44px);// margin + header height}}@media (min-width:1100px){#BASE44_HEADER{height:calc(20px + 56px);// margin + header height}}

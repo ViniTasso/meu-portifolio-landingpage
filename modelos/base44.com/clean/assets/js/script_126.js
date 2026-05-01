@@ -1,0 +1,135 @@
+"use strict";
+(self.webpackJsonp__wix_thunderbolt_app = self.webpackJsonp__wix_thunderbolt_app || []).push([
+  ["2220"], {
+    18635(e, t, a) {
+      a.r(t), a.d(t, {
+        page: () => v,
+        editorPage: () => C,
+        pageConfig: () => _,
+        name: () => m.U
+      });
+      var n = a(40211),
+        o = a.n(n),
+        l = a(8716),
+        r = a(66294),
+        s = a(51127),
+        p = a(40766),
+        i = a(23309),
+        c = a(42756),
+        d = a(73031),
+        u = a(15119),
+        m = a(81441);
+      let g = (0, l.Og)([(0, l.KT)(r.Gp, m.U), c.KZ, (0, l.m3)(c.ls), c.r4, s.Ji, s.Mh, s.q2, u.f3, (0, l.lq)(p.Uc)], (e, t, a, n, l, r, s, p, c) => {
+        let u = {},
+          g = (0, d.V)(a),
+          h = (a, l) => {
+            o().forEach(a, (a, o) => {
+              let r = e.repeatersData[l].childComponents[o];
+              if (!g[r]) return;
+              let s = t.get(o).uiType;
+              a.forEach(e => {
+                p.add(e);
+                let t = n.createComponent(e, r, s);
+                g[r].map(({
+                  componentWillMount: a
+                }) => u[e] = a(t))
+              })
+            })
+          },
+          f = (t, a) => o().chain(e.repeatersData[a]?.childComponents).mapValues((e, a) => t.map(e => (0, i.Zr)(a, e))).value(),
+          _ = (e, t) => o().chain(f(e, t)).values().flatten().value(),
+          v = (e, t, a, {
+            isRepeaterTemplate: n,
+            repeaterDisplayIds: o
+          }) => {
+            c?.stores.updateProps({
+              [a]: {
+                items: t
+              }
+            });
+            let p = _(e, (0, i.vC)(a));
+            if (p.length) {
+              let e = Object.fromEntries(p.map(e => [e, {}]));
+              l.set(e), r.set(e), s.set(e)
+            }
+            n && o?.length && o.forEach(a => {
+              v(e, t, a, {})
+            })
+          };
+        return {
+          name: "repeaters",
+          getSdkHandlers: () => ({
+            [m.U]: {
+              handleAddedItems: (e, t) => {
+                h(f(e, t), t)
+              },
+              handleRemovedItems: (e, t) => {
+                let a = _(e, t);
+                return o().forEach(a, async e => {
+                  if (u[e]) {
+                    let t = await u[e];
+                    t?.(), delete u[e]
+                  }
+                }), a
+              },
+              handleRepeaterDataUpdate: v
+            }
+          }),
+          pageWillMount() {
+            o().forEach(e.repeatersData, ({
+              items: e
+            }, t) => {
+              h(f(e, t), t)
+            })
+          },
+          pageWillUnmount: () => {
+            o().values(u).forEach(async e => (await e)?.())
+          }
+        }
+      });
+      var h = a(83121);
+      let f = (e, t) => (0, i.SA)(e) && !(0, i._f)(t),
+        _ = {
+          name: m.U,
+          configFactory: ({
+            api: e
+          }) => {
+            let t = Object.keys(e.components.getComponentsByPredicate(f));
+            if (0 === t.length) return {
+              shouldLoadPageFeature: !1
+            };
+            let a = {};
+            for (let n of t) {
+              let t = e.components.getCompDescendants(n);
+              if (0 === t.length) continue;
+              let o = e.components.getCompData(n),
+                l = {};
+              for (let a of t) {
+                if (a.endsWith("_relative") || a.endsWith("_pinned")) continue;
+                let t = e.components.getStructure(a);
+                t && (l[a] = t.componentType)
+              }
+              let r = o?.items ?? [];
+              a[n] = {
+                childComponents: l,
+                items: r
+              }
+            }
+            return 0 === Object.keys(a).length ? {
+              shouldLoadPageFeature: !1
+            } : {
+              shouldLoadPageFeature: !0,
+              pageConfig: {
+                repeatersData: a
+              }
+            }
+          },
+          experiment: "specs.thunderbolt.vsmPageConfigs"
+        },
+        v = e => {
+          e(h.$.PageWillMountHandler, h.$.PageWillUnmountHandler, p.H9).to(g)
+        },
+        C = v
+    }
+  }
+]);
