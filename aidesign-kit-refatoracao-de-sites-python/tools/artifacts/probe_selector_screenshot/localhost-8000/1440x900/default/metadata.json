@@ -1,0 +1,28 @@
+{
+  "target": "http://localhost:8000",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "state": [],
+  "state_id": "default",
+  "output": "aidesign-kit-refatoracao-de-sites-python/tools/artifacts/probe_selector_screenshot/localhost-8000/1440x900/default",
+  "results": [
+    {
+      "selector": "header",
+      "total_matches": 1,
+      "shots": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\probe_selector_screenshot\\localhost-8000\\1440x900\\default\\header__0.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 24,
+            "height": 100
+          }
+        }
+      ]
+    }
+  ]
+}
