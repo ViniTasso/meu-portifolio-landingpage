@@ -1,0 +1,324 @@
+@media screen and (max-width:479px) {
+  .margin-horizontal {
+    margin-top: 0;
+    margin-bottom: 0
+  }
+
+  .padding-top {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0
+  }
+
+  .margin-vertical {
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  .margin-bottom {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  .padding-left {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0
+  }
+
+  .padding-vertical {
+    padding-left: 0;
+    padding-right: 0
+  }
+
+  .padding-horizontal {
+    padding-top: 0;
+    padding-bottom: 0
+  }
+
+  .margin-right {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0
+  }
+
+  .margin-top {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  .margin-left {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0
+  }
+
+  .padding-right {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0
+  }
+
+  .padding-bottom {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0
+  }
+
+  .max-width-full-mobile-portrait {
+    width: 100%;
+    max-width: none
+  }
+
+  .hide-mobile-portrait {
+    display: none
+  }
+
+  .heading-style-h5 {
+    letter-spacing: -.04rem;
+    font-size: 1.6rem
+  }
+
+  .dropdown-icon {
+    display: none
+  }
+
+  .results_row {
+    display: block
+  }
+
+  .results_card-small {
+    margin-bottom: 1.5rem
+  }
+
+  .logo1_component {
+    grid-column-gap: 1.75rem;
+    grid-row-gap: 1.75rem;
+    justify-content: center
+  }
+
+  .logo1_component.is-2 {
+    width: 100%;
+    margin-left: 0;
+    transform: scale(1)
+  }
+
+  .logo1_logo {
+    max-height: 2.1rem
+  }
+
+  .heading-3 {
+    font-size: 2.6rem;
+    line-height: 1
+  }
+
+  .paragraph-2 {
+    width: auto;
+    max-width: none
+  }
+
+  .image {
+    border-radius: .2rem
+  }
+
+  .image-2 {
+    transform: scale(1.15)
+  }
+
+  .layout19_component {
+    grid-template-columns: 1fr
+  }
+
+  .navbar2_menu.is-page-height-tablet {
+    height: 100dvh
+  }
+
+  .navbar2_link {
+    font-size: 2.3rem
+  }
+
+  .navbar_dropdwn-toggle {
+    padding-right: 0
+  }
+
+  .navbar_dropdown-link {
+    padding-top: .4rem
+  }
+
+  .navbar_dropdown-link.w--current {
+    font-size: 1.9rem
+  }
+
+  .menu-icon2_line-top {
+    background-color: #fffcfc
+  }
+
+  .menu-icon2_line-middle,
+  .menu-icon2_line-bottom {
+    background-color: #fff
+  }
+
+  .text-block-2 {
+    font-size: 2.3rem
+  }
+
+  .case_study_container {
+    padding-right: 2rem
+  }
+
+  .hero_background-image-wrapper {
+    margin-top: -4rem
+  }
+
+  .hero_heading {
+    letter-spacing: -.16rem
+  }
+
+  .hero_heading.is-footer {
+    font-size: 13vw
+  }
+
+  .hero_color-filter {
+    height: 2.9rem
+  }
+
+  .navbar_message-wrapper {
+    margin-bottom: 1.5rem
+  }
+
+  .hero_subtitle-wrapper {
+    grid-column-gap: 1.1rem;
+    grid-row-gap: 1.1rem;
+    flex-flow: column
+  }
+
+  .hero_subtitle {
+    text-align: center;
+    margin-top: -1rem;
+    font-size: 1.5rem
+  }
+
+  .specialise_grid {
+    grid-row-gap: 30px
+  }
+
+  .about_heading {
+    font-size: 2.2rem
+  }
+
+  .home-heading {
+    font-size: 3.3rem
+  }
+
+  .specialise_list-wrapper {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem
+  }
+
+  .specialise_list-item {
+    padding-left: 2rem
+  }
+
+  .about_grid {
+    grid-row-gap: 23px
+  }
+
+  .latest_case-wrapper {
+    height: 32.5rem;
+    top: 10.5rem
+  }
+
+  .latest_case-wrapper.is-static {
+    height: auto
+  }
+
+  .latest_case-component.is-static {
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem
+  }
+
+  .latest_heading-wrapper {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem
+  }
+
+  .padding-section-latest {
+    padding-bottom: 3rem;
+    padding-left: 0;
+    padding-right: 0
+  }
+
+  .hero_padding-section {
+    padding-bottom: 0
+  }
+
+  .about_padding-section {
+    margin-top: 5rem
+  }
+
+  .card-end {
+    height: 190px;
+    top: 20rem
+  }
+
+  .footer_padding-section {
+    padding-bottom: 12rem
+  }
+
+  .case_padding-section {
+    margin-top: 4.3rem;
+    padding-top: 1rem
+  }
+
+  .case-info_link {
+    display: none
+  }
+
+  .more_title {
+    letter-spacing: -.2rem;
+    margin-top: .4rem;
+    font-size: 3.3rem
+  }
+
+  .cta-button {
+    display: none
+  }
+
+  .cta-button.is-mobile {
+    display: block
+  }
+
+  .case-info_heading {
+    letter-spacing: -.2rem;
+    margin-top: .4rem;
+    font-size: 4rem
+  }
+
+  .case-info_heading.is-ocado {
+    font-size: 3.4rem
+  }
+
+  .case-info_heading.is-dan {
+    font-size: 3.9rem
+  }
+
+  .results_heading {
+    letter-spacing: -.2rem;
+    margin-top: .4rem;
+    font-size: 3.3rem
+  }
+
+  .latest_title {
+    letter-spacing: -.2rem;
+    margin-top: .4rem;
+    font-size: 3.3rem;
+    top: 5.5rem
+  }
+
+  .lottie-spacer {
+    padding-bottom: 0
+  }
+}

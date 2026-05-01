@@ -1,0 +1,116 @@
+:root {
+  --global-kb-font-size-sm: clamp(0.75rem, 0.2679rem + 0.7143vi, 1.125rem);
+  --global-kb-font-size-md: clamp(0.9375rem, -0.0268rem + 1.4286vi, 1.6875rem);
+  --global-kb-font-size-lg: clamp(1.1719rem, -0.5759rem + 2.5893vi, 2.5313rem);
+  --global-kb-font-size-xl: clamp(1.4648rem, -1.5335rem + 4.442vi, 3.7969rem);
+  --global-kb-font-size-xxl: clamp(1.8311rem, -3.1373rem + 7.3605vi, 5.6953rem);
+  --global-kb-font-size-xxxl: clamp(2.2888rem, -5.7522rem + 11.9127vi, 8.543rem)
+}
+
+h1 {
+  line-height: .9 !important;
+  text-wrap: balance !important
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+{
+line-height: 1.05 !important;
+text-wrap: balance !important
+}
+
+.h1-xxxl,
+.h2-xxxl,
+.h3-xxxl,
+.h4-xxxl,
+.h5-xxxl,
+.h6-xxxl {
+  font-size: clamp(2.2888rem, -5.7522rem + 11.9127vi, 8.543rem)
+}
+
+.h1-xxl,
+.h2-xxl,
+.h3-xxl,
+.h4-xxl,
+.h5-xxl,
+.h6-xxl {
+  font-size: clamp(1.8311rem, -3.1373rem + 7.3605vi, 5.6953rem)
+}
+
+.h1-xl,
+.h2-xl,
+.h3-xl,
+.h4-xl,
+.h5-xl,
+.h6-xl {
+  font-size: clamp(1.4648rem, -1.5335rem + 4.442vi, 3.7969rem)
+}
+
+.h1-lg,
+.h2-lg,
+.h3-lg,
+.h4-lg,
+.h5-lg,
+.h6-lg {
+  font-size: clamp(1.1719rem, -0.5759rem + 2.5893vi, 2.5313rem)
+}
+
+.h1-md,
+.h2-md,
+.h3-md,
+.h4-md,
+.h5-md,
+.h6-md {
+  font-size: clamp(0.9375rem, -0.0268rem + 1.4286vi, 1.6875rem)
+}
+
+.h1-sm,
+.h2-sm,
+.h3-sm,
+.h4-sm,
+.h5-sm,
+.h6-sm {
+  font-size: clamp(0.75rem, 0.2679rem + 0.7143vi, 1.125rem)
+}
+
+.footer-divider hr {
+  border-color: #000
+}
+
+h2.overlap {
+  z-index: 1000
+}
+
+overlap-under {
+  z-index: 100
+}
+
+#post-18 figure,
+.post-thumbnail {
+  animation: fade-in-right linear;
+  animation-timeline: view();
+  animation-range: entry
+}
+
+@keyframes fade-in-right {
+  from {
+    scale: 0.6;
+    opacity: 0
+  }
+
+  to {
+    scale: 1;
+    opacity: 1
+  }
+}
+
+#commentform {
+  margin: 0 1em
+}
+
+.post-navigation a {
+  margin: 0 1em
+}

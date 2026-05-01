@@ -1,0 +1,20 @@
+.home .site-top-header-wrap.site-header-row-container {
+                display: none;
+            }
+            .home .custom-logo-link {
+                position: fixed;
+                top: 50vh;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 2000;
+                opacity: 1;
+                transition: transform 0.3s, opacity 0.3s; /* Smooth transition */
+            }
+            .home .custom-logo {
+                width: 35vw !important;
+            }
+            .custom-logo {
+                width: 20vw !important;
+                padding: 2em;
+                margin-bottom: -2em;
+            }

@@ -1,0 +1,43 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * ivypresto-display:
+ *   - http://typekit.com/eulas/00000000000000007735e5a7
+ *   - http://typekit.com/eulas/00000000000000007735e5b3
+ *   - http://typekit.com/eulas/00000000000000007735e5af
+ *   - http://typekit.com/eulas/00000000000000007735e5b0
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2025-02-12 20:20:49 UTC"}*/
+
+@import url("/assets/p_960a2134732d.css");
+
+@font-face {
+font-family:"ivypresto-display";
+src:url("/assets/l_71b0bf887c05") format("woff2"),url("/assets/d_a91cc62a41c3") format("woff"),url("/assets/a_d399873b6d3a") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ivypresto-display";
+src:url("/assets/l_b00623789300") format("woff2"),url("/assets/d_51889dc7a791") format("woff"),url("/assets/a_931a39b3a3ff") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ivypresto-display";
+src:url("/assets/l_3f71d8ba3e11") format("woff2"),url("/assets/d_07a3fe9d5b98") format("woff"),url("/assets/a_33b3c08ec8c7") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ivypresto-display";
+src:url("/assets/l_9bc5c7325bf5") format("woff2"),url("/assets/d_0c29b25a1044") format("woff"),url("/assets/a_65cb92a534b9") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+.tk-ivypresto-display { font-family: "ivypresto-display",serif; }

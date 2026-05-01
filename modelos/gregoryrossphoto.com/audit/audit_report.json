@@ -1,0 +1,865 @@
+{
+  "generated_at": "2026-04-30T22:00:02.042176",
+  "stages": [
+    {
+      "name": "01_raw",
+      "description": "Cópia fiel antes de qualquer limpeza",
+      "timestamp": "2026-04-30T21:59:08.708691",
+      "files": 59,
+      "bytes": 4118532
+    },
+    {
+      "name": "02_after_html_clean",
+      "description": "Após remoção de tracking e limpeza HTML",
+      "timestamp": "2026-04-30T21:59:09.865004",
+      "files": 360,
+      "bytes": 4017208
+    },
+    {
+      "name": "03_after_css_clean",
+      "description": "Após desminificação e limpeza CSS",
+      "timestamp": "2026-04-30T21:59:13.669174",
+      "files": 360,
+      "bytes": 4014156
+    },
+    {
+      "name": "04_after_js_clean",
+      "description": "Após desminificação e limpeza JS",
+      "timestamp": "2026-04-30T21:59:21.663854",
+      "files": 360,
+      "bytes": 4523582
+    },
+    {
+      "name": "05_after_reorganization",
+      "description": "Assets movidos para subpastas por tipo",
+      "timestamp": "2026-04-30T21:59:22.471454",
+      "files": 360,
+      "bytes": 4523582
+    },
+    {
+      "name": "06_after_path_correction",
+      "description": "Referências de paths atualizadas",
+      "timestamp": "2026-04-30T21:59:23.693009",
+      "files": 360,
+      "bytes": 4419873
+    },
+    {
+      "name": "07_after_file_reduction",
+      "description": "Quantidade de arquivos CSS/JS reduzida antes do reparo das referências",
+      "timestamp": "2026-04-30T21:59:24.500111",
+      "files": 259,
+      "bytes": 4407881
+    },
+    {
+      "name": "08_after_bundle_reference_repair",
+      "description": "Referências HTML/CSS/JS reparadas após consolidação de CSS e JS",
+      "timestamp": "2026-04-30T21:59:30.472040",
+      "files": 259,
+      "bytes": 4387865
+    },
+    {
+      "name": "09_after_data_pruning",
+      "description": "Arquivos órfãos em assets/data removidos do clean/",
+      "timestamp": "2026-04-30T21:59:30.611047",
+      "files": 259,
+      "bytes": 4387865
+    },
+    {
+      "name": "10_after_text_normalization",
+      "description": "Texto normalizado com espaços e terminadores de linha consistentes",
+      "timestamp": "2026-04-30T22:00:00.860495",
+      "files": 260,
+      "bytes": 4404153
+    },
+    {
+      "name": "11_final",
+      "description": "Estado final do clean/",
+      "timestamp": "2026-04-30T22:00:01.602394",
+      "files": 260,
+      "bytes": 4404153
+    }
+  ],
+  "comparisons": [
+    {
+      "from": "01_raw",
+      "to": "02_after_html_clean",
+      "files_added": 301,
+      "files_removed": 0,
+      "files_changed": 13,
+      "bytes_before": 4118532,
+      "bytes_after": 4017208,
+      "bytes_saved": 101324,
+      "pct_reduction": 2.5,
+      "added": [
+        "assets/about_script_1.js",
+        "assets/about_script_10.js",
+        "assets/about_script_2.js",
+        "assets/about_script_3.js",
+        "assets/about_script_4.js",
+        "assets/about_script_5.js",
+        "assets/about_script_6.js",
+        "assets/about_script_7.js",
+        "assets/about_script_8.js",
+        "assets/about_script_9.js",
+        "assets/about_style_1.css",
+        "assets/about_style_10.css",
+        "assets/about_style_11.css",
+        "assets/about_style_12.css",
+        "assets/about_style_2.css",
+        "assets/about_style_3.css",
+        "assets/about_style_4.css",
+        "assets/about_style_5.css",
+        "assets/about_style_6.css",
+        "assets/about_style_7.css"
+      ],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/engagements.html",
+          "before": 228067,
+          "after": 102226,
+          "diff": -125841
+        },
+        {
+          "file": "assets/family.html",
+          "before": 182363,
+          "after": 80534,
+          "diff": -101829
+        },
+        {
+          "file": "assets/about.html",
+          "before": 159921,
+          "after": 68780,
+          "diff": -91141
+        },
+        {
+          "file": "assets/contact.html",
+          "before": 157435,
+          "after": 67742,
+          "diff": -89693
+        },
+        {
+          "file": "index.html",
+          "before": 314296,
+          "after": 224913,
+          "diff": -89383
+        },
+        {
+          "file": "assets/weddings.html",
+          "before": 142808,
+          "after": 82635,
+          "diff": -60173
+        },
+        {
+          "file": "assets/resource_4bc161c9f901.html",
+          "before": 288245,
+          "after": 233404,
+          "diff": -54841
+        },
+        {
+          "file": "assets/pop-up-portrait-studio.html",
+          "before": 184465,
+          "after": 130917,
+          "diff": -53548
+        },
+        {
+          "file": "assets/gigi-pena-ricky-mears-dj-nitti-engagement.html",
+          "before": 134810,
+          "after": 84234,
+          "diff": -50576
+        },
+        {
+          "file": "assets/lauren-grants-ojai-valley-inn-wedding.html",
+          "before": 248343,
+          "after": 206409,
+          "diff": -41934
+        },
+        {
+          "file": "assets/blog.html",
+          "before": 73898,
+          "after": 32277,
+          "diff": -41621
+        },
+        {
+          "file": "assets/aubrey-gavello-and-alex-woods-wedding.html",
+          "before": 80628,
+          "after": 39534,
+          "diff": -41094
+        },
+        {
+          "file": "assets/maddie-michaels-lacc-wedding.html",
+          "before": 328703,
+          "after": 287638,
+          "diff": -41065
+        }
+      ]
+    },
+    {
+      "from": "02_after_html_clean",
+      "to": "03_after_css_clean",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 169,
+      "bytes_before": 4017208,
+      "bytes_after": 4014156,
+      "bytes_saved": 3052,
+      "pct_reduction": 0.1,
+      "added": [],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/engagements_style_8.css",
+          "before": 85240,
+          "after": 67357,
+          "diff": -17883
+        },
+        {
+          "file": "assets/family_style_8.css",
+          "before": 54329,
+          "after": 46995,
+          "diff": -7334
+        },
+        {
+          "file": "assets/about_style_8.css",
+          "before": 43665,
+          "after": 36520,
+          "diff": -7145
+        },
+        {
+          "file": "assets/contact_style_8.css",
+          "before": 42728,
+          "after": 35633,
+          "diff": -7095
+        },
+        {
+          "file": "assets/content_0bb2bdc80867.css",
+          "before": 34193,
+          "after": 39032,
+          "diff": 4839
+        },
+        {
+          "file": "assets/3.6.12/plyr.css",
+          "before": 33559,
+          "after": 38222,
+          "diff": 4663
+        },
+        {
+          "file": "assets/sbi-styles_3302fad17460.css",
+          "before": 41961,
+          "after": 46394,
+          "diff": 4433
+        },
+        {
+          "file": "assets/style-blocks-advancedgallery_5dc5492706d3.css",
+          "before": 36960,
+          "after": 41107,
+          "diff": 4147
+        },
+        {
+          "file": "index_style_8.css",
+          "before": 14372,
+          "after": 10484,
+          "diff": -3888
+        },
+        {
+          "file": "assets/header_af9cb3b1be83.css",
+          "before": 23976,
+          "after": 27309,
+          "diff": 3333
+        },
+        {
+          "file": "assets/resource_4bc161c9f901_style_8.css",
+          "before": 13844,
+          "after": 10767,
+          "diff": -3077
+        },
+        {
+          "file": "assets/global_1cd89f935b72.css",
+          "before": 23597,
+          "after": 26300,
+          "diff": 2703
+        },
+        {
+          "file": "assets/footer_a450d0c245dc.css",
+          "before": 19975,
+          "after": 21572,
+          "diff": 1597
+        },
+        {
+          "file": "assets/weddings_style_8.css",
+          "before": 9867,
+          "after": 8283,
+          "diff": -1584
+        },
+        {
+          "file": "assets/kb-glightbox_7a0752ff5078.css",
+          "before": 16048,
+          "after": 17561,
+          "diff": 1513
+        }
+      ]
+    },
+    {
+      "from": "03_after_css_clean",
+      "to": "04_after_js_clean",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 153,
+      "bytes_before": 4014156,
+      "bytes_after": 4523582,
+      "bytes_saved": -509426,
+      "pct_reduction": -12.7,
+      "added": [],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/js/sdkloader/ima3.js",
+          "before": 477112,
+          "after": 710814,
+          "diff": 233702
+        },
+        {
+          "file": "assets/3.6.12/plyr.js",
+          "before": 109216,
+          "after": 149908,
+          "diff": 40692
+        },
+        {
+          "file": "assets/jquery_8fb2c77e12fa.js",
+          "before": 87553,
+          "after": 125835,
+          "diff": 38282
+        },
+        {
+          "file": "assets/js/sdkloader/loader.js",
+          "before": 57118,
+          "after": 83504,
+          "diff": 26386
+        },
+        {
+          "file": "assets/instream/video/client.js",
+          "before": 44701,
+          "after": 68169,
+          "diff": 23468
+        },
+        {
+          "file": "assets/glightbox_fc3d1549b65e.js",
+          "before": 57266,
+          "after": 79529,
+          "diff": 22263
+        },
+        {
+          "file": "assets/omsdk/releases/canary/omweb-v1.js",
+          "before": 45746,
+          "after": 67761,
+          "diff": 22015
+        },
+        {
+          "file": "assets/omsdk/releases/control/omweb-v1.js",
+          "before": 45746,
+          "after": 67761,
+          "diff": 22015
+        },
+        {
+          "file": "assets/omsdk/releases/live/omweb-v1.js",
+          "before": 45746,
+          "after": 67761,
+          "diff": 22015
+        },
+        {
+          "file": "assets/omsdk/releases/experimental/omweb-v1.js",
+          "before": 40078,
+          "after": 59006,
+          "diff": 18928
+        },
+        {
+          "file": "assets/code_6d4418374e82.js",
+          "before": 45332,
+          "after": 55107,
+          "diff": 9775
+        },
+        {
+          "file": "assets/masonry_a7e8fe416e09.js",
+          "before": 24138,
+          "after": 31414,
+          "diff": 7276
+        },
+        {
+          "file": "assets/sbi-scripts_f8f86d8ebed0.js",
+          "before": 23784,
+          "after": 30538,
+          "diff": 6754
+        },
+        {
+          "file": "index_script_1.js",
+          "before": 30999,
+          "after": 24765,
+          "diff": -6234
+        },
+        {
+          "file": "assets/navigation_8c7e788d4e99.js",
+          "before": 19981,
+          "after": 25946,
+          "diff": 5965
+        }
+      ]
+    },
+    {
+      "from": "04_after_js_clean",
+      "to": "05_after_reorganization",
+      "files_added": 346,
+      "files_removed": 346,
+      "files_changed": 0,
+      "bytes_before": 4523582,
+      "bytes_after": 4523582,
+      "bytes_saved": 0,
+      "pct_reduction": 0.0,
+      "added": [
+        "assets/css/about_style_1.css",
+        "assets/css/about_style_10.css",
+        "assets/css/about_style_11.css",
+        "assets/css/about_style_12.css",
+        "assets/css/about_style_2.css",
+        "assets/css/about_style_3.css",
+        "assets/css/about_style_4.css",
+        "assets/css/about_style_5.css",
+        "assets/css/about_style_6.css",
+        "assets/css/about_style_7.css",
+        "assets/css/about_style_8.css",
+        "assets/css/about_style_9.css",
+        "assets/css/blog_style_1.css",
+        "assets/css/blog_style_10.css",
+        "assets/css/blog_style_11.css",
+        "assets/css/blog_style_2.css",
+        "assets/css/blog_style_3.css",
+        "assets/css/blog_style_4.css",
+        "assets/css/blog_style_5.css",
+        "assets/css/blog_style_6.css"
+      ],
+      "removed": [
+        "assets/3.6.12/plyr.css",
+        "assets/3.6.12/plyr.js",
+        "assets/3.6.12/plyr.svg",
+        "assets/about_script_1.js",
+        "assets/about_script_10.js",
+        "assets/about_script_2.js",
+        "assets/about_script_3.js",
+        "assets/about_script_4.js",
+        "assets/about_script_5.js",
+        "assets/about_script_6.js",
+        "assets/about_script_7.js",
+        "assets/about_script_8.js",
+        "assets/about_script_9.js",
+        "assets/about_style_1.css",
+        "assets/about_style_10.css",
+        "assets/about_style_11.css",
+        "assets/about_style_12.css",
+        "assets/about_style_2.css",
+        "assets/about_style_3.css",
+        "assets/about_style_4.css"
+      ],
+      "top_changes": []
+    },
+    {
+      "from": "05_after_reorganization",
+      "to": "06_after_path_correction",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 57,
+      "bytes_before": 4523582,
+      "bytes_after": 4419873,
+      "bytes_saved": 103709,
+      "pct_reduction": 2.3,
+      "added": [],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "index.html",
+          "before": 224913,
+          "after": 191354,
+          "diff": -33559
+        },
+        {
+          "file": "assets/resource-map.json",
+          "before": 103498,
+          "after": 78316,
+          "diff": -25182
+        },
+        {
+          "file": "assets/resource_4bc161c9f901.html",
+          "before": 233404,
+          "after": 213566,
+          "diff": -19838
+        },
+        {
+          "file": "assets/lauren-grants-ojai-valley-inn-wedding.html",
+          "before": 206409,
+          "after": 203288,
+          "diff": -3121
+        },
+        {
+          "file": "assets/maddie-michaels-lacc-wedding.html",
+          "before": 287638,
+          "after": 285015,
+          "diff": -2623
+        },
+        {
+          "file": "assets/css/style_013.css",
+          "before": 33071,
+          "after": 30501,
+          "diff": -2570
+        },
+        {
+          "file": "assets/aubrey-gavello-and-alex-woods-wedding.html",
+          "before": 39534,
+          "after": 37258,
+          "diff": -2276
+        },
+        {
+          "file": "assets/blog.html",
+          "before": 32277,
+          "after": 30045,
+          "diff": -2232
+        },
+        {
+          "file": "assets/weddings.html",
+          "before": 82635,
+          "after": 80503,
+          "diff": -2132
+        },
+        {
+          "file": "assets/engagements.html",
+          "before": 102226,
+          "after": 100259,
+          "diff": -1967
+        },
+        {
+          "file": "assets/gigi-pena-ricky-mears-dj-nitti-engagement.html",
+          "before": 84234,
+          "after": 82460,
+          "diff": -1774
+        },
+        {
+          "file": "assets/pop-up-portrait-studio.html",
+          "before": 130917,
+          "after": 129310,
+          "diff": -1607
+        },
+        {
+          "file": "assets/about.html",
+          "before": 68780,
+          "after": 67486,
+          "diff": -1294
+        },
+        {
+          "file": "assets/contact.html",
+          "before": 67742,
+          "after": 66448,
+          "diff": -1294
+        },
+        {
+          "file": "assets/family.html",
+          "before": 80534,
+          "after": 79240,
+          "diff": -1294
+        }
+      ]
+    },
+    {
+      "from": "06_after_path_correction",
+      "to": "07_after_file_reduction",
+      "files_added": 34,
+      "files_removed": 135,
+      "files_changed": 0,
+      "bytes_before": 4419873,
+      "bytes_after": 4407881,
+      "bytes_saved": 11992,
+      "pct_reduction": 0.3,
+      "added": [
+        "assets/css/base.css",
+        "assets/css/fonts.css",
+        "assets/css/globals.css",
+        "assets/css/important.css",
+        "assets/css/keyframes.css",
+        "assets/css/medias/base_medias.css",
+        "assets/css/selectors.css",
+        "assets/css/styles.css",
+        "assets/css/styles_002.css",
+        "assets/css/styles_003.css",
+        "assets/css/styles_004.css",
+        "assets/css/styles_005.css",
+        "assets/css/styles_006.css",
+        "assets/css/styles_007.css",
+        "assets/js/utils.js",
+        "assets/js/utils_002.js",
+        "assets/js/utils_003.js",
+        "assets/js/utils_004.js",
+        "assets/js/utils_005.js",
+        "assets/js/utils_006.js"
+      ],
+      "removed": [
+        "assets/css/index_style_1.css",
+        "assets/css/index_style_10.css",
+        "assets/css/index_style_11.css",
+        "assets/css/index_style_12.css",
+        "assets/css/index_style_2.css",
+        "assets/css/index_style_3.css",
+        "assets/css/index_style_4.css",
+        "assets/css/index_style_5.css",
+        "assets/css/index_style_6.css",
+        "assets/css/index_style_7.css",
+        "assets/css/index_style_8.css",
+        "assets/css/index_style_9.css",
+        "assets/css/style_012.css",
+        "assets/css/style_013.css",
+        "assets/css/style_014.css",
+        "assets/css/style_026.css",
+        "assets/css/style_027.css",
+        "assets/css/style_028.css",
+        "assets/css/style_052.css",
+        "assets/css/style_077.css"
+      ],
+      "top_changes": []
+    },
+    {
+      "from": "07_after_file_reduction",
+      "to": "08_after_bundle_reference_repair",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 33,
+      "bytes_before": 4407881,
+      "bytes_after": 4387865,
+      "bytes_saved": 20016,
+      "pct_reduction": 0.5,
+      "added": [],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/resource_4bc161c9f901.html",
+          "before": 213566,
+          "after": 179852,
+          "diff": -33714
+        },
+        {
+          "file": "assets/family.html",
+          "before": 79240,
+          "after": 83233,
+          "diff": 3993
+        },
+        {
+          "file": "assets/about.html",
+          "before": 67486,
+          "after": 71048,
+          "diff": 3562
+        },
+        {
+          "file": "assets/contact.html",
+          "before": 66448,
+          "after": 69682,
+          "diff": 3234
+        },
+        {
+          "file": "assets/weddings.html",
+          "before": 80503,
+          "after": 83558,
+          "diff": 3055
+        },
+        {
+          "file": "index.html",
+          "before": 191354,
+          "after": 188647,
+          "diff": -2707
+        },
+        {
+          "file": "assets/pop-up-portrait-studio.html",
+          "before": 129310,
+          "after": 130935,
+          "diff": 1625
+        },
+        {
+          "file": "assets/engagements.html",
+          "before": 100259,
+          "after": 101582,
+          "diff": 1323
+        },
+        {
+          "file": "assets/lauren-grants-ojai-valley-inn-wedding.html",
+          "before": 203288,
+          "after": 202346,
+          "diff": -942
+        },
+        {
+          "file": "assets/gigi-pena-ricky-mears-dj-nitti-engagement.html",
+          "before": 82460,
+          "after": 83322,
+          "diff": 862
+        },
+        {
+          "file": "assets/maddie-michaels-lacc-wedding.html",
+          "before": 285015,
+          "after": 285411,
+          "diff": 396
+        },
+        {
+          "file": "assets/aubrey-gavello-and-alex-woods-wedding.html",
+          "before": 37258,
+          "after": 36970,
+          "diff": -288
+        },
+        {
+          "file": "assets/blog.html",
+          "before": 30045,
+          "after": 30116,
+          "diff": 71
+        },
+        {
+          "file": "assets/resource-map.json",
+          "before": 78316,
+          "after": 78267,
+          "diff": -49
+        },
+        {
+          "file": "assets/js/utils.js",
+          "before": 1382,
+          "after": 1352,
+          "diff": -30
+        }
+      ]
+    },
+    {
+      "from": "08_after_bundle_reference_repair",
+      "to": "09_after_data_pruning",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 0,
+      "bytes_before": 4387865,
+      "bytes_after": 4387865,
+      "bytes_saved": 0,
+      "pct_reduction": 0.0,
+      "added": [],
+      "removed": [],
+      "top_changes": []
+    },
+    {
+      "from": "09_after_data_pruning",
+      "to": "10_after_text_normalization",
+      "files_added": 1,
+      "files_removed": 0,
+      "files_changed": 26,
+      "bytes_before": 4387865,
+      "bytes_after": 4404153,
+      "bytes_saved": -16288,
+      "pct_reduction": -0.4,
+      "added": [
+        "_ai_context.md"
+      ],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/data/data_001.json",
+          "before": 16,
+          "after": 17,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_001.svg",
+          "before": 465,
+          "after": 466,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_002.svg",
+          "before": 415,
+          "after": 416,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_003.svg",
+          "before": 415,
+          "after": 416,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_004.svg",
+          "before": 631,
+          "after": 632,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_005.svg",
+          "before": 540,
+          "after": 541,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_006.svg",
+          "before": 465,
+          "after": 466,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_007.svg",
+          "before": 415,
+          "after": 416,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_008.svg",
+          "before": 631,
+          "after": 632,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_009.svg",
+          "before": 540,
+          "after": 541,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/plyr.svg",
+          "before": 5785,
+          "after": 5786,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/logo-animation.js",
+          "before": 1911,
+          "after": 1912,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/script_024.js",
+          "before": 79529,
+          "after": 79530,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/script_026.js",
+          "before": 16885,
+          "after": 16886,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/script_027.js",
+          "before": 125835,
+          "after": 125836,
+          "diff": 1
+        }
+      ]
+    },
+    {
+      "from": "10_after_text_normalization",
+      "to": "11_final",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 0,
+      "bytes_before": 4404153,
+      "bytes_after": 4404153,
+      "bytes_saved": 0,
+      "pct_reduction": 0.0,
+      "added": [],
+      "removed": [],
+      "top_changes": []
+    }
+  ]
+}

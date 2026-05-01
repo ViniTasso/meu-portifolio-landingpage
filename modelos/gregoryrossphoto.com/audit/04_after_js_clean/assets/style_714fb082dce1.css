@@ -1,0 +1,24 @@
+.post-template-default #main>.content-wrap {
+  display: flex;
+  flex-direction: column
+}
+
+.post-template-default #main>.content-wrap article {
+  order: 0
+}
+
+.post-template-default #main>.content-wrap #comments {
+  order: 1
+}
+
+.post-template-default #main>.content-wrap .entry-related {
+  order: 2
+}
+
+.post-template-default #main>.content-wrap .navigation.post-navigation {
+  order: 3
+}
+
+.pagination {
+  text-align: center
+}

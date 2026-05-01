@@ -1,0 +1,629 @@
+{
+  "generated_at": "2026-05-01T14:07:35.064102",
+  "stages": [
+    {
+      "name": "01_raw",
+      "description": "Cópia fiel antes de qualquer limpeza",
+      "timestamp": "2026-05-01T14:07:03.769780",
+      "files": 23,
+      "bytes": 1300018
+    },
+    {
+      "name": "02_after_html_clean",
+      "description": "Após remoção de tracking e limpeza HTML",
+      "timestamp": "2026-05-01T14:07:03.846334",
+      "files": 41,
+      "bytes": 1294716
+    },
+    {
+      "name": "03_after_css_clean",
+      "description": "Após desminificação e limpeza CSS",
+      "timestamp": "2026-05-01T14:07:04.286583",
+      "files": 41,
+      "bytes": 1279396
+    },
+    {
+      "name": "04_after_js_clean",
+      "description": "Após desminificação e limpeza JS",
+      "timestamp": "2026-05-01T14:07:10.504313",
+      "files": 41,
+      "bytes": 1883132
+    },
+    {
+      "name": "05_after_reorganization",
+      "description": "Assets movidos para subpastas por tipo",
+      "timestamp": "2026-05-01T14:07:10.588450",
+      "files": 41,
+      "bytes": 1883132
+    },
+    {
+      "name": "06_after_path_correction",
+      "description": "Referências de paths atualizadas",
+      "timestamp": "2026-05-01T14:07:10.693439",
+      "files": 41,
+      "bytes": 1870065
+    },
+    {
+      "name": "07_after_file_reduction",
+      "description": "Quantidade de arquivos CSS/JS reduzida antes do reparo das referências",
+      "timestamp": "2026-05-01T14:07:10.842139",
+      "files": 47,
+      "bytes": 1868176
+    },
+    {
+      "name": "08_after_bundle_reference_repair",
+      "description": "Referências HTML/CSS/JS reparadas após consolidação de CSS e JS",
+      "timestamp": "2026-05-01T14:07:11.215077",
+      "files": 48,
+      "bytes": 1881277
+    },
+    {
+      "name": "09_after_data_pruning",
+      "description": "Arquivos órfãos em assets/data removidos do clean/",
+      "timestamp": "2026-05-01T14:07:11.237397",
+      "files": 48,
+      "bytes": 1881277
+    },
+    {
+      "name": "10_after_text_normalization",
+      "description": "Texto normalizado com espaços e terminadores de linha consistentes",
+      "timestamp": "2026-05-01T14:07:34.905223",
+      "files": 49,
+      "bytes": 1889265
+    },
+    {
+      "name": "11_final",
+      "description": "Estado final do clean/",
+      "timestamp": "2026-05-01T14:07:34.979328",
+      "files": 49,
+      "bytes": 1889265
+    }
+  ],
+  "comparisons": [
+    {
+      "from": "01_raw",
+      "to": "02_after_html_clean",
+      "files_added": 18,
+      "files_removed": 0,
+      "files_changed": 2,
+      "bytes_before": 1300018,
+      "bytes_after": 1294716,
+      "bytes_saved": 5302,
+      "pct_reduction": 0.4,
+      "added": [
+        "assets/inline_svg_9f8125bee8fd.svg",
+        "assets/inline_svg_a32956b889bb.svg",
+        "assets/resource_1ba0faf2ed13_script_1.js",
+        "assets/resource_1ba0faf2ed13_script_2.js",
+        "assets/resource_1ba0faf2ed13_script_3.js",
+        "assets/resource_1ba0faf2ed13_script_4.js",
+        "assets/resource_1ba0faf2ed13_style_1.css",
+        "assets/resource_1ba0faf2ed13_style_2.css",
+        "index_script_1.js",
+        "index_script_2.js",
+        "index_script_3.js",
+        "index_script_4.js",
+        "index_script_5.js",
+        "index_script_6.js",
+        "index_style_1.css",
+        "index_style_2.css",
+        "inline_svg_02de02793aa4.svg",
+        "inline_svg_175440922dc4.svg"
+      ],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "index.html",
+          "before": 91947,
+          "after": 21859,
+          "diff": -70088
+        },
+        {
+          "file": "assets/resource_1ba0faf2ed13.html",
+          "before": 45480,
+          "after": 21142,
+          "diff": -24338
+        }
+      ]
+    },
+    {
+      "from": "02_after_html_clean",
+      "to": "03_after_css_clean",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 6,
+      "bytes_before": 1294716,
+      "bytes_after": 1279396,
+      "bytes_saved": 15320,
+      "pct_reduction": 1.2,
+      "added": [],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/resource_1ba0faf2ed13_style_2.css",
+          "before": 8594,
+          "after": 3277,
+          "diff": -5317
+        },
+        {
+          "file": "index_style_2.css",
+          "before": 8594,
+          "after": 3277,
+          "diff": -5317
+        },
+        {
+          "file": "assets/646bb626f5c2104941dd5a26/css/james-williams.webflow.shared.bf3eba607.css",
+          "before": 92205,
+          "after": 88327,
+          "diff": -3878
+        },
+        {
+          "file": "assets/css_b5f73c467dbf.css",
+          "before": 11205,
+          "after": 10669,
+          "diff": -536
+        },
+        {
+          "file": "assets/resource_1ba0faf2ed13_style_1.css",
+          "before": 5867,
+          "after": 5731,
+          "diff": -136
+        },
+        {
+          "file": "index_style_1.css",
+          "before": 5867,
+          "after": 5731,
+          "diff": -136
+        }
+      ]
+    },
+    {
+      "from": "03_after_css_clean",
+      "to": "04_after_js_clean",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 22,
+      "bytes_before": 1279396,
+      "bytes_after": 1883132,
+      "bytes_saved": -603736,
+      "pct_reduction": -47.2,
+      "added": [],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/646bb626f5c2104941dd5a26/js/webflow.schunk.3141332d3a6b9955.js",
+          "before": 302090,
+          "after": 587018,
+          "diff": 284928
+        },
+        {
+          "file": "assets/646bb626f5c2104941dd5a26/js/webflow.schunk.8208d3e53b97e3c7.js",
+          "before": 304688,
+          "after": 449090,
+          "diff": 144402
+        },
+        {
+          "file": "assets/jquery-3_b59f91aa631a.js",
+          "before": 89476,
+          "after": 128956,
+          "diff": 39480
+        },
+        {
+          "file": "assets/ajax/libs/jquery/3.6.0/jquery.min.js",
+          "before": 89501,
+          "after": 128949,
+          "diff": 39448
+        },
+        {
+          "file": "assets/ajax/libs/gsap/3.11.3/gsap.min.js",
+          "before": 71017,
+          "after": 100471,
+          "diff": 29454
+        },
+        {
+          "file": "assets/646bb626f5c2104941dd5a26/js/webflow.schunk.36b8fb49256177c8.js",
+          "before": 41429,
+          "after": 68140,
+          "diff": 26711
+        },
+        {
+          "file": "assets/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js",
+          "before": 40115,
+          "after": 57411,
+          "diff": 17296
+        },
+        {
+          "file": "assets/646bb626f5c2104941dd5a26/js/webflow.2c22caba.901501578f69cb4d.js",
+          "before": 17491,
+          "after": 31622,
+          "diff": 14131
+        },
+        {
+          "file": "index_script_1.js",
+          "before": 42849,
+          "after": 36897,
+          "diff": -5952
+        },
+        {
+          "file": "assets/ajax/libs/webfont/1.6.26/webfont.js",
+          "before": 13188,
+          "after": 18322,
+          "diff": 5134
+        },
+        {
+          "file": "assets/split-type@0.3.4/umd/index.min.js",
+          "before": 11804,
+          "after": 16461,
+          "diff": 4657
+        },
+        {
+          "file": "assets/unpkg.com/split-type.js",
+          "before": 11804,
+          "after": 16461,
+          "diff": 4657
+        },
+        {
+          "file": "assets/ajax/libs/gsap/3.11.3/TextPlugin.min.js",
+          "before": 10625,
+          "after": 11478,
+          "diff": 853
+        },
+        {
+          "file": "assets/resource_1ba0faf2ed13_script_3.js",
+          "before": 4625,
+          "after": 4196,
+          "diff": -429
+        },
+        {
+          "file": "index_script_5.js",
+          "before": 4625,
+          "after": 4196,
+          "diff": -429
+        }
+      ]
+    },
+    {
+      "from": "04_after_js_clean",
+      "to": "05_after_reorganization",
+      "files_added": 38,
+      "files_removed": 38,
+      "files_changed": 0,
+      "bytes_before": 1883132,
+      "bytes_after": 1883132,
+      "bytes_saved": 0,
+      "pct_reduction": 0.0,
+      "added": [
+        "assets/css/index_style_1.css",
+        "assets/css/index_style_2.css",
+        "assets/css/style_001.css",
+        "assets/css/style_002.css",
+        "assets/css/style_003.css",
+        "assets/css/style_004.css",
+        "assets/icons/Group 238271.svg",
+        "assets/icons/Group 38021.svg",
+        "assets/icons/Group.svg",
+        "assets/icons/icon_001.svg",
+        "assets/icons/icon_002.svg",
+        "assets/icons/icon_003.svg",
+        "assets/icons/icon_004.svg",
+        "assets/icons/tmf.svg",
+        "assets/icons/webflow-badge-icon-d2.svg",
+        "assets/icons/webflow-badge-text-d2.svg",
+        "assets/js/ScrollTrigger.min.js",
+        "assets/js/TextPlugin.min.js",
+        "assets/js/gsap.min.js",
+        "assets/js/index.min.js"
+      ],
+      "removed": [
+        "assets/646bb626f5c2104941dd5a26/646ca3cfc83e856a4776a387_Group 38021.svg",
+        "assets/646bb626f5c2104941dd5a26/646ca3cfc939a9d017785dcc_Group.svg",
+        "assets/646bb626f5c2104941dd5a26/646ca5ba30c08c80dd73c795_Group 238271.svg",
+        "assets/646bb626f5c2104941dd5a26/6610406a67a70b6ef6929c40_tmf.svg",
+        "assets/646bb626f5c2104941dd5a26/css/james-williams.webflow.shared.bf3eba607.css",
+        "assets/646bb626f5c2104941dd5a26/js/webflow.2c22caba.901501578f69cb4d.js",
+        "assets/646bb626f5c2104941dd5a26/js/webflow.schunk.3141332d3a6b9955.js",
+        "assets/646bb626f5c2104941dd5a26/js/webflow.schunk.36b8fb49256177c8.js",
+        "assets/646bb626f5c2104941dd5a26/js/webflow.schunk.8208d3e53b97e3c7.js",
+        "assets/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js",
+        "assets/ajax/libs/gsap/3.11.3/TextPlugin.min.js",
+        "assets/ajax/libs/gsap/3.11.3/gsap.min.js",
+        "assets/ajax/libs/jquery/3.6.0/jquery.min.js",
+        "assets/ajax/libs/webfont/1.6.26/webfont.js",
+        "assets/css_b5f73c467dbf.css",
+        "assets/img/webflow-badge-icon-d2.89e12c322e.svg",
+        "assets/img/webflow-badge-text-d2.c82cec3b78.svg",
+        "assets/inline_svg_9f8125bee8fd.svg",
+        "assets/inline_svg_a32956b889bb.svg",
+        "assets/jquery-3_b59f91aa631a.js"
+      ],
+      "top_changes": []
+    },
+    {
+      "from": "05_after_reorganization",
+      "to": "06_after_path_correction",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 7,
+      "bytes_before": 1883132,
+      "bytes_after": 1870065,
+      "bytes_saved": 13067,
+      "pct_reduction": 0.7,
+      "added": [],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/js/index_script_1.js",
+          "before": 36897,
+          "after": 32467,
+          "diff": -4430
+        },
+        {
+          "file": "assets/resource-map.json",
+          "before": 11933,
+          "after": 9379,
+          "diff": -2554
+        },
+        {
+          "file": "assets/resource_1ba0faf2ed13.html",
+          "before": 21142,
+          "after": 18992,
+          "diff": -2150
+        },
+        {
+          "file": "index.html",
+          "before": 21859,
+          "after": 19725,
+          "diff": -2134
+        },
+        {
+          "file": "assets/css/style_002.css",
+          "before": 10669,
+          "after": 9209,
+          "diff": -1460
+        },
+        {
+          "file": "assets/css/style_001.css",
+          "before": 88327,
+          "after": 88019,
+          "diff": -308
+        },
+        {
+          "file": "assets/js/webflow.schunk.js",
+          "before": 587018,
+          "after": 586987,
+          "diff": -31
+        }
+      ]
+    },
+    {
+      "from": "06_after_path_correction",
+      "to": "07_after_file_reduction",
+      "files_added": 19,
+      "files_removed": 13,
+      "files_changed": 0,
+      "bytes_before": 1870065,
+      "bytes_after": 1868176,
+      "bytes_saved": 1889,
+      "pct_reduction": 0.1,
+      "added": [
+        "assets/css/base.css",
+        "assets/css/fonts.css",
+        "assets/css/globals.css",
+        "assets/css/important.css",
+        "assets/css/keyframes.css",
+        "assets/css/medias/base_medias.css",
+        "assets/css/medias/media_001.css",
+        "assets/css/medias/media_002.css",
+        "assets/css/medias/media_003.css",
+        "assets/css/selectors.css",
+        "assets/css/styles.css",
+        "assets/css/styles_002.css",
+        "assets/css/styles_003.css",
+        "assets/css/styles_004.css",
+        "assets/js/utils.js",
+        "assets/js/utils_002.js",
+        "assets/js/utils_003.js",
+        "assets/js/utils_004.js",
+        "assets/js/utils_005.js"
+      ],
+      "removed": [
+        "assets/css/index_style_1.css",
+        "assets/css/index_style_2.css",
+        "assets/css/style_001.css",
+        "assets/js/TextPlugin.min.js",
+        "assets/js/index_script_2.js",
+        "assets/js/index_script_3.js",
+        "assets/js/index_script_4.js",
+        "assets/js/index_script_5.js",
+        "assets/js/index_script_6.js",
+        "assets/js/script_003.js",
+        "assets/js/script_004.js",
+        "assets/js/script_005.js",
+        "assets/js/script_006.js"
+      ],
+      "top_changes": []
+    },
+    {
+      "from": "07_after_file_reduction",
+      "to": "08_after_bundle_reference_repair",
+      "files_added": 1,
+      "files_removed": 0,
+      "files_changed": 5,
+      "bytes_before": 1868176,
+      "bytes_after": 1881277,
+      "bytes_saved": -13101,
+      "pct_reduction": -0.7,
+      "added": [
+        "assets/unpkg.com/split-type.js"
+      ],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/js/index_script_1.js",
+          "before": 32467,
+          "after": 29962,
+          "diff": -2505
+        },
+        {
+          "file": "assets/resource_1ba0faf2ed13.html",
+          "before": 18992,
+          "after": 17479,
+          "diff": -1513
+        },
+        {
+          "file": "index.html",
+          "before": 19725,
+          "after": 20399,
+          "diff": 674
+        },
+        {
+          "file": "assets/js/webflow.schunk.js",
+          "before": 586987,
+          "after": 586979,
+          "diff": -8
+        },
+        {
+          "file": "assets/resource-map.json",
+          "before": 9379,
+          "after": 9371,
+          "diff": -8
+        }
+      ]
+    },
+    {
+      "from": "08_after_bundle_reference_repair",
+      "to": "09_after_data_pruning",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 0,
+      "bytes_before": 1881277,
+      "bytes_after": 1881277,
+      "bytes_saved": 0,
+      "pct_reduction": 0.0,
+      "added": [],
+      "removed": [],
+      "top_changes": []
+    },
+    {
+      "from": "09_after_data_pruning",
+      "to": "10_after_text_normalization",
+      "files_added": 1,
+      "files_removed": 0,
+      "files_changed": 20,
+      "bytes_before": 1881277,
+      "bytes_after": 1889265,
+      "bytes_saved": -7988,
+      "pct_reduction": -0.4,
+      "added": [
+        "_ai_context.md"
+      ],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/icons/icon_001.svg",
+          "before": 874,
+          "after": 875,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_002.svg",
+          "before": 421,
+          "after": 422,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_003.svg",
+          "before": 423,
+          "after": 424,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_004.svg",
+          "before": 876,
+          "after": 877,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/ScrollTrigger.min.js",
+          "before": 57411,
+          "after": 57412,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/gsap.min.js",
+          "before": 100471,
+          "after": 100472,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/index_script_1.js",
+          "before": 29962,
+          "after": 29963,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/jquery.min.js",
+          "before": 128949,
+          "after": 128950,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/script_001.js",
+          "before": 31622,
+          "after": 31623,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/script_002.js",
+          "before": 128956,
+          "after": 128957,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/split-type.js",
+          "before": 16461,
+          "after": 16462,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/utils_002.js",
+          "before": 2310,
+          "after": 2311,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/utils_003.js",
+          "before": 299,
+          "after": 300,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/utils_004.js",
+          "before": 11478,
+          "after": 11479,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/utils_005.js",
+          "before": 5198,
+          "after": 5199,
+          "diff": 1
+        }
+      ]
+    },
+    {
+      "from": "10_after_text_normalization",
+      "to": "11_final",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 0,
+      "bytes_before": 1889265,
+      "bytes_after": 1889265,
+      "bytes_saved": 0,
+      "pct_reduction": 0.0,
+      "added": [],
+      "removed": [],
+      "top_changes": []
+    }
+  ]
+}

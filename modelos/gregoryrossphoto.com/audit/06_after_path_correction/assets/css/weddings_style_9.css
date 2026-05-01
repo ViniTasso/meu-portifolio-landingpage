@@ -1,0 +1,99 @@
+.kt-post-loop794_3b1130-19 .kt-post-grid-layout-masonry-wrap .kt-post-masonry-item {
+  padding-left: 45px;
+  padding-right: 45px
+}
+
+.kt-post-loop794_3b1130-19 .kt-post-grid-layout-masonry-wrap {
+  margin-left: -45px;
+  margin-right: -45px
+}
+
+.kt-post-loop794_3b1130-19 .kt-post-grid-layout-masonry-wrap .kt-post-masonry-item {
+  padding-bottom: 100px
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-grid-item {
+  border-top: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  overflow: hidden
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-grid-item .kt-blocks-post-grid-item-inner {
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-grid-item .kt-blocks-post-grid-item-inner {
+  text-align: center
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-grid-item .kt-blocks-post-top-meta {
+  justify-content: center
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-grid-item header {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-grid-item .entry-title {
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  margin: 0px 0px 0px 0px;
+  font-size: 24px;
+  line-height: 30px
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-grid-item .kt-blocks-post-top-meta {
+  color: #777777
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-grid-item .kt-blocks-post-top-meta a {
+  color: #777777
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-grid-item .kt-blocks-post-top-meta a:hover {
+  color: #444444
+}
+
+.kt-post-loop794_3b1130-19 .entry-content {
+  font-size: 10px;
+  font-family: var(--global-body-font-family, inherit);
+  font-weight: inherit;
+  font-style: italic
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-footer {
+  color: #777777;
+  font-size: 12px;
+  line-height: 20px
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-footer a {
+  color: #777777
+}
+
+.kt-post-loop794_3b1130-19 .kt-blocks-post-footer a:hover {
+  color: #444444
+}
+
+@media all and (max-width:1024px) {
+
+}
+
+@media all and (max-width:767px) {
+  .kt-post-loop794_3b1130-19 .kt-blocks-post-grid-item {
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #ffffff
+  }
+}

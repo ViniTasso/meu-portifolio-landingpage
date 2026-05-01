@@ -1,0 +1,6 @@
+setTimeout(function() {
+  iFrameResize({
+    checkOrigin: false,
+    heightCalculationMethod: "taggedElement"
+  });
+}, 30)

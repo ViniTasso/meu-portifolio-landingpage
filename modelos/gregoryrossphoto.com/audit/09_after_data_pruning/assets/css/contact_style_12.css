@@ -1,0 +1,23 @@
+.kb-imageblock-36_eb3ce3-ea.kb-image-is-ratio-size,
+.kb-imageblock-36_eb3ce3-ea .kb-image-is-ratio-size {
+  max-width: 400px;
+  width: 100%
+}
+
+.wp-block-kadence-column>.kt-inside-inner-col>.kb-imageblock-36_eb3ce3-ea.kb-image-is-ratio-size,
+.wp-block-kadence-column>.kt-inside-inner-col>.kb-imageblock-36_eb3ce3-ea .kb-image-is-ratio-size {
+  align-self: unset
+}
+
+.kb-imageblock-36_eb3ce3-ea figure {
+  max-width: 400px
+}
+
+.kb-imageblock-36_eb3ce3-ea .image-is-svg,
+.kb-imageblock-36_eb3ce3-ea .image-is-svg img {
+  width: 100%
+}
+
+.kb-imageblock-36_eb3ce3-ea .kb-image-has-overlay:after {
+  opacity: 0.3
+}

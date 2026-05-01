@@ -1,0 +1,41 @@
+@import url("/assets/css/style_052.css");
+
+@font-face {
+  font-family: "ivypresto-display";
+  src: url("/assets/other/file_010") format("woff2"), url("/assets/other/file_008") format("woff"), url("/assets/other/file_004") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal
+}
+
+@font-face {
+  font-family: "ivypresto-display";
+  src: url("/assets/other/file_012") format("woff2"), url("/assets/other/file_007") format("woff"), url("/assets/other/file_003") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal
+}
+
+@font-face {
+  font-family: "ivypresto-display";
+  src: url("/assets/other/file_009") format("woff2"), url("/assets/other/file_005") format("woff"), url("/assets/other/file_001") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal
+}
+
+@font-face {
+  font-family: "ivypresto-display";
+  src: url("/assets/other/file_011") format("woff2"), url("/assets/other/file_006") format("woff"), url("/assets/other/file_002") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal
+}
+
+.tk-ivypresto-display {
+  font-family: "ivypresto-display", serif
+}

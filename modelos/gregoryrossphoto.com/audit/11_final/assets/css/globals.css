@@ -1,0 +1,332 @@
+body:after {
+  content: url("/assets/images/sbi-sprite.png");
+  display: none;
+}
+
+:where(figure) {
+  margin: 0px 0px 1em;
+}
+
+main {
+  display: block;
+  min-width: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+a {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template,
+select::-ms-expand {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+blockquote,
+q {
+  quotes: "“" "”";
+}
+
+blockquote {
+  padding-left: 1em;
+  border-left: 4px solid var(--global-palette4);
+}
+
+address {
+  margin: 0 0 1.5em;
+}
+
+pre {
+  background: var(--global-palette7);
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: .9375rem;
+  line-height: 1.6;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.5em;
+  white-space: pre-wrap;
+}
+
+mark,
+ins {
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-bottom: 2px solid var(--global-gray-400);
+}
+
+ul,
+ol {
+  margin: 0 0 1.5em 1.5em;
+  padding: 0;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li>ul,
+li>ol {
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+dd {
+  margin: 0 1.5em 1.5em;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+figure {
+  margin: .5em 0;
+}
+
+table {
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+a {
+  color: var(--global-palette-highlight);
+  transition: all .1s linear;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--global-palette-highlight-alt);
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+textarea {
+  width: 100%;
+}
+
+::-moz-placeholder {
+  color: var(--global-palette6);
+  opacity: 1;
+}
+
+::placeholder {
+  color: var(--global-palette6);
+}
+
+select {
+  border: 1px solid var(--global-gray-400);
+  background-size: 16px 100%;
+  padding: .2em 35px .2em .5em;
+  background: var(--global-palette9) url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiNiYmIiPjxwYXRoIGQ9Ik02IDlsNiA2IDYtNiIvPjwvc3ZnPg==) no-repeat 98% 50%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  outline: 0;
+  box-shadow: 0px 0px 0px -7px rgba(0, 0, 0, 0);
+}
+
+select:focus {
+  color: var(--global-palette3);
+  border-color: var(--global-palette6);
+  background-color: var(--global-palette9);
+  box-shadow: 0px 5px 15px -7px rgba(0, 0, 0, .1);
+  outline: 0;
+}
+
+select:focus option {
+  color: #333;
+}
+
+fieldset {
+  padding: .625em 1.425em .625em;
+  border: 1px solid var(--global-gray-500);
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+body,
+input,
+select,
+optgroup,
+textarea {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: var(--global-body-font-family);
+  color: var(--global-palette4);
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--global-palette3);
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 28px;
+  line-height: 1.5;
+  color: var(--global-palette3);
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--global-palette3);
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 1.5;
+  color: var(--global-palette4);
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--global-palette4);
+}
+
+h6 {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--global-palette5);
+}
+
+embed,
+iframe,
+object {
+  max-width: 100%;
+}

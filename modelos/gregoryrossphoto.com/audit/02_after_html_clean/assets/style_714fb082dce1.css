@@ -1,0 +1,42 @@
+/*
+Theme Name:     Vernonia
+Theme URI:      https://vernonia.sightseedesign.com/
+Template:       kadence
+Author:         Sightsee Design
+Author URI:     https://www.sightseedesign.com/
+Description:    A modern photography theme crafted to display work in an elegant manor while being optimized for search engines.
+Version:        1.13
+License:        GNU General Public License v3.0 (or later)
+License URI:    https://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+
+
+
+.post-template-default #main > .content-wrap {
+display: flex;
+flex-direction: column;
+}
+.post-template-default #main > .content-wrap article {
+order: 0;
+}
+.post-template-default #main > .content-wrap #comments {
+order: 1;
+}
+.post-template-default #main > .content-wrap .entry-related {
+order: 2;
+}
+.post-template-default #main > .content-wrap .navigation.post-navigation {
+order: 3;
+}
+
+
+.pagination {
+    text-align: center;
+}
+/* Center blog archive pagination */
+.pagination {
+    text-align: center;
+}
+
+

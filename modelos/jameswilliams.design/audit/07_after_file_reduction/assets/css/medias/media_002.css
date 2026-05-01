@@ -1,0 +1,356 @@
+@media screen and (max-width:767px) {
+  h1 {
+    font-size: 2.5rem
+  }
+
+  h2 {
+    font-size: 2rem
+  }
+
+  h3 {
+    font-size: 1.5rem
+  }
+
+  h4 {
+    font-size: 1.25rem
+  }
+
+  h5 {
+    font-size: 1rem
+  }
+
+  h6 {
+    font-size: .875rem
+  }
+
+  .padding-xlarge {
+    padding: 2rem
+  }
+
+  .margin-xlarge {
+    margin: 2rem
+  }
+
+  .padding-xhuge {
+    padding: 4rem
+  }
+
+  .padding-xxhuge {
+    padding: 4.5rem
+  }
+
+  .padding-huge {
+    padding: 3.5rem
+  }
+
+  .margin-large {
+    margin: 1.5rem
+  }
+
+  .padding-xxlarge {
+    padding: 3rem
+  }
+
+  .padding-large {
+    padding: 1.5rem
+  }
+
+  .margin-huge {
+    margin: 3.5rem
+  }
+
+  .padding-medium {
+    padding: 1.25rem
+  }
+
+  .margin-xxlarge {
+    margin: 3rem
+  }
+
+  .margin-xhuge {
+    margin: 4rem
+  }
+
+  .margin-medium {
+    margin: 1.25rem
+  }
+
+  .margin-xxhuge {
+    margin: 4.5rem
+  }
+
+  .hide-mobile-landscape {
+    display: none
+  }
+
+  .fs-styleguide_heading-large {
+    font-size: 3rem
+  }
+
+  .heading-style-h3 {
+    font-size: 1.5rem
+  }
+
+  .heading-style-h1 {
+    font-size: 2.5rem
+  }
+
+  .padding-global {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem
+  }
+
+  .padding-section-small {
+    padding-top: 2rem;
+    padding-bottom: 2rem
+  }
+
+  .fs-styleguide_section-header {
+    font-size: .875rem
+  }
+
+  .fs-styleguide_heading-medium {
+    font-size: 2rem
+  }
+
+  .max-width-full-mobile-landscape {
+    width: 100%;
+    max-width: none
+  }
+
+  .heading-style-h4 {
+    font-size: 1rem
+  }
+
+  .text-style-nowrap {
+    white-space: normal
+  }
+
+  .heading-style-h6 {
+    font-size: .75rem
+  }
+
+  .padding-section-large {
+    padding-top: 4rem;
+    padding-bottom: 4rem
+  }
+
+  .text-size-large {
+    font-size: 1.25rem
+  }
+
+  .heading-style-h2 {
+    font-size: 2rem
+  }
+
+  .fs-styleguide_version {
+    font-size: .875rem
+  }
+
+  .heading-style-h5 {
+    font-size: 1.6rem
+  }
+
+  .padding-section-medium {
+    padding-top: 3rem;
+    padding-bottom: 3rem
+  }
+
+  .spacer-96 {
+    padding: 3.5rem
+  }
+
+  .spacer-medium {
+    padding: 1.25rem
+  }
+
+  .spacer-xhuge {
+    padding: 4rem
+  }
+
+  .spacer-xxhuge {
+    padding: 4.5rem
+  }
+
+  .spacer-xlarge {
+    padding: 2rem
+  }
+
+  .spacer-large {
+    padding: 1.5rem
+  }
+
+  .spacer-xxlarge {
+    padding: 3rem
+  }
+
+  .results_component {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem
+  }
+
+  .results_row {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    grid-template-columns: 1fr
+  }
+
+  .results_card-small {
+    grid-template-columns: 1fr
+  }
+
+  .results_card-small-content {
+    padding: 2rem 1.5rem
+  }
+
+  .logo1_component {
+    padding-top: 1rem
+  }
+
+  .logo1_component.is-2 {
+    margin-left: -3rem;
+    transform: scale(.8)
+  }
+
+  .logo1_logo {
+    max-height: 3rem
+  }
+
+  .layout19_component {
+    grid-row-gap: 3rem;
+    grid-template-columns: 1fr
+  }
+
+  .navbar2_component {
+    min-height: 4rem
+  }
+
+  .navbar2_menu.is-page-height-tablet {
+    padding-bottom: 6rem
+  }
+
+  .navbar_menu-dropdown {
+    display: none
+  }
+
+  .hero_background-image {
+    height: 11rem;
+    margin-top: 7rem
+  }
+
+  .hero_background-image.is-footer {
+    margin-top: 0
+  }
+
+  .hero_background-image-wrapper {
+    margin-top: -6rem
+  }
+
+  .hero_profile-image {
+    height: 200px
+  }
+
+  .hero_color-filter {
+    height: 2.7rem
+  }
+
+  .hero_subtitle {
+    font-size: 1.1rem
+  }
+
+  .about_heading {
+    font-size: 2.7rem
+  }
+
+  .about_content {
+    font-size: 1.25rem
+  }
+
+  .home-heading {
+    font-size: 4rem
+  }
+
+  .specialise_list-text {
+    font-size: 1.25rem
+  }
+
+  .about_grid {
+    grid-row-gap: 40px
+  }
+
+  .latest_card-heading {
+    font-size: 2rem
+  }
+
+  .latest_heading-wrapper {
+    width: 100%
+  }
+
+  .padding-section-latest {
+    padding-left: 1rem;
+    padding-right: 1rem
+  }
+
+  .hero_padding-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem
+  }
+
+  .about_padding-section {
+    padding: 3rem 1rem
+  }
+
+  .specialise_padding-section {
+    padding: 5rem 1rem 3rem
+  }
+
+  .card-end {
+    padding: 1.25rem
+  }
+
+  .footer-hero-2_color-filter {
+    margin-top: 16px
+  }
+
+  .footer_padding-section {
+    padding-top: 3rem;
+    padding-bottom: 12rem
+  }
+
+  .footer_background-image-wrapper {
+    height: 6rem
+  }
+
+  .navbar {
+    min-height: 4rem
+  }
+
+  .case_padding-section {
+    padding: 3rem 1rem
+  }
+
+  .more_title {
+    font-size: 5.4rem
+  }
+
+  .case-info_heading {
+    font-size: 6.6rem
+  }
+
+  .case-info_heading.is-dan {
+    font-size: 4.9rem
+  }
+
+  .case-info-copy {
+    font-size: 1.25rem
+  }
+
+  .results_heading,
+  .latest_title {
+    font-size: 5.4rem
+  }
+
+  .lottie-spacer {
+    padding: 3rem
+  }
+}

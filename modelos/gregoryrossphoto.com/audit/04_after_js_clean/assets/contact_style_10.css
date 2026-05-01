@@ -1,0 +1,16 @@
+.pagination {
+  text-align: center
+}
+
+#primary-menu li a {
+  font-size: clamp(0.625rem, -0.125rem + 1vw, 0.875rem) !important
+}
+
+:root {
+  --global-kb-font-size-sm: clamp(0.875rem, -0.7642rem + 1.8868vw, 1.5rem);
+  --global-kb-font-size-md: clamp(1.05rem, -1.1137rem + 2.4906vw, 1.875rem);
+  --global-kb-font-size-lg: clamp(1.26rem, -1.5823rem + 3.2717vw, 2.3438rem);
+  --global-kb-font-size-xl: clamp(1.512rem, -2.2061rem + 4.2798vw, 2.9297rem);
+  --global-kb-font-size-xxl: clamp(1.8144rem, -3.0315rem + 5.578vw, 3.6621rem);
+  --global-kb-font-size-xxxl: clamp(2.1773rem, -4.118rem + 7.2464vw, 4.5776rem)
+}
