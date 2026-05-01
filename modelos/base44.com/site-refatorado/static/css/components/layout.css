@@ -115,30 +115,6 @@
   width: 32px;
 }
 
-.placeholder-media {
-  min-height: 210px;
-  border-radius: var(--radius-card);
-  background: linear-gradient(180deg, #f2f1ed 43.61%, #f0c4e3 93.76%, #fbb439 104.42%);
-  margin-bottom: var(--space-3);
-}
-
-.placeholder-media.wide {
-  min-height: 1.4vw;
-  width: min(57vw, 760px);
-  filter: blur(0);
-  border-radius: var(--radius-card);
-}
-
-.prompt-showcase .prompt-track {
-  display: grid;
-  gap: var(--space-3);
-}
-
-.sendoff-title {
-  margin-bottom: var(--space-4);
-  max-width: 16ch;
-}
-
 .comp-kd5px9q0-pinned-layer,
 .comp-mok06b5e-pinned-layer {
   position: fixed;
