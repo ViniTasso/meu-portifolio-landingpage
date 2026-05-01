@@ -1,0 +1,122 @@
+#main_MF {
+  padding-top: var(--header-height);
+}
+
+#comp-m28o2bbb {
+  min-height: 100vh;
+  background: var(--hero-bg);
+}
+
+#comp-m28o2bbb .max-width-container {
+  padding-top: clamp(5.5rem, 12vw, 10rem);
+}
+
+#comp-mkfg5rtb {
+  min-height: 30vw;
+  background: var(--separator-bg);
+}
+
+#comp-mkfg5rtb .separator {
+  border: 0;
+}
+
+#comp-mkfmbp8m {
+  background: var(--color-page);
+}
+
+#comp-mkfmbp8m h2 {
+  max-width: 16ch;
+}
+
+#comp-mkfn6wz6 {
+  background: var(--color-page);
+}
+
+#comp-mkfn6wz6 .wixui-cards-container-1 {
+  background: linear-gradient(180deg, #f0f0f0 42.34%, #f0c3ec 91.67%, #cce7e9 104.12%);
+}
+
+#comp-mkfn6wz6 .wixui-cards-container-2 {
+  background: linear-gradient(180deg, #f2f1ed 42.49%, #d5dfe0 93.98%, #e5ff94 104.08%);
+}
+
+#comp-mkfn6wz6 .wixui-cards-container-3 {
+  background: linear-gradient(180deg, #edeae4 42.62%, #f9fbc9 94.17%, #fee969 104.07%);
+}
+
+#comp-mkfn6wz6 .wixui-cards-container-4 {
+  background: linear-gradient(0deg, #f50 -13.02%, #dbddda 9.58%, #f5f2ec 83.05%);
+}
+
+#comp-mkkxum1d {
+  min-height: 100vh;
+  background: #fff;
+  background-image: radial-gradient(#efd8ed 2px, transparent 0);
+  background-size: 80px 80px;
+}
+
+#comp-mkkxum1d .prompt-showcase {
+  position: relative;
+}
+
+#comp-mkla53qm,
+#comp-mknvgyk7 {
+  background: var(--color-page);
+}
+
+#comp-mkla53qm .pricing-card {
+  background: var(--color-surface);
+}
+
+#comp-mkla53qm .pricing-card strong {
+  color: var(--color-orange);
+}
+
+#comp-mknu6y0a {
+  background: var(--sendoff-bg);
+}
+
+#comp-mknu6y0a p,
+#comp-mknu6y0a h2 {
+  color: #0f0f0f;
+}
+
+#comp-mok06rba {
+  background: var(--color-page);
+}
+
+@media (min-width: 1001px) and (max-width: 1440px) {
+  #comp-mkkxum1d {
+    background-size: 75px 75px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #comp-mkfn6wz6 .feature-grid {
+    gap: var(--space-3);
+  }
+
+  #comp-mkkxum1d {
+    min-height: 82.2764vw;
+  }
+}
+
+@media (max-width: 767px) {
+  #comp-m28o2bbb {
+    min-height: auto;
+  }
+
+  #comp-mkfn6wz6 .feature-card {
+    padding: var(--space-3);
+  }
+
+  #comp-mkkxum1d {
+    min-height: 90vw;
+    background-image: radial-gradient(#efd8ed 1px, transparent 0);
+    background-size: 60px 60px;
+  }
+
+  #comp-mknu6y0a {
+    min-height: 164.779vw;
+  }
+}

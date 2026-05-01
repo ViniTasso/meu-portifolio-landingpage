@@ -5,7 +5,10 @@
   <meta id="wixDesktopViewport" name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}Projeto Refatorado{% endblock %}</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/tokens.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/components/layout.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/components/sections.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/components/motion.css') }}">
 </head>
 <body class="{% block body_class %}responsive{% endblock %}">
   {% block content %}{% endblock %}

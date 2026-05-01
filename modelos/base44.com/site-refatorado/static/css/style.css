@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--color-ink);
+  background: var(--color-page);
+  font-family: var(--font-base);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+  color: var(--color-ink-soft);
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.brcTpl,
+.max-width-container,
+.footer-content {
+  width: min(var(--container), calc(100% - 2 * var(--header-margin)));
+  margin-inline: auto;
+}
+
+main section {
+  position: relative;
+  padding-block: var(--space-7);
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 7vw, 6rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-4);
+}
+
+h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 4.2vw, 3.5rem);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  margin-bottom: var(--space-4);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 2.3vw, 1.8rem);
+  line-height: 1.2;
+  margin-bottom: var(--space-3);
+}
+
+.eyebrow,
+.step {
+  color: var(--color-orange);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-3);
+}
+
+.cta-row {
+  margin-top: var(--space-5);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.separator {
+  min-height: 30vw;
+}
+
+.feature-grid,
+.pricing-grid,
+.faq-list {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.feature-card,
+.pricing-card,
+.faq-list article {
+  grid-column: span 6;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--color-border);
+  overflow: clip;
+}
+
+.feature-card,
+.pricing-card {
+  padding: var(--space-4);
+}
+
+.faq-list article {
+  background: var(--color-surface);
+  padding: var(--space-5) var(--space-4);
+}
+
+.footer-content {
+  border-top: 1px solid var(--color-border);
+  padding-block: var(--space-4);
+}
+
+@media (max-width: 1099px) {
+  main section {
+    padding-block: var(--space-6);
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    line-height: 1;
+  }
+
+  .feature-card,
+  .pricing-card,
+  .faq-list article {
+    grid-column: span 12;
+  }
+}
