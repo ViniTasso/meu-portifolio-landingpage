@@ -280,6 +280,29 @@ function initFloatingElements() {
   });
 }
 
+// Anima o ponto do Lottie
+function animateLottieDot() {
+  const dot = document.querySelector('.lottie-animation-dotlottie');
+  console.log("Dot element:", dot);
+  if (dot) {
+    gsap.to(dot, {
+      y: -50,           // Move 60px para cima
+      duration: 2,
+      ease: "power1.inOut",
+      yoyo: false,       // Volta para baixo
+      repeat: -1        // Loop infinito
+    })// O segredo: Garantimos que ele resete ANTES de começar a aparecer
+    .set(dot, { y: 0, opacity: 0 }) 
+    
+    // Aumentamos a duração aqui e garantimos que não haja sobreposição
+    .to(dot, { 
+      opacity: 1, 
+      duration: 1.0, // Agora ele deve levar 1 segundo inteiro para aparecer
+      ease: "none"
+    }, "+=0.2"); // Este "+=0.2" adiciona um pequeno silêncio antes de reaparecer
+  }
+}
+
 // ─────────────────────────────────────────────
 // STAGGER ANIMATION — sequência de animações em cascata
 // Padrão: itens animam um após outro
@@ -336,6 +359,9 @@ function initStaggerAnimation() {
 
 function initAdvancedInteractions() {
   if (typeof gsap === "undefined" || typeof lottie === "undefined") {
+    // typeof lottie
+    // requer a biblioteca:
+    // - <script src="https://cdn.jsdelivr.net/npm/lottie-web@5.12.2/build/player/lottie.min.js"></script>
     requestAnimationFrame(initAdvancedInteractions);
     return;
   }
@@ -345,10 +371,11 @@ function initAdvancedInteractions() {
 
   // Padrões reutilizáveis para futuras funcionalidades
   initRevealOnScroll();
-  initParallaxScroll();
+  // initParallaxScroll();
   initScrollProgressBar();
   initFloatingElements();
   initStaggerAnimation();
+  animateLottieDot();
 }
 
 // Executar quando DOM estiver pronto

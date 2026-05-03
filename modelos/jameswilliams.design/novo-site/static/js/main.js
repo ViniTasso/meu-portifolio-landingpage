@@ -1,7 +1,6 @@
 document.documentElement.classList.add("js");
 
 function createScrollTrigger(triggerElement, timeline) {
-  console.log("JS carregou");
   ScrollTrigger.create({
     trigger: triggerElement,
     start: "top bottom",
@@ -22,6 +21,7 @@ function createScrollTrigger(triggerElement, timeline) {
 }
 
 function initTextSplit() {
+  
   if (typeof SplitType === "undefined") return;
   const textSplits = document.querySelectorAll("[text-split]");
   textSplits.forEach((el) => {
@@ -44,7 +44,6 @@ function initTextFlyIn(selector) {
   const elements = document.querySelectorAll(selector);
   elements.forEach((el) => {
     const chars = el.querySelectorAll(".char");
-    console.log("chars:", chars.length);
     if (!chars.length) return;
     const tl = gsap.timeline({ paused: true });
     tl.from(chars, {
@@ -198,10 +197,8 @@ function initAnimations() {
     requestAnimationFrame(initAnimations);
     return;
   }
-
   gsap.registerPlugin(ScrollTrigger);
   gsap.set(".color-filter", { opacity: 0 });
-
   initTextSplit();
   initHeroAnimations();
   initTextFlyIn("[text-fly-in-left]");
@@ -219,5 +216,4 @@ window.addEventListener("resize", () => {
   if (typeof ScrollTrigger !== "undefined") ScrollTrigger.refresh();
   updateLatestCardsContrast();
 });
-console.log("JS carregou");
 document.addEventListener("DOMContentLoaded", initAnimations);
