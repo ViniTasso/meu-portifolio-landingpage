@@ -1,0 +1,118 @@
+.footer_padding-section {
+  flex-flow: column;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 15rem;
+  display: flex;
+}
+
+.footer_background-image-wrapper {
+  justify-content: center;
+  align-items: center;
+  height: 17.3rem;
+  display: flex;
+  position: relative;
+  overflow: visible;
+}
+
+.hero_background-image.is-footer {
+  opacity: 0.06;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.hero_heading.is-footer {
+  letter-spacing: -0.3rem;
+}
+
+.footer-hero-2_color-filter {
+  z-index: 3;
+  mix-blend-mode: darken;
+  background-color: var(--color-overlay);
+  height: 5rem;
+  margin-top: 5px;
+  margin-right: -5rem;
+  margin-left: -5rem;
+  position: relative;
+}
+
+.footer-cta-component {
+  justify-content: center;
+  display: flex;
+}
+
+.footer-2_subtitle-wrapper-copy {
+  justify-content: center;
+  align-items: center;
+  width: 45rem;
+  display: flex;
+}
+
+.button.is-secondary.is-v2 {
+  z-index: 5;
+  color: var(--color-text);
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid var(--color-text);
+  border-radius: var(--radius-pill);
+  padding: 0.3rem 1.2rem 0.1rem;
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 400;
+  transition: all var(--duration-fast) var(--easing-standard);
+  position: relative;
+}
+
+.button.is-secondary.is-v2:hover {
+  color: var(--misty-rose);
+  border-color: var(--misty-rose);
+  transform: scale(1.01);
+}
+
+@media screen and (max-width: 991px) {
+  .hero_heading.is-footer {
+    margin-top: 8.4rem;
+  }
+
+  .footer-hero-2_color-filter {
+    height: 3.7rem;
+    margin-top: 10px;
+  }
+
+  .footer_padding-section {
+    padding-top: 4rem;
+    padding-bottom: 16rem;
+  }
+
+  .footer_background-image-wrapper {
+    height: 7rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero_background-image.is-footer {
+    margin-top: 0;
+  }
+
+  .footer-hero-2_color-filter {
+    margin-top: 16px;
+  }
+
+  .footer_padding-section {
+    padding-top: 3rem;
+    padding-bottom: 12rem;
+  }
+
+  .footer_background-image-wrapper {
+    height: 6rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hero_heading.is-footer {
+    font-size: 13vw;
+  }
+
+  .footer_padding-section {
+    padding-bottom: 12rem;
+  }
+}

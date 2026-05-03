@@ -1,0 +1,49 @@
+{
+  "label": "novo-site",
+  "target": "http://127.0.0.1:5000/",
+  "title": "Tecnologia | Vinícius Tasso",
+  "viewport": {
+    "width": 768,
+    "height": 1024
+  },
+  "step_height": 1024,
+  "total_height": 7030,
+  "total_steps": 7,
+  "shots": [
+    {
+      "index": 0,
+      "scroll_y": 0,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\novo-site\\127-0-0-1-5000\\768x1024\\step-0000-y-000000.png"
+    },
+    {
+      "index": 1,
+      "scroll_y": 1024,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\novo-site\\127-0-0-1-5000\\768x1024\\step-0001-y-001024.png"
+    },
+    {
+      "index": 2,
+      "scroll_y": 2048,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\novo-site\\127-0-0-1-5000\\768x1024\\step-0002-y-002048.png"
+    },
+    {
+      "index": 3,
+      "scroll_y": 3072,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\novo-site\\127-0-0-1-5000\\768x1024\\step-0003-y-003072.png"
+    },
+    {
+      "index": 4,
+      "scroll_y": 4096,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\novo-site\\127-0-0-1-5000\\768x1024\\step-0004-y-004096.png"
+    },
+    {
+      "index": 5,
+      "scroll_y": 5120,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\novo-site\\127-0-0-1-5000\\768x1024\\step-0005-y-005120.png"
+    },
+    {
+      "index": 6,
+      "scroll_y": 6006,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\novo-site\\127-0-0-1-5000\\768x1024\\step-0006-y-006006.png"
+    }
+  ]
+}

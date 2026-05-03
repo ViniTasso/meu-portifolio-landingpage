@@ -1,0 +1,59 @@
+{
+  "label": "raw",
+  "target": "http://localhost:8000/index.html",
+  "title": "James Williams | Webflow Designer",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "step_height": 800,
+  "total_height": 6835,
+  "total_steps": 9,
+  "shots": [
+    {
+      "index": 0,
+      "scroll_y": 0,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\raw\\localhost-8000-index-html\\1280x800\\step-0000-y-000000.png"
+    },
+    {
+      "index": 1,
+      "scroll_y": 800,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\raw\\localhost-8000-index-html\\1280x800\\step-0001-y-000800.png"
+    },
+    {
+      "index": 2,
+      "scroll_y": 1600,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\raw\\localhost-8000-index-html\\1280x800\\step-0002-y-001600.png"
+    },
+    {
+      "index": 3,
+      "scroll_y": 2400,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\raw\\localhost-8000-index-html\\1280x800\\step-0003-y-002400.png"
+    },
+    {
+      "index": 4,
+      "scroll_y": 3200,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\raw\\localhost-8000-index-html\\1280x800\\step-0004-y-003200.png"
+    },
+    {
+      "index": 5,
+      "scroll_y": 4000,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\raw\\localhost-8000-index-html\\1280x800\\step-0005-y-004000.png"
+    },
+    {
+      "index": 6,
+      "scroll_y": 4800,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\raw\\localhost-8000-index-html\\1280x800\\step-0006-y-004800.png"
+    },
+    {
+      "index": 7,
+      "scroll_y": 5600,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\raw\\localhost-8000-index-html\\1280x800\\step-0007-y-005600.png"
+    },
+    {
+      "index": 8,
+      "scroll_y": 6035,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\tools\\artifacts\\capture_scroll_steps\\raw\\localhost-8000-index-html\\1280x800\\step-0008-y-006035.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "site": [
+        {
+        "nome": "Vinícius Tasso",
+        "title": "Tecnologia | Vinícius Tasso",
+        "description": "Conheça a pessoa que pode facilitar sua vida.",
+        "content": "Neste guia, vamos explorar as melhores práticas para refatorar sites Python, incluindo técnicas de otimização, segurança e organização de código."
+        }
+    ],
+    "head":["Web Designer / Developer", "Lider de Tecnologia / DevOps/ Full Stack Developer"],
+    "nome": ["AMES WILLIAMS", "VINÍCIUS TASSO"],
+    "primeiro-bloco": [["Hi, I’m James, a designer and front-end developer.", "Olá, sou Vinícius, um desenvolvedor apaixonado por tecnologia."],
+                        ["With over a decade of experience in multiple disciplines, I work with companies to create intuitive and engaging digital experiences.", "Com mais de uma década de experiência em várias disciplinas, trabalho com empresas para criar experiências digitais intuitivas e envolventes."]],
+    "segundo-bloco": [["I often work with:", "Eu frequentemente trabalho com:"],
+                        ["Startups | Marketing teams | Agencies | B2B | SaaS", "Liderança de Equipes | Desenvolvimento de Produtos | Design Thinking | DevOps | Arquitetura de Software"]],
+    "terceiro-bloco": [["I've worked with the likes of:", "Eu já trabalhei com empresas como:"]],
+    "button": ["Get in touch →", "Entre em contato →"]
+}

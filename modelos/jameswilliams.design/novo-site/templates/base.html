@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html data-wf-domain="www.jameswilliams.design" data-wf-page="660d9b2931fa00f631bce95d" data-wf-site="646bb626f5c2104941dd5a26" lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Tecnologia | Vinícius Tasso{% endblock %}</title>
+  <meta name="description" content="{% block description %}Conheça a pessoa que pode facilitar sua vida.{% endblock %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/webp" href="{{ url_for('static', filename='assets/images/favicon 2.webp') }}">
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='assets/images/favicon 2.webp') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/tokens.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/components/navbar.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/components/hero.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/components/sections.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/components/latest.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/components/footer.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/components/motion.css') }}">
+</head>
+<body class="{% block body_class %}body{% endblock %}">
+  {% block content %}{% endblock %}
+  <!-- GSAP and ScrollTrigger for animations -->
+   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollToPlugin.min.js"></script>
+  <!--<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/ScrollTrigger.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/ScrollToPlugin.js"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4"></script>
+  <!-- Lottie for scroll icon animation -->
+   
+  <!--<script src="https://cdn.jsdelivr.net/npm/lottie-web@5.12.2/build/player/lottie.min.js"></script> Dava erro de: lottie.min.js:1 Uncaught InvalidStateError: Failed to read the 'responseText' property from 'XMLHttpRequest': The value is only accessible if the object's 'responseType' is '' or 'text' (was 'json').-->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.10/dist/dotlottie-wc.js"
+  type="module"
+></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/interactions.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/lottie_interactions.js') }}"></script>
+  
+</body>
+</html>
