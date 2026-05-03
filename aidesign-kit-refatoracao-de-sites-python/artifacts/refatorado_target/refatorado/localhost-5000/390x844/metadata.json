@@ -1,0 +1,59 @@
+{
+  "label": "refatorado",
+  "target": "http://localhost:5000",
+  "title": "Base44 — Refatorado",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "step_height": 844,
+  "total_height": 7472,
+  "total_steps": 9,
+  "shots": [
+    {
+      "index": 0,
+      "scroll_y": 0,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\artifacts\\refatorado_target\\refatorado\\localhost-5000\\390x844\\step-0000-y-000000.png"
+    },
+    {
+      "index": 1,
+      "scroll_y": 844,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\artifacts\\refatorado_target\\refatorado\\localhost-5000\\390x844\\step-0001-y-000844.png"
+    },
+    {
+      "index": 2,
+      "scroll_y": 1688,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\artifacts\\refatorado_target\\refatorado\\localhost-5000\\390x844\\step-0002-y-001688.png"
+    },
+    {
+      "index": 3,
+      "scroll_y": 2532,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\artifacts\\refatorado_target\\refatorado\\localhost-5000\\390x844\\step-0003-y-002532.png"
+    },
+    {
+      "index": 4,
+      "scroll_y": 3376,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\artifacts\\refatorado_target\\refatorado\\localhost-5000\\390x844\\step-0004-y-003376.png"
+    },
+    {
+      "index": 5,
+      "scroll_y": 4220,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\artifacts\\refatorado_target\\refatorado\\localhost-5000\\390x844\\step-0005-y-004220.png"
+    },
+    {
+      "index": 6,
+      "scroll_y": 5064,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\artifacts\\refatorado_target\\refatorado\\localhost-5000\\390x844\\step-0006-y-005064.png"
+    },
+    {
+      "index": 7,
+      "scroll_y": 5908,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\artifacts\\refatorado_target\\refatorado\\localhost-5000\\390x844\\step-0007-y-005908.png"
+    },
+    {
+      "index": 8,
+      "scroll_y": 6628,
+      "file": "C:\\Users\\45108109890\\Documents\\GIT_PERSONAL\\meu-portifolio-landingpage\\aidesign-kit-refatoracao-de-sites-python\\artifacts\\refatorado_target\\refatorado\\localhost-5000\\390x844\\step-0008-y-006628.png"
+    }
+  ]
+}
