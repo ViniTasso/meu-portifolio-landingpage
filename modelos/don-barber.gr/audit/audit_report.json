@@ -1,0 +1,684 @@
+{
+  "generated_at": "2026-05-03T17:49:28.834307",
+  "stages": [
+    {
+      "name": "01_raw",
+      "description": "Cópia fiel antes de qualquer limpeza",
+      "timestamp": "2026-05-03T17:48:15.510475",
+      "files": 51,
+      "bytes": 13698505
+    },
+    {
+      "name": "02_after_html_clean",
+      "description": "Após remoção de tracking e limpeza HTML",
+      "timestamp": "2026-05-03T17:48:15.786495",
+      "files": 74,
+      "bytes": 13645797
+    },
+    {
+      "name": "03_after_css_clean",
+      "description": "Após desminificação e limpeza CSS",
+      "timestamp": "2026-05-03T17:48:16.235089",
+      "files": 74,
+      "bytes": 13660786
+    },
+    {
+      "name": "04_after_js_clean",
+      "description": "Após desminificação e limpeza JS",
+      "timestamp": "2026-05-03T17:49:01.246498",
+      "files": 74,
+      "bytes": 16362523
+    },
+    {
+      "name": "05_after_reorganization",
+      "description": "Assets movidos para subpastas por tipo",
+      "timestamp": "2026-05-03T17:49:01.425385",
+      "files": 74,
+      "bytes": 16362523
+    },
+    {
+      "name": "06_after_path_correction",
+      "description": "Referências de paths atualizadas",
+      "timestamp": "2026-05-03T17:49:02.429040",
+      "files": 74,
+      "bytes": 16346363
+    },
+    {
+      "name": "07_after_file_reduction",
+      "description": "Quantidade de arquivos CSS/JS reduzida antes do reparo das referências",
+      "timestamp": "2026-05-03T17:49:02.670882",
+      "files": 70,
+      "bytes": 16336635
+    },
+    {
+      "name": "08_after_bundle_reference_repair",
+      "description": "Referências HTML/CSS/JS reparadas após consolidação de CSS e JS",
+      "timestamp": "2026-05-03T17:49:12.506106",
+      "files": 70,
+      "bytes": 16337700
+    },
+    {
+      "name": "09_after_data_pruning",
+      "description": "Arquivos órfãos em assets/data removidos do clean/",
+      "timestamp": "2026-05-03T17:49:12.732487",
+      "files": 70,
+      "bytes": 16337700
+    },
+    {
+      "name": "10_after_text_normalization",
+      "description": "Texto normalizado com espaços e terminadores de linha consistentes",
+      "timestamp": "2026-05-03T17:49:28.542476",
+      "files": 71,
+      "bytes": 16342407
+    },
+    {
+      "name": "11_final",
+      "description": "Estado final do clean/",
+      "timestamp": "2026-05-03T17:49:28.697935",
+      "files": 71,
+      "bytes": 16342407
+    }
+  ],
+  "comparisons": [
+    {
+      "from": "01_raw",
+      "to": "02_after_html_clean",
+      "files_added": 23,
+      "files_removed": 0,
+      "files_changed": 4,
+      "bytes_before": 13698505,
+      "bytes_after": 13645797,
+      "bytes_saved": 52708,
+      "pct_reduction": 0.4,
+      "added": [
+        "assets/en_script_1.js",
+        "assets/en_script_2.js",
+        "assets/en_script_3.js",
+        "assets/en_script_4.js",
+        "assets/en_script_5.js",
+        "assets/en_style_1.css",
+        "assets/inline_svg_d06e65b2205e.svg",
+        "assets/resource_a7db56970470_script_1.js",
+        "assets/resource_a7db56970470_script_2.js",
+        "assets/resource_a7db56970470_script_3.js",
+        "assets/resource_a7db56970470_script_4.js",
+        "assets/resource_a7db56970470_script_5.js",
+        "assets/resource_a7db56970470_style_1.css",
+        "assets/sdk/bc-v4.min_script_1.js",
+        "index_script_1.js",
+        "index_script_2.js",
+        "index_script_3.js",
+        "index_script_4.js",
+        "index_script_5.js",
+        "index_script_6.js"
+      ],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "index.html",
+          "before": 136962,
+          "after": 56627,
+          "diff": -80335
+        },
+        {
+          "file": "assets/en.html",
+          "before": 82195,
+          "after": 54662,
+          "diff": -27533
+        },
+        {
+          "file": "assets/resource_a7db56970470.html",
+          "before": 81852,
+          "after": 54754,
+          "diff": -27098
+        },
+        {
+          "file": "assets/sdk/bc-v4.min.html",
+          "before": 627,
+          "after": 87,
+          "diff": -540
+        }
+      ]
+    },
+    {
+      "from": "02_after_html_clean",
+      "to": "03_after_css_clean",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 8,
+      "bytes_before": 13645797,
+      "bytes_after": 13660786,
+      "bytes_saved": -14989,
+      "pct_reduction": -0.1,
+      "added": [],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/wp-content/themes/don/styles/css/main.v.1.0.6.css",
+          "before": 91270,
+          "after": 106034,
+          "diff": 14764
+        },
+        {
+          "file": "assets/analytics/auto-tracking-settings-renderer.css",
+          "before": 1787,
+          "after": 2021,
+          "diff": 234
+        },
+        {
+          "file": "assets/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.min.css",
+          "before": 908,
+          "after": 1042,
+          "diff": 134
+        },
+        {
+          "file": "assets/wp-content/plugins/contact-form-7/includes/css/styles.css",
+          "before": 2731,
+          "after": 2685,
+          "diff": -46
+        },
+        {
+          "file": "assets/en_style_1.css",
+          "before": 259,
+          "after": 228,
+          "diff": -31
+        },
+        {
+          "file": "assets/resource_a7db56970470_style_1.css",
+          "before": 259,
+          "after": 228,
+          "diff": -31
+        },
+        {
+          "file": "index_style_1.css",
+          "before": 259,
+          "after": 228,
+          "diff": -31
+        },
+        {
+          "file": "assets/wp-includes/css/classic-themes.min.css",
+          "before": 217,
+          "after": 213,
+          "diff": -4
+        }
+      ]
+    },
+    {
+      "from": "03_after_css_clean",
+      "to": "04_after_js_clean",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 41,
+      "bytes_before": 13660786,
+      "bytes_after": 16362523,
+      "bytes_saved": -2701737,
+      "pct_reduction": -19.8,
+      "added": [],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/intersection/assets/app.js",
+          "before": 7071807,
+          "after": 9166786,
+          "diff": 2094979
+        },
+        {
+          "file": "assets/js.intercomcdn.com/vendor-modern.00ca12c4.js",
+          "before": 479910,
+          "after": 769940,
+          "diff": 290030
+        },
+        {
+          "file": "assets/js_1efee33494d5.js",
+          "before": 359780,
+          "after": 555428,
+          "diff": 195648
+        },
+        {
+          "file": "assets/consent.cookiebot.com/uc.js",
+          "before": 118302,
+          "after": 1,
+          "diff": -118301
+        },
+        {
+          "file": "assets/analytics/main.js",
+          "before": 137794,
+          "after": 248119,
+          "diff": 110325
+        },
+        {
+          "file": "assets/app-worker.visitor-analytics.io/main.js",
+          "before": 137794,
+          "after": 248119,
+          "diff": 110325
+        },
+        {
+          "file": "index_script_1.js",
+          "before": 61080,
+          "after": 1,
+          "diff": -61079
+        },
+        {
+          "file": "assets/wp-content/themes/don/js/TweenMax.min.js",
+          "before": 114923,
+          "after": 167524,
+          "diff": 52601
+        },
+        {
+          "file": "assets/wp-includes/js/jquery/jquery.min.js",
+          "before": 89684,
+          "after": 129120,
+          "diff": 39436
+        },
+        {
+          "file": "assets/js.intercomcdn.com/frame-modern.2062f251.js",
+          "before": 658481,
+          "after": 627304,
+          "diff": -31177
+        },
+        {
+          "file": "assets/wp-content/themes/don/js/skrollr.min.js",
+          "before": 12601,
+          "after": 18990,
+          "diff": 6389
+        },
+        {
+          "file": "assets/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js",
+          "before": 7874,
+          "after": 13958,
+          "diff": 6084
+        },
+        {
+          "file": "assets/wp-content/themes/don/js/functions.js",
+          "before": 9037,
+          "after": 3735,
+          "diff": -5302
+        },
+        {
+          "file": "assets/wp-content/plugins/contact-form-7/includes/js/index.js",
+          "before": 12310,
+          "after": 16615,
+          "diff": 4305
+        },
+        {
+          "file": "assets/wp-content/themes/don/js/main.js",
+          "before": 30885,
+          "after": 27271,
+          "diff": -3614
+        }
+      ]
+    },
+    {
+      "from": "04_after_js_clean",
+      "to": "05_after_reorganization",
+      "files_added": 69,
+      "files_removed": 69,
+      "files_changed": 0,
+      "bytes_before": 16362523,
+      "bytes_after": 16362523,
+      "bytes_saved": 0,
+      "pct_reduction": 0.0,
+      "added": [
+        "assets/css/classic-themes.min.css",
+        "assets/css/en_style_1.css",
+        "assets/css/index_style_1.css",
+        "assets/css/main.v.1.0.6.css",
+        "assets/css/style.min.css",
+        "assets/css/style_001.css",
+        "assets/css/style_002.css",
+        "assets/css/styles.css",
+        "assets/data/data_001.json",
+        "assets/icons/PFGrandGothikWide-Bold.svg",
+        "assets/icons/PFGrandGothikWide-Regular.svg",
+        "assets/icons/icon_001.svg",
+        "assets/icons/icon_002.svg",
+        "assets/icons/icon_003.svg",
+        "assets/icons/icon_004.svg",
+        "assets/icons/icon_005.svg",
+        "assets/icons/icon_006.svg",
+        "assets/icons/icon_007.svg",
+        "assets/icons/icon_008.svg",
+        "assets/icons/icon_009.svg"
+      ],
+      "removed": [
+        "assets/analytics/auto-tracking-settings-renderer.css",
+        "assets/analytics/main.js",
+        "assets/app-worker.visitor-analytics.io/main.js",
+        "assets/cc_37d5f7c1f721.js",
+        "assets/consent.cookiebot.com/uc.js",
+        "assets/consentconfig/c9a36ae9-1808-43fe-930f-9f19e159b265/don-barber.gr/configuration.js",
+        "assets/ember/@intercom/composer-ember/failed-image-upload-bc788e63a20a2fbb94f0647331e3f0c5.svg",
+        "assets/ember/@intercom/composer-ember/placeholder_circle-a7ff9b0db5c630fad2f9ce5907379c5b.svg",
+        "assets/ember/@intercom/composer-ember/placeholder_circle_upload-134b4324e0ef3d2d4ebbdfc71b7d7672.svg",
+        "assets/ember/@intercom/composer-ember/placeholder_rectangular-e0bdbd98075fa900f69b70cc302c3cf1.svg",
+        "assets/ember/@intercom/composer-ember/placeholder_rectangular_upload-92f3f2c8d91eb962f9323225bfb8cd24.svg",
+        "assets/ember/@intercom/embercom-composer/svgs/loading-indicator-b880ca6538dacce7d5740264bfd60bc8.svg",
+        "assets/ember/@intercom/embercom-composer/svgs/pause-d0eabfe1dcf318c54a0053f5fadf124c.svg",
+        "assets/ember/@intercom/embercom-composer/svgs/play-2961e3ca1c43cd9835f8dc08c2c2e293.svg",
+        "assets/ember/@intercom/embercom-composer/svgs/replay-328aea980768e4112ac304041bf1e8f6.svg",
+        "assets/ember/assets/svgs/default-company-avatar-47da0586a49f237092d7eff6c4d01a08.svg",
+        "assets/en_script_1.js",
+        "assets/en_script_2.js",
+        "assets/en_script_3.js",
+        "assets/en_script_4.js"
+      ],
+      "top_changes": []
+    },
+    {
+      "from": "05_after_reorganization",
+      "to": "06_after_path_correction",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 9,
+      "bytes_before": 16362523,
+      "bytes_after": 16346363,
+      "bytes_saved": 16160,
+      "pct_reduction": 0.1,
+      "added": [],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/resource-map.json",
+          "before": 30620,
+          "after": 22219,
+          "diff": -8401
+        },
+        {
+          "file": "index.html",
+          "before": 56627,
+          "after": 52534,
+          "diff": -4093
+        },
+        {
+          "file": "assets/en.html",
+          "before": 54662,
+          "after": 53619,
+          "diff": -1043
+        },
+        {
+          "file": "assets/css/main.v.1.0.6.css",
+          "before": 106034,
+          "after": 105024,
+          "diff": -1010
+        },
+        {
+          "file": "assets/resource_a7db56970470.html",
+          "before": 54754,
+          "after": 53923,
+          "diff": -831
+        },
+        {
+          "file": "assets/js/app.js",
+          "before": 9166786,
+          "after": 9165973,
+          "diff": -813
+        },
+        {
+          "file": "assets/data/data_001.json",
+          "before": 611,
+          "after": 670,
+          "diff": 59
+        },
+        {
+          "file": "assets/js/frame-modern.js",
+          "before": 627304,
+          "after": 627264,
+          "diff": -40
+        },
+        {
+          "file": "assets/sdk/bc-v4.min.html",
+          "before": 87,
+          "after": 99,
+          "diff": 12
+        }
+      ]
+    },
+    {
+      "from": "06_after_path_correction",
+      "to": "07_after_file_reduction",
+      "files_added": 14,
+      "files_removed": 18,
+      "files_changed": 1,
+      "bytes_before": 16346363,
+      "bytes_after": 16336635,
+      "bytes_saved": 9728,
+      "pct_reduction": 0.1,
+      "added": [
+        "assets/css/base.css",
+        "assets/css/fonts.css",
+        "assets/css/globals.css",
+        "assets/css/important.css",
+        "assets/css/keyframes.css",
+        "assets/css/medias/base_medias.css",
+        "assets/css/selectors.css",
+        "assets/css/styles_002.css",
+        "assets/css/styles_003.css",
+        "assets/css/styles_004.css",
+        "assets/js/utils.js",
+        "assets/js/utils_002.js",
+        "assets/js/utils_003.js",
+        "assets/js/utils_004.js"
+      ],
+      "removed": [
+        "assets/css/main.v.1.0.6.css",
+        "assets/js/bc-v4.min_script_1.js",
+        "assets/js/en_script_1.js",
+        "assets/js/en_script_2.js",
+        "assets/js/en_script_3.js",
+        "assets/js/en_script_4.js",
+        "assets/js/en_script_5.js",
+        "assets/js/index_script_1.js",
+        "assets/js/index_script_2.js",
+        "assets/js/index_script_3.js",
+        "assets/js/index_script_4.js",
+        "assets/js/index_script_6.js",
+        "assets/js/index_script_7.js",
+        "assets/js/script_004.js",
+        "assets/js/script_005.js",
+        "assets/js/script_006.js",
+        "assets/js/script_007.js",
+        "assets/js/script_008.js"
+      ],
+      "top_changes": [
+        {
+          "file": "assets/css/styles.css",
+          "before": 2685,
+          "after": 20168,
+          "diff": 17483
+        }
+      ]
+    },
+    {
+      "from": "07_after_file_reduction",
+      "to": "08_after_bundle_reference_repair",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 7,
+      "bytes_before": 16336635,
+      "bytes_after": 16337700,
+      "bytes_saved": -1065,
+      "pct_reduction": -0.0,
+      "added": [],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "index.html",
+          "before": 52534,
+          "after": 55690,
+          "diff": 3156
+        },
+        {
+          "file": "assets/js/app.js",
+          "before": 9165973,
+          "after": 9164084,
+          "diff": -1889
+        },
+        {
+          "file": "assets/en.html",
+          "before": 53619,
+          "after": 53098,
+          "diff": -521
+        },
+        {
+          "file": "assets/resource_a7db56970470.html",
+          "before": 53923,
+          "after": 54272,
+          "diff": 349
+        },
+        {
+          "file": "assets/js/frame-modern.js",
+          "before": 627264,
+          "after": 627232,
+          "diff": -32
+        },
+        {
+          "file": "assets/sdk/bc-v4.min.html",
+          "before": 99,
+          "after": 107,
+          "diff": 8
+        },
+        {
+          "file": "assets/resource-map.json",
+          "before": 22219,
+          "after": 22213,
+          "diff": -6
+        }
+      ]
+    },
+    {
+      "from": "08_after_bundle_reference_repair",
+      "to": "09_after_data_pruning",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 0,
+      "bytes_before": 16337700,
+      "bytes_after": 16337700,
+      "bytes_saved": 0,
+      "pct_reduction": 0.0,
+      "added": [],
+      "removed": [],
+      "top_changes": []
+    },
+    {
+      "from": "09_after_data_pruning",
+      "to": "10_after_text_normalization",
+      "files_added": 1,
+      "files_removed": 0,
+      "files_changed": 22,
+      "bytes_before": 16337700,
+      "bytes_after": 16342407,
+      "bytes_saved": -4707,
+      "pct_reduction": -0.0,
+      "added": [
+        "_ai_context.md"
+      ],
+      "removed": [],
+      "top_changes": [
+        {
+          "file": "assets/icons/icon_012.svg",
+          "before": 7918,
+          "after": 8031,
+          "diff": 113
+        },
+        {
+          "file": "assets/icons/icon_014.svg",
+          "before": 7918,
+          "after": 8031,
+          "diff": 113
+        },
+        {
+          "file": "assets/icons/label.svg",
+          "before": 1024,
+          "after": 1036,
+          "diff": 12
+        },
+        {
+          "file": "assets/data/data_001.json",
+          "before": 670,
+          "after": 671,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_001.svg",
+          "before": 591,
+          "after": 592,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/icon_011.svg",
+          "before": 2829,
+          "after": 2830,
+          "diff": 1
+        },
+        {
+          "file": "assets/icons/safari-pinned-tab.svg",
+          "before": 1760,
+          "after": 1761,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/CustomEase.min.js",
+          "before": 7520,
+          "after": 7521,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/SplitText.min.js",
+          "before": 11181,
+          "after": 11182,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/TweenMax.min.js",
+          "before": 167524,
+          "after": 167525,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/blankshield.min.js",
+          "before": 2193,
+          "after": 2194,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/functions.js",
+          "before": 3735,
+          "after": 3736,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/index.js",
+          "before": 16615,
+          "after": 16616,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/index_2.js",
+          "before": 12491,
+          "after": 12492,
+          "diff": 1
+        },
+        {
+          "file": "assets/js/jquery-migrate.min.js",
+          "before": 14121,
+          "after": 14122,
+          "diff": 1
+        }
+      ]
+    },
+    {
+      "from": "10_after_text_normalization",
+      "to": "11_final",
+      "files_added": 0,
+      "files_removed": 0,
+      "files_changed": 0,
+      "bytes_before": 16342407,
+      "bytes_after": 16342407,
+      "bytes_saved": 0,
+      "pct_reduction": 0.0,
+      "added": [],
+      "removed": [],
+      "top_changes": []
+    }
+  ]
+}

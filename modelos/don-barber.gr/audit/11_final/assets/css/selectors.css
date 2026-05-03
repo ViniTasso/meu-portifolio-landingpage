@@ -1,0 +1,279 @@
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+.change-tr,
+.js-t-ttb,
+.zoom-out,
+.zoom-in,
+.js-t-rtl,
+.js-t-rtl.js-t-rtl--sm,
+.js-t-btt,
+.zoom-out__holder,
+.zoom-out__img,
+.js-zoom-r__holder,
+.js-zoom-r__img,
+.js-img-reveal__holder,
+.js-img-reveal__image {
+  will-change: transform;
+}
+
+.post-content p+h1,
+.post-content p+h2,
+.post-content p+h3 {
+  padding-top: 22px;
+}
+
+.a-center,
+.g-content blockquote,
+.g-content.general-content--post-h h2,
+.g-content.general-content--post-h h1,
+.g-content.general-content--post-h h3,
+.g-content.general-content--post-h h4,
+.g-content.general-content--post-h h5,
+.g-content.general-content--post-h h6 {
+  text-align: center;
+}
+
+.abs-tl,
+.fill-dimensions,
+.slider__progress-bar,
+.slider__percentage,
+.abs-bl,
+.abs-tr,
+.abs-tc,
+.abs-br,
+.abs-lc,
+.abs-bc,
+.slider__dots,
+.abs-rc,
+.abs,
+.abs-center {
+  position: absolute;
+  z-index: 5;
+}
+
+.abs-tl,
+.fill-dimensions,
+.slider__progress-bar,
+.slider__percentage {
+  top: 0;
+  left: 0;
+}
+
+.pointer-none,
+.top-pagination .page-numbers.disabled,
+.page-navigation .page-numbers.current,
+.page-navigation .page-numbers.disabled {
+  pointer-events: none;
+}
+
+.t-underline,
+.hp-product-intro a:hover .hp-product-intro__text,
+.g-content.general-content--post-h h2 {
+  text-decoration: underline;
+}
+
+.opc-1,
+.tl__img-holder:hover .tl_more-btn,
+.team__link:hover .img-mask,
+.team__link:hover .team-view-more,
+.post:hover .icon-arrow,
+.p-box:hover .icon-arrow,
+.cat-link:hover .cat-img-mask {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+.opc-0,
+.h-gallery,
+.team__link:hover .team__header,
+.post:hover .post_date {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+
+.m-auto,
+.g-content blockquote,
+.g-content figure {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menu-holder .menu-item .submenu-a:hover,
+.menu-holder .menu-item.current-menu-item>.submenu-a,
+.menu-holder .menu-item.current-menu-ancestor>.submenu-a,
+.menu-holder .menu-item.current-page-ancestor>.submenu-a,
+.menu-holder .menu-item.current-post-ancestor>.submenu-a,
+.menu-holder .menu-item.current-menu-parent>.submenu-a,
+.menu-holder .menu-item.current-category-ancestor>.submenu-a,
+.menu-holder .menu-item .menu-a:hover,
+.menu-holder .menu-item.current-menu-item>.menu-a,
+.menu-holder .menu-item.current-page-ancestor>.menu-a,
+.menu-holder .menu-item.current-post-ancestor>.menu-a,
+.menu-holder .menu-item.current-category-ancestor>.menu-a,
+.sitemap-links .menu-item .submenu-a:hover,
+.sitemap-links .menu-item.current-menu-item>.submenu-a,
+.sitemap-links .menu-item.current-menu-ancestor>.submenu-a,
+.sitemap-links .menu-item.current-page-ancestor>.submenu-a,
+.sitemap-links .menu-item.current-post-ancestor>.submenu-a,
+.sitemap-links .menu-item.current-menu-parent>.submenu-a,
+.sitemap-links .menu-item.current-category-ancestor>.submenu-a,
+.sitemap-links .menu-item .menu-a:hover,
+.sitemap-links .menu-item.current-menu-item>.menu-a,
+.sitemap-links .menu-item.current-page-ancestor>.menu-a,
+.sitemap-links .menu-item.current-post-ancestor>.menu-a,
+.sitemap-links .menu-item.current-category-ancestor>.menu-a,
+.footer-ul .menu-item .menu-a:hover,
+.footer-ul .menu-item.current-menu-item>.menu-a,
+.footer-ul .menu-item.current-menu-ancestor>.menu-a,
+.footer-ul .menu-item.current-page-ancestor>.menu-a,
+.footer-ul .menu-item.current-post-ancestor>.menu-a,
+.footer-ul .menu-item.current-menu-parent>.menu-a,
+.footer-ul .menu-item.current-category-ancestor>.menu-a {
+  color: #796841;
+}
+
+.page-template-timeline,
+.page-template-team,
+.page-template-timeline-years,
+.single-timeline {
+  background-color: #86988b;
+}
+
+.g-content h2,
+.g-content h3,
+.g-content h4,
+.g-content h5,
+.g-content h6 {
+  margin: 45px 0 27px 0;
+}
+
+.contact-form input:-webkit-autofill,
+.contact-form input:-webkit-autofill:hover,
+.contact-form input:-webkit-autofill:focus,
+.contact-form input:-webkit-autofill,
+.contact-form textarea:-webkit-autofill,
+.contact-form textarea:-webkit-autofill:hover,
+.contact-form textarea:-webkit-autofill:focus,
+.contact-form select:-webkit-autofill,
+.contact-form select:-webkit-autofill:hover,
+.contact-form select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #839699 inset;
+}
+
+.input:focus,
+.input.loc,
+.textarea:focus,
+.textarea.loc,
+.wpcf7-tel:focus,
+.wpcf7-tel.loc {
+  outline: none;
+  border-color: #000;
+}
+
+.input.field-with-error,
+.textarea.field-with-error,
+.wpcf7-tel.field-with-error {
+  border-color: #d31818;
+  color: #d31818;
+}
+
+.input.field-with-error~.invalid-tip,
+.input.field-with-error~.wpcf7-not-valid-tip,
+.textarea.field-with-error~.invalid-tip,
+.textarea.field-with-error~.wpcf7-not-valid-tip,
+.wpcf7-tel.field-with-error~.invalid-tip,
+.wpcf7-tel.field-with-error~.wpcf7-not-valid-tip {
+  visibility: visible;
+}
+
+.input.field-with-error:-moz-placeholder,
+.textarea.field-with-error:-moz-placeholder,
+.wpcf7-tel.field-with-error:-moz-placeholder,
+.input.field-with-error::-moz-placeholder,
+.textarea.field-with-error::-moz-placeholder,
+.wpcf7-tel.field-with-error::-moz-placeholder,
+.input.field-with-error:-ms-input-placeholder,
+.textarea.field-with-error:-ms-input-placeholder,
+.wpcf7-tel.field-with-error:-ms-input-placeholder,
+.input.field-with-error::-webkit-input-placeholder,
+.textarea.field-with-error::-webkit-input-placeholder,
+.wpcf7-tel.field-with-error::-webkit-input-placeholder {
+  color: #d31818;
+}
+
+.font,
+.g-content blockquote,
+.g-content blockquote em,
+.g-content h1 {
+  font-family: "PFGrandGothikWide", Arial, Helvetica, sans-serif;
+}
+
+.font-bold,
+.g-content strong,
+.g-content h2,
+.g-content h3,
+.g-content h4,
+.g-content h5,
+.g-content h6 {
+  font-family: "PFGrandGothikWideBold", Arial, Helvetica, sans-serif;
+}
+
+.font-special,
+.g-content blockquote h3,
+.wpcf7-acceptance .check:before,
+.wpcf7-acceptance .en.check:before {
+  font-family: "PFGrandGothikCompressed", Arial, Helvetica, sans-serif;
+  letter-spacing: -0.2px;
+}
+
+.title-40,
+.g-content h1,
+.g-content.general-content--post-h h2 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.title-30,
+.wpcf7-acceptance .check:before,
+.wpcf7-acceptance .en.check:before {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.title-20,
+.g-content h2,
+.g-content h3,
+.g-content h4,
+.g-content h5,
+.g-content h6 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.title-16,
+.g-content blockquote,
+.g-content blockquote em {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.ls-h2,
+.g-content h2,
+.g-content h3,
+.g-content h4,
+.g-content h5,
+.g-content h6 {
+  letter-spacing: 0.2px;
+}
+
+#ns-popup-bg,
+.sitemap,
+#video-container {
+  background: #a29e9e;
+}

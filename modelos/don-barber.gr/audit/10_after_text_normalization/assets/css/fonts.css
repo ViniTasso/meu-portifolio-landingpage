@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'PFGrandGothikWide';
+  src: url("/assets/fonts/PFGrandGothikWide-Regular.eot");
+  src: url("/assets/fonts/PFGrandGothikWide-Regular.eot#iefix") format("embedded-opentype"), url("/assets/fonts/PFGrandGothikWide-Regular.woff2") format("woff2"), url("/assets/fonts/PFGrandGothikWide-Regular.woff") format("woff"), url("/assets/fonts/PFGrandGothikWide-Regular.ttf") format("truetype"), url("/assets/icons/PFGrandGothikWide-Regular.svg#PFGrandGothikWide-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: semi-expanded;
+  unicode-range: U+000D-FB05
+}
+
+@font-face {
+  font-family: 'PFGrandGothikWideBold';
+  src: url("/assets/fonts/PFGrandGothikWide-Bold.eot");
+  src: url("/assets/fonts/PFGrandGothikWide-Bold.eot#iefix") format("embedded-opentype"), url("/assets/fonts/PFGrandGothikWide-Bold.woff2") format("woff2"), url("/assets/fonts/PFGrandGothikWide-Bold.woff") format("woff"), url("/assets/fonts/PFGrandGothikWide-Bold.ttf") format("truetype"), url("/assets/icons/PFGrandGothikWide-Bold.svg#PFGrandGothikWide-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-FB05
+}
+
+@font-face {
+  font-family: 'PFGrandGothikCompressed';
+  src: url("/assets/fonts/font_004.eot");
+  src: url("/assets/fonts/font_004.eot#iefix") format("embedded-opentype"), url("/assets/fonts/font_007.woff2") format("woff2"), url("/assets/fonts/font_006.woff") format("woff"), url("/assets/fonts/font_005.ttf") format("truetype"), url("/assets/icons/icon_013.svg#PFGrandGothikCompressed-Reg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0002-FB05
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("/assets/fonts/font_002.eot");
+  src: url("/assets/fonts/font_002.eot#iefix") format("embedded-opentype"), url("/assets/fonts/font_003.ttf") format("truetype"), url("/assets/fonts/font_001.woff") format("woff"), url("/assets/icons/icon_011.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  font-display: swap
+}
+
+b,
+strong,
+optgroup {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+small {
+  font-size: 80%;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+input {
+  line-height: normal;
+}
+
+.custom-share__popup-subtitle {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.team__header-title {
+  line-height: 15px;
+}
+
+.title-200 {
+  font-size: 200px;
+  line-height: 162px;
+}
+
+.title-120 {
+  font-size: 120px;
+  line-height: 100px;
+}
+
+.title-100 {
+  font-size: 100px;
+  line-height: 80px;
+}
+
+.title-150 {
+  font-size: 150px;
+  line-height: 125px;
+}
+
+.title-70 {
+  font-size: 70px;
+  line-height: 60px;
+}
+
+.title-60 {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.title-26 {
+  font-size: 26px;
+  line-height: 26px;
+}
+
+.title-b-18 {
+  font-size: 18px;
+  line-height: 20px;
+}

@@ -1,0 +1,38 @@
+.post-content iframe,
+.post-content .wp-caption {
+  width: 100% !important;
+}
+
+.clear {
+  float: none !important;
+}
+
+.sitemap-links .submenu-item {
+  margin-bottom: 5px !important;
+}
+
+.custom-share__popup.pinterest-popup .mCSB_dragger_bar {
+  background-color: #000 !important;
+}
+
+.h-gallery {
+  overflow: hidden !important;
+}
+
+.newsletter {
+  line-height: 47px !important;
+}
+
+.ns-error-accept {
+  color: #d31818 !important;
+}
+
+#cookie-law-info-bar {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+#cookie-law-info-bar .cli-style-v2 .cli-bar-btn_container a {
+  color: inherit !important;
+}

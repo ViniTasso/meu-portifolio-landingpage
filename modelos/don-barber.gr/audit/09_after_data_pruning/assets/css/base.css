@@ -1,0 +1,42 @@
+@supports (-ms-ime-align:auto) {
+  .chk-holder--acceptance input[type="checkbox"] {
+    border: none;
+    height: 20px;
+    width: 20px
+  }
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body,
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: auto;
+  -ms-text-size-adjust: auto;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+body,
+html {
+  font-family: "PFGrandGothikWide", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000;
+}
+
+body {
+  background-color: #fff;
+}
