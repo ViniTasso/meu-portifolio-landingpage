@@ -79,11 +79,17 @@ a {
   color: var(--misty-rose);
 }
 
-.menu_text-link,
-.navbar_spacer {
-  width: 0;
+.menu_text-link {
+  text-align: center;
+  word-break: keep-all;
   height: 1.3rem;
-  overflow: hidden;
+  margin-top: -0.4rem;
+  overflow: visible;
+}
+
+.navbar_spacer {
+  width: 1rem;
+  height: 1.3rem;
 }
 
 .icon-mail,
